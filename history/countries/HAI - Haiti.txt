@@ -1,0 +1,45 @@
+﻿capital = 318
+
+oob = "HAI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+
+
+set_politics = {
+	
+	ruling_party = corporatist_nationalist
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 5
+	revolutionary_socialist = 15
+	libertarian_socialist = 5
+	social_democrat = 15
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 5
+	authoritarian_democrat = 0
+	corporatist_nationalist = 25
+	national_syndicalist = 30
+}
+
+create_country_leader = {
+	name = "Vilbrun Guillaume Sam"
+	desc = "POLITICS_VILBRUN_GUILLAUME_SAM_DESC"
+	picture = "Potrait_HAI_Vilbrun_Guillaume_Sam.dds"
+	expire = "1965.1.1"
+	ideology = corporatist_nationalist_subtype
+	traits = {
+		#
+	}
+}

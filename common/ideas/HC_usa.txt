@@ -1,0 +1,92 @@
+ideas = {
+
+	country = {
+	
+		USA_vets_support = {
+			#picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = -1
+				consumer_goods_factor = 0.01
+				conscription_factor = 0.01
+			}
+		}
+		
+		USA_renewed_militarism = {
+			#picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.05
+				war_support_weekly = 0.001
+			}
+		}
+		
+		USA_beck_housing = {
+			#picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				non_core_manpower = -0.02
+				partisan_effect = 0.1
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+				MONTHLY_POPULATION = 0.001
+			}
+		}
+		
+		USA_beck_healthcare = {
+			#picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.01
+				conscription_factor = 0.01
+				MONTHLY_POPULATION = 0.001
+				stability_factor = 0.05
+			}
+		}
+		
+		
+	
+	}
+	
+	
+}

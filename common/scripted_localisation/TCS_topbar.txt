@@ -1,0 +1,63 @@
+defined_text = {
+    name = topbarIdeology
+    text = {
+        trigger = {
+            has_government = blanquist
+        }
+        localization_key = topbarblanquist
+    }
+    text = {
+        trigger = {
+            has_government = revolutionary_socialist
+        }
+        localization_key = topbarrevolutionary_socialist
+    }
+    text = {
+        trigger = {
+            has_government = libertarian_socialist
+        }
+        localization_key = topbarlibertarian_socialist
+    }
+    text = {
+        trigger = {
+            has_government = social_democrat
+        }
+        localization_key = topbarsocial_democrat
+    }
+    text = {
+        trigger = {
+            has_government = social_liberal
+        }
+        localization_key = topbarsocial_liberal
+    }
+    text = {
+        trigger = {
+            has_government = market_liberal
+        }
+        localization_key = topbarmarket_liberal
+    }
+    text = {
+        trigger = {
+            has_government = social_conservative
+        }
+        localization_key = topbarsocial_conservative
+    }
+    text = {
+        trigger = {
+            has_government = authoritarian_democrat
+        }
+        localization_key = topbarauthoritarian_democrat
+    }
+    text = {
+        trigger = {
+            has_government = corporatist_nationalist
+        }
+        localization_key = topbarcorporatist_nationalist
+    }
+    text = {
+        trigger = {
+            has_government = national_syndicalist
+        }
+        localization_key = topbarnational_syndicalist
+    }
+}

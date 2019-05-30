@@ -1,0 +1,66 @@
+
+	shared_focus = {
+		id = USA_becks_second_term
+		#icon = 
+		cost = 1
+		x = 10
+		y = 0
+			
+				
+				available = {
+					has_country_flag = beck_1932_victory
+				}
+				
+				bypass = {
+					has_country_flag = beck_1932_victory 
+				}
+				
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	
+	shared_focus = {
+		id = USA_roosevelt_victorious
+		#icon = 
+		cost = 1
+		x = 7
+		y = 0
+			
+				
+				available = {
+					has_country_flag = roosevelt_1932_victory
+				}
+				
+				bypass = {
+					has_country_flag = roosevelt_1932_victory 
+				}
+				
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	
+	shared_focus = {
+		id = USA_hughes_victorious
+		#icon = 
+		cost = 1
+		x = 13
+		y = 0
+			
+				
+				available = {
+					has_country_flag = hughes_1932_victory
+				}
+				
+				bypass = {
+					has_country_flag = hughes_1932_victory 
+				}
+				
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}

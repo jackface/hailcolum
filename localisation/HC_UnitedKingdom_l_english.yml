@@ -1,0 +1,62 @@
+﻿l_english:
+ 
+ 
+ 
+ #Country Loc
+ ENG_blanquist:0 "United Kingdom"
+ ENG_blanquist_DEF:0 "The United Kingdom"
+ ENG_blanquist_ADJ:0 "British"
+ ENG_revolutionary_socialist:0 "United Kingdom"
+ ENG_revolutionary_socialist_DEF:0 "The United Kingdom"
+ ENG_revolutionary_socialist_ADJ:0 "British"
+ ENG_libertarian_socialist:0 "United Kingdom"
+ ENG_libertarian_socialist_DEF:0 "The United Kingdom"
+ ENG_libertarian_socialist_ADJ:0 "British"
+ ENG_social_democrat:0 "United Kingdom"
+ ENG_social_democrat_DEF:0 "The United Kingdom"
+ ENG_social_democrat_ADJ:0 "British"
+ ENG_social_liberal:0 "United Kingdom"
+ ENG_social_liberal_DEF:0 "The United Kingdom"
+ ENG_social_liberal_ADJ:0 "British"
+ ENG_market_liberal:0 "United Kingdom"
+ ENG_market_liberal_DEF:0 "The United Kingdom"
+ ENG_market_liberal_ADJ:0 "British"
+ ENG_social_conservative:0 "United Kingdom"
+ ENG_social_conservative_DEF:0 "The United Kingdom"
+ ENG_social_conservative_ADJ:0 "British"
+ ENG_authoritarian_democrat:0 "United Kingdom"
+ ENG_authoritarian_democrat_DEF:0 "The United Kingdom"
+ ENG_authoritarian_democrat_ADJ:0 "British"
+ ENG_corporatist_nationalist:0 "United Kingdom"
+ ENG_corporatist_nationalist_DEF:0 "The United Kingdom"
+ ENG_corporatist_nationalist_ADJ:0 "British"
+ ENG_national_syndicalist:0 "United Kingdom"
+ ENG_national_syndicalist_DEF:0 "The United Kingdom"
+ ENG_national_syndicalist_ADJ:0 "British"
+ 
+ #Parties
+ ENG_blanquist_party:0 "BSP"
+ ENG_blanquist_party_long:0 "British Socialist Party"
+ ENG_revolutionary_socialist_party:0 "ILP"
+ ENG_revolutionary_socialist_party_long:0 "Independent Labour Party"
+ ENG_libertarian_socialist_party:0 "Labour-R"
+ ENG_libertarian_socialist_party_long:0 "Labour Party - Reformist Faction"
+ ENG_social_democrat_party:0 "Labour-F"
+ ENG_social_democrat_party_long:0 "Labour Party - Fabian Faction"
+ ENG_social_liberal_party:0 "Liberals"
+ ENG_social_liberal_party_long:0 "Liberal Party"
+ ENG_market_liberal_party:0 "LNP"
+ ENG_market_liberal_party_long:0 "Liberal National Party"
+ ENG_social_conservative_party:0 "Tories-M"
+ ENG_social_conservative_party_long:0 "Conservative Party - Moderate Faction"
+ ENG_authoritarian_democrat_party:0 "Tories-HT"
+ ENG_authoritarian_democrat_party_long:0 "Conservative Party - High Tory Faction"
+ ENG_corporatist_nationalist_party:0 "Social Credit"
+ ENG_corporatist_nationalist_party_long:0 "Social Credit Party of Great Britain"
+ ENG_national_syndicalist_party:0 "Labour-U"
+ ENG_national_syndicalist_party_long:0 "Labour Party - Unionist Faction"
+ 
+ #factions
+ 
+ 
+ 

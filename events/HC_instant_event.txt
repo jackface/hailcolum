@@ -1,0 +1,126 @@
+add_namespace = exact_date_trigger
+
+country_event = {
+	id = exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1932.6.15
+	}
+	
+	option = {
+		#Republican National Convention
+		if = {
+			limit = { 
+				country_exists = USA
+			}
+			USA = { country_event = usa.1 }
+		}
+		
+	}
+}
+
+country_event = {
+	id = exact_date_trigger.2
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1932.11.3
+	}
+	
+	option = {
+		#Socialist United Front Forms/Christmas Resolution
+		if = {
+			limit = { 
+				country_exists = USA
+			}
+			USA = { country_event = usa.4 }
+		}
+		
+	}
+}
+
+country_event = {
+	id = exact_date_trigger.3
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1932.11.8
+	}
+	
+	option = {
+		#American Election 1932
+		if = {
+			limit = { 
+				country_exists = USA
+				USA = {
+					has_country_flag = charles_evans_hughes_1932_republican
+				}
+			}
+			USA = { country_event = usa.2 }
+		}
+		
+		if = {
+			limit = { 
+				country_exists = USA
+				USA = {
+					has_country_flag = franklin_delano_roosevelt_1932_republican
+				}
+			}
+			USA = { country_event = usa.3 }
+		}
+		
+	}
+}
+
+country_event = {
+	id = exact_date_trigger.4
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1932.12.24
+	}
+	
+	option = {
+		#Socialist United Front Forms/Christmas Resolution
+		if = {
+			limit = { 
+				country_exists = USA
+				NOT = {
+					has_completed_focus = USA_socialist_witch_hunts
+				}
+			}
+			USA = { country_event = usa.5 }
+		}
+		
+	}
+}
+
+country_event = {
+	id = exact_date_trigger.5
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1933.3.4
+	}
+	
+	option = {
+		#Black Sunday
+		if = {
+			limit = { 
+				country_exists = USA
+				USA = {
+					has_country_flag = beck_1932_victory
+					has_completed_focus = USA_faith_in_liberty
+				}
+			}
+			USA = { country_event = usa.6 }
+		}
+		
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=792
+	name="STATE_792"
+	manpower = 34110
+	
+	state_category = pastoral
+
+	history={
+		owner = KRD
+		add_core_of = KRD
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+	}
+
+	provinces={
+		901 1549 1578 1634 10882
+	}
+}

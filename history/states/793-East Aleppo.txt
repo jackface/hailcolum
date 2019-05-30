@@ -1,0 +1,23 @@
+
+state={
+	id=793
+	name="STATE_793"
+	manpower = 63221
+	
+	state_category = pastoral
+
+	history={
+		owner = ALE
+		add_core_of = ALE
+		
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+	}
+
+	provinces={
+		1606 6883
+	}
+}

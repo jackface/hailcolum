@@ -1,0 +1,103 @@
+﻿capital = 328
+
+oob = "MAN_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	
+}
+
+if = {
+	limit = { has_dlc = "Waking the Tiger" }
+	set_country_flag = MAN_northern_bandits
+	set_country_flag = MAN_eastern_bandits
+	set_country_flag = MAN_western_bandits
+	add_ideas = MAN_banditry
+	add_ideas = MAN_kwantung_veto
+	add_ideas = MAN_low_legitimacy_5
+}
+
+set_convoys = 5
+
+set_politics = {
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 78
+	corporatist_nationalist = 22
+	national_syndicalist = 0
+}
+
+create_country_leader = {
+	name = "Zhang Haipeng"
+	
+	picture = "Portrait_MAN_Zhang_Haipeng.dds"
+	expire = "1960.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		warrior_code
+	}
+}
+
+create_corps_commander = {
+	name = "Zhang Haipeng"
+	GFX = "GFX_portrait_man_zhang_haipeng"
+	traits = {  }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Zhang Jinghui"
+	GFX = "GFX_portrait_man_zhang_jinghui"
+	traits = { infantry_officer }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aisin Gioro Xiqia"
+	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoshiko Kawashima"
+	gfx = "GFX_portrait_man_yoshiko_kawashima"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+	female = yes
+}
+
+1939.1.1 = {
+}

@@ -1,0 +1,60 @@
+﻿capital = 100 #Iceland
+
+oob = "ICE_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	disarmed_nation
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	tech_recon = 1
+}
+
+set_convoys = 30
+set_stability = 0.75
+
+
+
+set_politics = {
+	
+	ruling_party = social_liberal
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 4
+	libertarian_socialist = 6
+	social_democrat = 19
+	social_liberal = 34
+	market_liberal = 6
+	social_conservative = 15
+	authoritarian_democrat = 16
+	corporatist_nationalist = 0
+	national_syndicalist = 0
+}
+
+set_country_flag = social_democrat_opposition
+set_country_flag = social_liberal_opposition
+
+
+create_country_leader = {
+	name = "Tryggvi Thórhallsson"
+	desc = ""
+	picture = "Portrait_ICE_Tryggvi_Thorhallsson.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

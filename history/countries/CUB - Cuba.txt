@@ -1,0 +1,46 @@
+﻿capital = 315
+
+oob = "CUB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 20
+
+
+
+set_politics = {
+	
+	ruling_party = corporatist_nationalist
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 10
+	libertarian_socialist = 15
+	social_democrat = 7
+	social_liberal = 5
+	market_liberal = 0
+	social_conservative = 16
+	authoritarian_democrat = 0
+	corporatist_nationalist = 35
+	national_syndicalist = 12
+}
+
+create_country_leader = {
+	name = "Mario García Menocal"
+	desc = "POLITICS_Mario_Garcia_Menocal_DESC"
+	picture = "Portrait_CUB_Mario_Garcia_Menocal.dds"
+	expire = "1965.1.1"
+	ideology = corporatist_nationalist_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,45 @@
+﻿capital = 304
+
+oob = "PAN_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+
+
+set_politics = {
+	
+	ruling_party = corporatist_nationalist
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 10
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 15
+	market_liberal = 0
+	social_conservative = 15
+	authoritarian_democrat = 10
+	corporatist_nationalist = 30
+	national_syndicalist = 20
+}
+
+create_country_leader = {
+	name = "Lucián de la Cruz"
+	desc = "POLITICS_LUCIAN_DE_LA_CRUZ_DESC"
+	picture = "Portrait_PAN_Lucian_de_la_Cruz.dds"
+	expire = "1965.1.1"
+	ideology = corporatist_nationalist_subtype
+	traits = {
+		#
+	}
+}

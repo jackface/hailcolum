@@ -1,0 +1,57 @@
+﻿capital = 266
+
+oob = "PER_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	
+	ruling_party = social_conservative
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 10
+	social_democrat = 2
+	social_liberal = 32
+	market_liberal = 0
+	social_conservative = 26
+	authoritarian_democrat = 25
+	corporatist_nationalist = 0
+	national_syndicalist = 5
+}
+
+create_country_leader = {
+	name = "Ahmad Qavam"
+	desc = "POLITICS_AHMAD_QAVAM_DESC"
+	picture = "Portrait_PER_Ahmad_Qavam.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Hasan Arfa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

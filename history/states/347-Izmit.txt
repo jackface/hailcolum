@@ -10,7 +10,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = TUR
+		owner = OTO
 		victory_points = {
 			11811 1 
 		}
@@ -23,10 +23,10 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = TUR
+		add_core_of = OTO
 	}
 
 	provinces={
-		890 904 3905 3919 6871 11811 11866 11883 
+		890 904 3905 3919 6871 11811 11829 11866 11883 
 	}
 }

@@ -1,0 +1,42 @@
+﻿capital = 298
+
+oob = "LIB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	
+	ruling_party = social_conservative
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 5
+	market_liberal = 5
+	social_conservative = 80
+	authoritarian_democrat = 5
+	corporatist_nationalist = 0
+	national_syndicalist = 5
+}
+
+create_country_leader = {
+	name = "Daniel E. Howard"
+	desc = "POLITICS_DANIEL_E_HOWARD_DESC"
+	picture = "Portrait_LIB_Daniel_E_Howard.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}

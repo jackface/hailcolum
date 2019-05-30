@@ -1,0 +1,228 @@
+guiTypes = {
+
+	### Coalition ###
+
+    containerWindowType = {
+		name = "blanquistVisual"
+		position = { x = 565 y = 20}
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "revolutionary_socialistVisual"
+		position = { x = 565 y = 36 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "libertarian_socialistVisual"
+		position = { x = 565 y = 52 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_democratVisual"
+		position = { x = 565 y = 68 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_liberalVisual"
+		position = { x = 565 y = 84 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "market_liberalVisual"
+		position = { x = 565 y = 100 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_conservativeVisual"
+		position = { x = 565 y = 116 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "authoritarian_democratVisual"
+		position = { x = 565 y = 132 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "corporatist_nationalistVisual"
+		position = { x = 565 y = 148 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "national_syndicalistVisual"
+		position = { x = 565 y = 164 }
+		iconType ={
+			name = "pol_party_colour_bg_coalition_icon"
+			spriteType = "GFX_pol_party_colour_bg_coalition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+
+	### Opposition ###
+
+	containerWindowType = {
+		name = "blanquistVisualOpposition"
+		position = { x = 565 y = 20}
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "revolutionary_socialistVisualOpposition"
+		position = { x = 565 y = 36 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "libertarian_socialistVisualOpposition"
+		position = { x = 565 y = 52 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_democratVisualOpposition"
+		position = { x = 565 y = 68 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_liberalVisualOpposition"
+		position = { x = 565 y = 84 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "market_liberalVisualOpposition"
+		position = { x = 565 y = 100 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "social_conservativeVisualOpposition"
+		position = { x = 565 y = 116 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "authoritarian_democratVisualOpposition"
+		position = { x = 565 y = 132 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "corporatist_nationalistVisualOpposition"
+		position = { x = 565 y = 148 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "national_syndicalistVisualOpposition"
+		position = { x = 565 y = 164 }
+		iconType ={
+			name = "pol_party_colour_bg_opposition_icon"
+			spriteType = "GFX_pol_party_colour_bg_opposition"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+            alwaystransparent = yes
+		}
+	}
+}

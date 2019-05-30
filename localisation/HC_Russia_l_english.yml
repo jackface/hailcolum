@@ -1,0 +1,62 @@
+﻿l_english:
+ 
+ 
+ 
+ #Country Loc
+ RUS_blanquist:0 "Russian Democratic Republic"
+ RUS_blanquist_DEF:0 "The Russian Democratic Republic"
+ RUS_blanquist_ADJ:0 "Russian"
+ RUS_revolutionary_socialist:0 "Russian Democratic Republic"
+ RUS_revolutionary_socialist_DEF:0 "The Russian Democratic Republic"
+ RUS_revolutionary_socialist_ADJ:0 "Russian"
+ RUS_libertarian_socialist:0 "Russian Democratic Republic"
+ RUS_libertarian_socialist_DEF:0 "The Russian Democratic Republic"
+ RUS_libertarian_socialist_ADJ:0 "Russian"
+ RUS_social_democrat:0 "Russian Democratic Republic"
+ RUS_social_democrat_DEF:0 "The Russian Democratic Republic"
+ RUS_social_democrat_ADJ:0 "Russian"
+ RUS_social_liberal:0 "Russian Democratic Republic"
+ RUS_social_liberal_DEF:0 "The Russian Democratic Republic"
+ RUS_social_liberal_ADJ:0 "Russian"
+ RUS_market_liberal:0 "Russian Democratic Republic"
+ RUS_market_liberal_DEF:0 "The Russian Democratic Republic"
+ RUS_market_liberal_ADJ:0 "Russian"
+ RUS_social_conservative:0 "Russian Democratic Republic"
+ RUS_social_conservative_DEF:0 "The Russian Democratic Republic"
+ RUS_social_conservative_ADJ:0 "Russian"
+ RUS_authoritarian_democrat:0 "Russian Democratic Republic"
+ RUS_authoritarian_democrat_DEF:0 "The Russian Democratic Republic"
+ RUS_authoritarian_democrat_ADJ:0 "Russian"
+ RUS_corporatist_nationalist:0 "Russian Democratic Republic"
+ RUS_corporatist_nationalist_DEF:0 "The Russian Democratic Republic"
+ RUS_corporatist_nationalist_ADJ:0 "Russian"
+ RUS_national_syndicalist:0 "Russian Democratic Republic"
+ RUS_national_syndicalist_DEF:0 "The Russian Democratic Republic"
+ RUS_national_syndicalist_ADJ:0 "Russian"
+ 
+ #Parties
+ RUS_blanquist_party:0 "KPR-Bolshevik"
+ RUS_blanquist_party_long:0 "Russian Communist Party - Bolsheviks"
+ RUS_revolutionary_socialist_party:0 "KPR-Menshevik"
+ RUS_revolutionary_socialist_party_long:0 "Russian Communist Party - Mensheviks"
+ RUS_libertarian_socialist_party:0 "SR"
+ RUS_libertarian_socialist_party_long:0 "Socialist Revolutionary Party"
+ RUS_social_democrat_party:0 "RSP"
+ RUS_social_democrat_party_long:0 "Russian Social Party"
+ RUS_social_liberal_party:0 "Cadets"
+ RUS_social_liberal_party_long:0 "Constitutional Democratic Party"
+ RUS_market_liberal_party:0 "LDPR"
+ RUS_market_liberal_party_long:0 "Liberal Democratic Party of Russia"
+ RUS_social_conservative_party:0 "PYR"
+ RUS_social_conservative_party_long:0 "New Russia Union Party"
+ RUS_authoritarian_democrat_party:0 "PRNK"
+ RUS_authoritarian_democrat_party_long:0 "Russian National Congress Party"
+ RUS_corporatist_nationalist_party:0 "VVPBS"
+ RUS_corporatist_nationalist_party_long:0 "All-Russian Military White Union Party"
+ RUS_national_syndicalist_party:0 "SNPR"
+ RUS_national_syndicalist_party_long:0 "Holy National Party of Russia"
+ 
+ #factions
+ 
+ 
+ 

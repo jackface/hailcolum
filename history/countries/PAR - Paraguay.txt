@@ -1,0 +1,45 @@
+﻿capital = 301
+
+oob = "PAR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+
+
+
+set_politics = {
+	
+	ruling_party = social_liberal
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 6
+	social_democrat = 0
+	social_liberal = 58
+	market_liberal = 26
+	social_conservative = 10
+	authoritarian_democrat = 0
+	corporatist_nationalist = 0
+	national_syndicalist = 0
+}
+
+create_country_leader = {
+	name = "José Patricio Guggiari"
+	desc = "POLITICS_JOSE_PATRICIO_GUGGIARI_DESC"
+	picture = "Portrait_PAR_Jose_Patricio_Guggiari.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}

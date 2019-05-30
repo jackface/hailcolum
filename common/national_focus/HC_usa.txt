@@ -1,0 +1,20 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	shared_focus = USA_becks_second_term
+	shared_focus = USA_roosevelt_victorious
+	shared_focus = USA_hughes_victorious
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	
+}

@@ -1,0 +1,39 @@
+RAJ_british_colony = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 140 30 35 }
+}
+
+SRL_british_colony = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 140 30 35 }
+}
+
+IRQ_mandatory_of_britain = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 140 30 35 }
+}
+
+HEJ_british_mandate = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 140 30 35 }
+}
+
+JAM_british_colony = {
+	color = rgb { 140 30 35 }
+	color_ui = rgb { 140 30 35 }
+}
+
+ARA_french_arabic_mandate = {
+	color = rgb { 31 31 153 }
+	color_ui = rgb { 31 31 153 }
+}
+
+COG_BEL_colony_32 = {
+	color = rgb { 63 75 164 }
+	color_ui = rgb { 63 75 164 }
+}
+
+SAF_dominion_of_britain = {
+	color = rgb { 205 87 0  }
+	color_ui = rgb { 205 87 0  }
+}

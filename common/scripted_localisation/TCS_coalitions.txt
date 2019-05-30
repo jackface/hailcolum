@@ -1,0 +1,222 @@
+
+### Coalition ###
+
+defined_text = {
+    name = coalitionActive
+    text = {
+        trigger = {
+            check_variable = { coalition_pop_total > 0 }
+        }
+        localization_key = HC_TOPBAR_COALITION
+    }
+    text = {
+        localization_key = HC_TOPBAR_NO_COALITION
+    }
+}
+defined_text = {
+    name = coalitionOrPartyPop
+    text = {
+        trigger = {
+            check_variable = { coalition_pop_total > 0 }
+        }
+        localization_key = HC_COALITION_POP
+    }
+    text = {
+        localization_key = HC_PARTY_POP
+    }
+}
+defined_text = {
+    name = coalitionAnarchism
+    text = {
+        trigger = {
+            has_country_flag = blanquist_coalition
+        }
+        localization_key = COALITION_BLANQUIST
+    }
+}
+defined_text = {
+    name = coalitionmarxism
+    text = {
+        trigger = {
+            has_country_flag = marxism_coalition
+        }
+        localization_key = COALITION_marxism
+    }
+}
+defined_text = {
+    name = coalitionlibertarian_socialist
+    text = {
+        trigger = {
+            has_country_flag = libertarian_socialist_coalition
+        }
+        localization_key = COALITION_libertarian_socialist
+    }
+}
+defined_text = {
+    name = coalitionsocial_democrat
+    text = {
+        trigger = {
+            has_country_flag = social_democrat_coalition
+        }
+        localization_key = COALITION_social_democrat
+    }
+}
+defined_text = {
+    name = coalitionsocial_liberal
+    text = {
+        trigger = {
+            has_country_flag = social_liberal_coalition
+        }
+        localization_key = COALITION_social_liberal
+    }
+}
+defined_text = {
+    name = coalitionmarket_liberal
+    text = {
+        trigger = {
+            has_country_flag = market_liberal_coalition
+        }
+        localization_key = COALITION_market_liberal
+    }
+}
+defined_text = {
+    name = coalitionsocial_conservative
+    text = {
+        trigger = {
+            has_country_flag = social_conservative_coalition
+        }
+        localization_key = COALITION_social_conservative
+    }
+}
+defined_text = {
+    name = coalitionauthoritarian_democrat
+    text = {
+        trigger = {
+            has_country_flag = authoritarian_democrat_coalition
+        }
+        localization_key = COALITION_authoritarian_democrat
+    }
+}
+defined_text = {
+    name = coalitioncorporatist_nationalist
+    text = {
+        trigger = {
+            has_country_flag = corporatist_nationalist_coalition
+        }
+        localization_key = COALITION_corporatist_nationalist
+    }
+}
+defined_text = {
+    name = coalitionnational_syndicalist
+    text = {
+        trigger = {
+            has_country_flag = national_syndicalist_coalition
+        }
+        localization_key = COALITION_national_syndicalist
+    }
+}
+
+### Opposition ###
+
+defined_text = {
+    name = oppositionActive
+    text = {
+        trigger = {
+            check_variable = { opposition_pop_total > 0 }
+        }
+        localization_key = HC_TOPBAR_OPPOSITION
+    }
+    text = {
+        localization_key = HC_TOPBAR_NO_OPPOSITION
+    }
+}
+defined_text = {
+    name = oppositionBlanquism
+    text = {
+        trigger = {
+            has_country_flag = blanquist_opposition
+        }
+        localization_key = OPPOSITION_BLANQUISM
+    }
+}
+defined_text = {
+    name = oppositionrevolutionary_socialist
+    text = {
+        trigger = {
+            has_country_flag = revolutionary_socialist_opposition
+        }
+        localization_key = OPPOSITION_revolutionary_socialist
+    }
+}
+defined_text = {
+    name = oppositionlibertarian_socialist
+    text = {
+        trigger = {
+            has_country_flag = libertarian_socialist_opposition
+        }
+        localization_key = OPPOSITION_libertarian_socialist
+    }
+}
+defined_text = {
+    name = oppositionSocDemocracy
+    text = {
+        trigger = {
+            has_country_flag = soc_democracy_opposition
+        }
+        localization_key = OPPOSITION_SOC_DEMOCRACY
+    }
+}
+defined_text = {
+    name = oppositionsocial_liberal
+    text = {
+        trigger = {
+            has_country_flag = social_liberal_opposition
+        }
+        localization_key = OPPOSITION_social_liberal
+    }
+}
+defined_text = {
+    name = oppositionmarket_liberal
+    text = {
+        trigger = {
+            has_country_flag = market_liberal_opposition
+        }
+        localization_key = OPPOSITION_market_liberal
+    }
+}
+defined_text = {
+    name = oppositionsocial_conservative
+    text = {
+        trigger = {
+            has_country_flag = social_conservative_opposition
+        }
+        localization_key = OPPOSITION_social_conservative
+    }
+}
+defined_text = {
+    name = oppositionauthoritarian_democrat
+    text = {
+        trigger = {
+            has_country_flag = authoritarian_democrat_opposition
+        }
+        localization_key = OPPOSITION_authoritarian_democrat
+    }
+}
+defined_text = {
+    name = oppositioncorporatist_nationalist
+    text = {
+        trigger = {
+            has_country_flag = corporatist_nationalist_opposition
+        }
+        localization_key = OPPOSITION_corporatist_nationalist
+    }
+}
+defined_text = {
+    name = oppositionnational_syndicalist
+    text = {
+        trigger = {
+            has_country_flag = national_syndicalist_opposition
+        }
+        localization_key = OPPOSITION_national_syndicalist
+    }
+}

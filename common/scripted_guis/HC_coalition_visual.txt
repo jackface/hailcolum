@@ -1,0 +1,168 @@
+scripted_gui = {
+
+	### Coalition ###
+
+	HC_topbar_blanquist_icon = {
+		window_name = "blanquistVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = blanquist_coalition
+		}
+	}
+	HC_topbar_revolutionary_socialist_icon = {
+		window_name = "revolutionary_socialistVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = revolutionary_socialist_coalition
+		}
+	}
+	HC_topbar_libertarian_socialist_icon = {
+		window_name = "libertarian_socialistVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = libertarian_socialist_coalition
+		}
+	}
+	HC_topbar_social_democrat_icon = {
+		window_name = "social_democratVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_democrat_coalition
+		}
+	}
+	HC_topbar_social_liberal_icon = {
+		window_name = "social_liberalVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_liberal_coalition
+		}
+	}
+	HC_topbar_market_liberal_icon = {
+		window_name = "market_liberalVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = market_liberal_coalition
+		}
+	}
+	HC_topbar_social_conservative_icon = {
+		window_name = "social_conservativeVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_conservative_coalition
+		}
+	}
+	HC_topbar_authoritarian_democrat_icon = {
+		window_name = "authoritarian_democratVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = authoritarian_democrat_coalition
+		}
+	}
+	HC_topbar_corporatist_nationalist_icon = {
+		window_name = "corporatist_nationalistVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = corporatist_nationalist_coalition
+		}
+	}
+	HC_topbar_national_syndicalist_icon = {
+		window_name = "national_syndicalistVisual"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = national_syndicalist_coalition
+		}
+	}
+
+	### Opposition ###
+
+	HC_topbar_blanquist_icon = {
+		window_name = "blanquistVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = blanquist_opposition
+		}
+	}
+	HC_topbar_revolutionary_socialist_icon = {
+		window_name = "revolutionary_socialistVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = revolutionary_socialist_opposition
+		}
+	}
+	HC_topbar_libertarian_socialist_icon = {
+		window_name = "libertarian_socialistVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = libertarian_socialist_opposition
+		}
+	}
+	HC_topbar_social_democrat_icon = {
+		window_name = "social_democratVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_democrat_opposition
+		}
+	}
+	HC_topbar_social_liberal_icon = {
+		window_name = "social_liberalVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_liberal_opposition
+		}
+	}
+	HC_topbar_market_liberal_icon = {
+		window_name = "market_liberalVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = market_liberal_opposition
+		}
+	}
+	HC_topbar_social_conservative_icon = {
+		window_name = "social_conservativeVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = social_conservative_opposition
+		}
+	}
+	HC_topbar_authoritarian_democrat_icon = {
+		window_name = "authoritarian_democratVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = authoritarian_democrat_opposition
+		}
+	}
+	HC_topbar_corporatist_nationalist_icon = {
+		window_name = "corporatist_nationalistVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = corporatist_nationalist_opposition
+		}
+	}
+	HC_topbar_national_syndicalist_icon = {
+		window_name = "national_syndicalistVisualOpposition"
+		context_type = player
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = national_syndicalist_opposition
+		}
+	}
+}

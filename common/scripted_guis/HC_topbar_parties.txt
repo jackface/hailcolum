@@ -1,0 +1,89 @@
+scripted_gui = {
+	HC_topbar = {
+		window_name = "HC_topbar"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			always = yes
+		}
+	}
+	HC_topbar_blanquist_icon = {
+		window_name = "blanquist"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = blanquist
+		}
+	}
+	HC_topbar_revolutionary_socialist_icon = {
+		window_name = "revolutionary_socialist"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = revolutionary_socialist
+		}
+	}
+	HC_topbar_libertarian_socialist_icon = {
+		window_name = "libertarian_socialist"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = libertarian_socialist
+		}
+	}
+	HC_topbar_social_democrat_icon = {
+		window_name = "social_democrat"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = social_democrat
+		}
+	}
+	HC_topbar_social_liberal_icon = {
+		window_name = "social_liberal"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = social_liberal
+		}
+	}
+	HC_topbar_market_liberal_icon = {
+		window_name = "market_liberal"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = market_liberal
+		}
+	}
+	HC_topbar_social_conservative_icon = {
+		window_name = "social_conservative"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = social_conservative
+		}
+	}
+	HC_topbar_authoritarian_democrat_icon = {
+		window_name = "authoritarian_democrat"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = authoritarian_democrat
+		}
+	}
+	HC_topbar_corporatist_nationalist_icon = {
+		window_name = "corporatist_nationalist"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = corporatist_nationalist
+		}
+	}
+	HC_topbar_national_syndicalist_icon = {
+		window_name = "national_syndicalist"
+		context_type = player
+		parent_window_token = top_bar
+		visible = {
+			has_government = national_syndicalist
+		}
+}

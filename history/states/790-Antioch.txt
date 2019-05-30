@@ -1,0 +1,23 @@
+
+state={
+	id=790
+	name="STATE_790"
+	manpower = 325594
+	
+	state_category = rural
+
+	history={
+		owner = ALE
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+		}
+		add_core_of = ALE
+	}
+
+	provinces={
+		12029
+	}
+}

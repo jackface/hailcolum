@@ -1,0 +1,56 @@
+﻿capital = 271
+
+oob = "ETH_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 90
+	corporatist_nationalist = 0
+	national_syndicalist = 10
+}
+
+create_country_leader = {
+	name = "Haile Selassie"
+	desc = "POLITICS_HAILE_SELASSIE_DESC"
+	picture = "Portrait_ETH_Haile_Selassie.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Seyoum Mengesha"
+	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+	traits = {  desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

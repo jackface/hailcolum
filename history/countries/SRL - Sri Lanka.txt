@@ -1,0 +1,50 @@
+﻿capital = 422
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_cosmetic_tag = SRL_british_colony
+
+set_politics = {
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 50
+	corporatist_nationalist = 50
+	national_syndicalist = 0
+}
+
+create_country_leader = {
+	name = "Reginald E. Stubbs"
+	desc = "POLITICS_REGINALD_EDWARD_STUBBS_DESC"
+	picture = "Portrait_SRL_Reginald_Edward_Stubbs.dds"
+	expire = "1949.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+guiTypes = {
+    containerWindowType = {
+        name = "HC_topbar"
+        position = { x = 173 y = 1 }
+		iconType ={
+			name ="popularity_value_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x = 0 y = 4 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name ="popularity"
+			position = { x = 25 y = 8 }
+			font = "hoi_18mbs"
+			text = "[coalitionOrPartyPop]"
+			format = center
+			maxWidth = 52
+			maxHeight = 24
+			fixedsize = yes
+
+            pdx_tooltip = "HC_TOPBAR_LOC"
+		}
+	}
+	containerWindowType = {
+		name = "blanquist"
+		position = { x = 175 y = 7}
+		iconType ={
+			name = "blanquist_icon"
+			spriteType = "GFX_ideology_blanquist_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "revolutionary_socialist"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "revolutionary_socialist_icon"
+			spriteType = "GFX_ideology_revolutionary_socialist_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "libertarian_socialist"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "libertarian_socialist_icon"
+			spriteType = "GFX_ideology_libertarian_socialist_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "social_democrat"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "social_democrat_icon"
+			spriteType = "GFX_ideology_social_democrat_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "social_liberal"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "social_liberal_icon"
+			spriteType = "GFX_ideology_social_liberal_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "market_liberal"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "market_liberal_icon"
+			spriteType = "GFX_ideology_market_liberal_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "social_conservative"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "social_conservative_icon"
+			spriteType = "GFX_ideology_social_conservative_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "authoritarian_democrat"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "authoritarian_democrat_icon"
+			spriteType = "GFX_ideology_authoritarian_democrat_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "corporatist_nationalist"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "corporatist_nationalist_icon"
+			spriteType = "GFX_ideology_corporatist_nationalist_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+	containerWindowType = {
+		name = "national_syndicalist"
+		position = { x = 175 y = 7 }
+		iconType ={
+			name = "national_syndicalist_icon"
+			spriteType = "GFX_ideology_national_syndicalist_group"
+			position = { x= 2 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.35
+		}
+	}
+}

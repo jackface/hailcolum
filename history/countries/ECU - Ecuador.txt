@@ -1,0 +1,46 @@
+﻿capital = 305
+
+oob = "ECU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	fuel_silos = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+
+set_politics = {
+	
+	ruling_party = authoritarian_democrat
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	blanquist = 0
+	revolutionary_socialist = 0
+	libertarian_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	corporatist_nationalist = 0
+	national_syndicalist = 0
+}
+
+create_country_leader = {
+	name = "Luis Larrea Alba"
+	desc = "POLITICS_LUIS_LARREA_ALBA_DESC"
+	picture = "Portrait_ECU_Luis_Larrea_Alba.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,122 @@
+focus_tree = {
+	id = hughes_1932_tree
+	
+	country = {
+		factor = 0
+		
+		
+	}
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	shared_focus = USA_becks_second_term
+	shared_focus = USA_roosevelt_victorious
+	shared_focus = USA_hughes_victorious
+	
+	focus = {
+		id = USA_boston_steel_workers_act
+		#icon = 
+		x = 0
+		y = 1
+		
+
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_country_flag = hughes_1932_victory
+		}
+		
+		bypass = {
+
+		}
+		
+		prerequisite = {
+		#	focus = USA_becks_second_term
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		relative_position_id = USA_hughes_victorious
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_american_miners_act
+		#icon = 
+		x = -1
+		y = 2
+		
+
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_country_flag = hughes_1932_victory
+		}
+		
+		bypass = {
+
+		}
+		
+		prerequisite = {
+			focus = USA_boston_steel_workers_act
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		relative_position_id = USA_hughes_victorious
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_hughes_gold_act
+		#icon = 
+		x = 1
+		y = 2
+		
+
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_country_flag = hughes_1932_victory
+		}
+		
+		bypass = {
+
+		}
+		
+		prerequisite = {
+			focus = USA_boston_steel_workers_act
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		relative_position_id = USA_hughes_victorious
+		completion_reward = {
+			
+		}
+	}
+	
+	
+}

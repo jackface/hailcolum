@@ -1,0 +1,23 @@
+
+state={
+	id=789
+	name="STATE_789"
+	manpower = 20345006
+	
+	state_category = rural
+
+	history={
+		owner = ARM
+		
+		
+		buildings = {
+			infrastructure = 3
+			
+		}
+		add_core_of = ARM
+	}
+
+	provinces={
+		789 6991 7454 10403
+	}
+}

@@ -1,0 +1,198 @@
+##This is based off the system for coalitions used in the mod The Coming Storm and The Calm Before The Storm, I have only made edits based on it.
+
+on_actions = {
+    on_daily = {
+        effect = {
+            set_variable = { coalition_pop_total = 0 } 
+            if = {
+                LIMIT = {
+                    has_country_flag = blanquist_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@blanquist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = revolutionary_socialist_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@revolutionary_socialist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = libertarian_socialist_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@libertarian_socialist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_democrat_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@social_democrat
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_liberal_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@social_liberal
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = market_liberal_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@market_liberal
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_conservative_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@social_conservative
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = authoritarian_democrat_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@authoritarian_democrat
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = corporatist_nationalist_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@corporatist_nationalist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = national_syndicalist_coalition
+                }
+                add_to_variable = {
+                    var = coalition_pop_total
+                    value = party_popularity@national_syndicalist
+                }
+            }
+            multiply_variable = { coalition_pop_total = 100 }
+            round_variable = coalition_pop_total
+        }
+    }
+    on_daily = {
+        effect = {
+            set_variable = { opposition_pop_total = 0 } 
+            if = {
+                LIMIT = {
+                    has_country_flag = blanquist_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@blanquist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = revolutionary_socialist_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@revolutionary_socialist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = libertarian_socialist_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@libertarian_socialist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_democrat_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@social_democrat
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_liberal_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@social_liberal
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = market_liberal_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@market_liberal
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = social_conservative_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@social_conservative
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = authoritarian_democrat_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@authoritarian_democrat
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = corporatist_nationalist_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@corporatist_nationalist
+                }
+            }
+            if = {
+                LIMIT = {
+                    has_country_flag = national_syndicalist_opposition
+                }
+                add_to_variable = {
+                    var = opposition_pop_total
+                    value = party_popularity@national_syndicalist
+                }
+            }
+            multiply_variable = { opposition_pop_total = 100 }
+            round_variable = opposition_pop_total
+        }
+    }
+}

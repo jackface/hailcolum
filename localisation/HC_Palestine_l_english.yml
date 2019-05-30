@@ -1,0 +1,73 @@
+﻿l_english:
+ 
+ 
+ 
+ #Country Loc
+ PAL_blanquist:0 "Palestine"
+ PAL_blanquist_DEF:0 "Palestine"
+ PAL_blanquist_ADJ:0 "Palestinian"
+ PAL_revolutionary_socialist:0 "Palestine"
+ PAL_revolutionary_socialist_DEF:0 "Palestine"
+ PAL_revolutionary_socialist_ADJ:0 "Palestinian"
+ PAL_libertarian_socialist:0 "Palestine"
+ PAL_libertarian_socialist_DEF:0 "Palestine"
+ PAL_libertarian_socialist_ADJ:0 "Palestinian"
+ PAL_social_democrat:0 "Palestine"
+ PAL_social_democrat_DEF:0 "Palestine"
+ PAL_social_democrat_ADJ:0 "Palestinian"
+ PAL_social_liberal:0 "Palestine"
+ PAL_social_liberal_DEF:0 "Palestine"
+ PAL_social_liberal_ADJ:0 "Palestinian"
+ PAL_market_liberal:0 "Palestine"
+ PAL_market_liberal_DEF:0 "Palestine"
+ PAL_market_liberal_ADJ:0 "Palestinian"
+ PAL_social_conservative:0 "Palestine"
+ PAL_social_conservative_DEF:0 "Palestine"
+ PAL_social_conservative_ADJ:0 "Palestinian"
+ PAL_authoritarian_democrat:0 "Palestine"
+ PAL_authoritarian_democrat_DEF:0 "Palestine"
+ PAL_authoritarian_democrat_ADJ:0 "Palestinian"
+ PAL_corporatist_nationalist:0 "Palestine"
+ PAL_corporatist_nationalist_DEF:0 "Palestine"
+ PAL_corporatist_nationalist_ADJ:0 "Palestinian"
+ PAL_national_syndicalist:0 "Palestine"
+ PAL_national_syndicalist_DEF:0 "Palestine"
+ PAL_national_syndicalist_ADJ:0 "Palestinian"
+ 
+ PAL_british_levant_mandate_blanquist:0 "Mandatory Levant"
+ PAL_british_levant_mandate_blanquist_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_blanquist_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_revolutionary_socialist:0 "Mandatory Levant"
+ PAL_british_levant_mandate_revolutionary_socialist_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_revolutionary_socialist_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_libertarian_socialist:0 "Mandatory Levant"
+ PAL_british_levant_mandate_libertarian_socialist_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_libertarian_socialist_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_social_democrat:0 "Mandatory Levant"
+ PAL_british_levant_mandate_social_democrat_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_social_democrat_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_social_liberal:0 "Mandatory Levant"
+ PAL_british_levant_mandate_social_liberal_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_social_liberal_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_market_liberal:0 "Mandatory Levant"
+ PAL_british_levant_mandate_market_liberal_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_market_liberal_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_social_conservative:0 "Mandatory Levant"
+ PAL_british_levant_mandate_social_conservative_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_social_conservative_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_authoritarian_democrat:0 "Mandatory Levant"
+ PAL_british_levant_mandate_authoritarian_democrat_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_authoritarian_democrat_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_corporatist_nationalist:0 "Mandatory Levant"
+ PAL_british_levant_mandate_corporatist_nationalist_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_corporatist_nationalist_ADJ:0 "Levantine"
+ PAL_british_levant_mandate_national_syndicalist:0 "Mandatory Levant"
+ PAL_british_levant_mandate_national_syndicalist_DEF:0 "British Mandate of The Levant"
+ PAL_british_levant_mandate_national_syndicalist_ADJ:0 "Levantine"
+ #Parties
+ 
+ 
+ #factions
+ 
+ 
+ 
