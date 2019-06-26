@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		LAT_vilis_lacis = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = LAT
-			}
-			
-			traits = { backroom_backstabber }
-		}
-
-		LAT_janis_kaminskis = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = LAT
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		LAT_vilhelms_munters = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = LAT
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	theorist = {
 

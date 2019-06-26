@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = BUL
+		owner = GRE
 		victory_points = {
 			6923 5
 		}
@@ -17,10 +17,10 @@ state={
 			industrial_complex =2
 			air_base = 2
 		}
-		add_core_of = BUL
+		add_core_of = GRE
 	}
 
 	provinces={
-		878 893 3796 3819 3937 3952 6814 6842 6923 6952 6982 9610 9862 11813 
+		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
 	}
 }

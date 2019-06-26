@@ -1,67 +1,63 @@
 bookmarks = {
 	bookmark = {
-		name = "GATHERING_STORM_NAME"
-		desc = "GATHERING_STORM_DESC"
+		name = "HAIL_COLUMBIA_NAME"
+		desc = "HAIL_COLUMBIA_DESC"
 		date = 1932.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "USA"
 		default = yes
 		
 		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				
-			}
-		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
+			history = "FRA_HAIL_COLUMBIA_DESC"
 			ideology = social_conservative
 			ideas = {
-				
 			}
 			focuses = {
 				
 			}
 		}
 		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
-			ideology = social_conservative
+			history = "ENG_HAIL_COLUMBIA_DESC"
+			ideology = authoritarian_democrat
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				george_v
 			}
 			focuses = {
 				
 			}
 		}
-		"SGR"={
-			history = "SGR_GATHERING_STORM_DESC"
-			ideology = revolutionary_socialist
+		"GER"={
+			history = "SGR_HAIL_COLUMBIA_DESC"
+			ideology = market_liberal
 			ideas = {
 			}
 			focuses = {
 				
 			}	
 		}
-		"YUG"={
-			history = "YUG_GATHERING_STORM_DESC"
-			ideology = market_liberal
+		"USA"={
+			history = "USA_HAIL_COLUMBIA_DESC"
+			ideology = social_conservative
 			ideas = {
+				USA_legacy_of_deneland_mutiny
+				USA_rigged_economy
+				USA_canadian_separatism
 			}
 			focuses = {
 				
 			}
 		}
 		"JAP"={
-			history = "JAP_GATHERING_STORM_DESC"
+			history = "JAP_HAIL_COLUMBIA_DESC"
 			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+				
+			}
+		}
+		"CHI"={
+			history = "CHI_HAIL_COLUMBIA_DESC"
+			ideology = national_autocracy
 			ideas = {
 			}	
 			focuses = {
@@ -69,8 +65,8 @@ bookmarks = {
 			}			
 		}
 		"RUS"={
-			history = "RUS_GATHERING_STORM_DESC"
-			ideology = corporatist_nationalist
+			history = "RUS_HAIL_COLUMBIA_DESC"
+			ideology = fabianist
 			ideas = {
 			}	
 			focuses = {
@@ -81,7 +77,7 @@ bookmarks = {
 		
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_HAIL_COLUMBIA_DESC"
 		}
 
 

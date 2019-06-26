@@ -33,7 +33,7 @@ COG_BEL_colony_32 = {
 	color_ui = rgb { 63 75 164 }
 }
 
-SAF_dominion_of_britain = {
+SAF_dutch_cape_colony = {
 	color = rgb { 205 87 0  }
 	color_ui = rgb { 205 87 0  }
 }

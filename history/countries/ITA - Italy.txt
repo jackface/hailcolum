@@ -85,31 +85,31 @@ set_convoys = 200
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 20
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 20
-	social_liberal = 5
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 10
-	corporatist_nationalist = 20
-	national_syndicalist = 25
+	labourist = 2
+	fabianist = 20
+	social_liberal = 19
+	market_liberal = 3
+	social_conservative = 25
+	authoritarian_democrat = 3
+	national_autocracy = 13
+	neo_jingoist = 15
 }
 
 create_country_leader = {
-	name = "Enrico Caviglia"
-	desc = "POLITICS_ENRICO_CAVIGLIA_DESC"
-	picture = "Portrait_ITA_Enrico_Caviglia.dds"
+	name = "Giovanni Giolitti"
+	desc = "POLITICS_GIOVANNI_GIOLITTI_DESC"
+	picture = "Portrait_ITA_Giovanni_Giolitti.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}

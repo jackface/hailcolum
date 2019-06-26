@@ -1,65 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		SLO_frano_kral = {
-
-			picture = generic_political_advisor_europe_5
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		SLO_janko_jesensky = {
-
-			picture = generic_political_advisor_europe_6
-				
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		SLO_stefan_tiso = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		SLO_jaroslav_kratochvil = {
-
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		SLO_karol_sidor = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = SLO
-			}
-			
-			traits = { silent_workhorse }
-		}
-	}
+	
 
 	theorist = {
 

@@ -60,33 +60,33 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = national_syndicalist
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 3
-	libertarian_socialist = 2
-	social_democrat = 10
-	social_liberal = 10
+	liberationist = 0
+	revolutionary_socialist = 2
+	labourist = 1
+	fabianist = 10
+	social_liberal = 21
 	market_liberal = 0
 	social_conservative = 20
-	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 55
+	authoritarian_democrat = 42
+	national_autocracy = 4
+	neo_jingoist = 0
 }
 
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Georgios Kondylis"
-	desc = "POLITICS_GEORGIOS_KONDYLIS_DESC"
-	picture = "Portrait_GRE_Georgios_Kondylis.dds"
+	name = "King Vladimir I"
+	desc = "POLITICS_KING_VLADIMIR_I_DESC"
+	picture = "Portrait_GRE_King_Vladimir_I.dds"
 	expire = "1965.1.1"
-	ideology = national_syndicalist_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

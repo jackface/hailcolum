@@ -32,19 +32,19 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 4
-	libertarian_socialist = 6
-	social_democrat = 19
+	labourist = 6
+	fabianist = 19
 	social_liberal = 34
 	market_liberal = 6
 	social_conservative = 15
 	authoritarian_democrat = 16
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
-set_country_flag = social_democrat_opposition
+set_country_flag = fabianist_opposition
 set_country_flag = social_liberal_opposition
 
 

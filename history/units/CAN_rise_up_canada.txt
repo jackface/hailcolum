@@ -1,0 +1,315 @@
+division_template = {
+	name = "Infantry Division"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Canadian Militia"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tank Brigade"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+
+	##Fort Williams Militias
+	division = {			
+		name = "Fort William 1st Militia"
+		location = 7899
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Fort William 2nd Militia"
+		location = 7899
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Fort William 3rd Militia"
+		location = 7899
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Fort William 4th Militia"
+		location = 4775
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+
+	}
+	
+	division = {			
+		name = "Fort William 5th Militia"
+		location = 7899
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Fort William 6th Militia"
+		location = 4775
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+
+	}
+	
+	division = {			
+		name = "Fort William 7th Militia"
+		location = 1769
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+
+	}
+	
+	division = {			
+		name = "Fort William 9th Militia"
+		location = 1769
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+
+	}
+	
+	#Welland Militias
+	
+	division = {			
+		name = "Welland 1st Militia"
+		location = 749
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Welland 2nd Militia"
+		location = 749
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Welland 3rd Militia"
+		location = 749
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.25
+
+	}
+	
+	###Ottawa Militias
+	
+	division = {			
+		name = "Ottawa 1st Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Ottawa 2nd Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Ottawa 3rd Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Ottawa 4th Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Ottawa 5th Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Ottawa 6th Militia"
+		location = 6625
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+
+	}
+	
+	division = {			
+		name = "Ottawa 7th Militia"
+		location = 3778
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+
+	}
+	
+	division = {			
+		name = "Ottawa 8th Militia"
+		location = 4270
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+
+	}
+	
+	division = {			
+		name = "Ottawa 9th Militia"
+		location = 6625
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.55
+
+	}
+	
+	division = {			
+		name = "Ottawa 10th Militia"
+		location = 6625
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.25
+
+	}
+	
+	division = {			
+		name = "Ottawa 11th Militia"
+		location = 6625
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+
+	}
+	
+	##Davistown Militias
+	
+	division = {			
+		name = "Davistown 1st Militia"
+		location = 3775
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Davistown 2nd Militia"
+		location = 3775
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Davistown 3rd Militia"
+		location = 3775
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Davistown 4th Militia"
+		location = 6797
+		division_template = "Canadian Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.35
+
+	}
+
+}

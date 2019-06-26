@@ -7,12 +7,12 @@ scripted_gui = {
 			always = yes
 		}
 	}
-	HC_topbar_blanquist_icon = {
-		window_name = "blanquist"
+	HC_topbar_liberationist_icon = {
+		window_name = "liberationist"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = blanquist
+			has_government = liberationist
 		}
 	}
 	HC_topbar_revolutionary_socialist_icon = {
@@ -23,20 +23,20 @@ scripted_gui = {
 			has_government = revolutionary_socialist
 		}
 	}
-	HC_topbar_libertarian_socialist_icon = {
-		window_name = "libertarian_socialist"
+	HC_topbar_labourist_icon = {
+		window_name = "labourist"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = libertarian_socialist
+			has_government = labourist
 		}
 	}
-	HC_topbar_social_democrat_icon = {
-		window_name = "social_democrat"
+	HC_topbar_fabianist_icon = {
+		window_name = "fabianist"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = social_democrat
+			has_government = fabianist
 		}
 	}
 	HC_topbar_social_liberal_icon = {
@@ -71,19 +71,19 @@ scripted_gui = {
 			has_government = authoritarian_democrat
 		}
 	}
-	HC_topbar_corporatist_nationalist_icon = {
-		window_name = "corporatist_nationalist"
+	HC_topbar_national_autocracy_icon = {
+		window_name = "national_autocracy"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = corporatist_nationalist
+			has_government = national_autocracy
 		}
 	}
-	HC_topbar_national_syndicalist_icon = {
-		window_name = "national_syndicalist"
+	HC_topbar_neo_jingoist_icon = {
+		window_name = "neo_jingoist"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = national_syndicalist
+			has_government = neo_jingoist
 		}
 }

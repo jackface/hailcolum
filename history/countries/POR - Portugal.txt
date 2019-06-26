@@ -51,23 +51,23 @@ set_convoys = 50
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 10
-	social_liberal = 5
-	market_liberal = 5
-	social_conservative = 15
-	authoritarian_democrat = 65
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	labourist = 0
+	fabianist = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 23
+	national_autocracy = 77
+	neo_jingoist = 0
 }
 
 set_convoys = 100
@@ -75,11 +75,11 @@ set_stability = 0.75
 
 
 create_country_leader = {
-	name = "Sidònio Pais"
-	desc = "POLITICS_SIDONIO_PAIS_DESC"
-	picture = "Portrait_POR_Sidonio_Pais.dds"
+	name = "Xavier de Castro"
+	desc = "POLITICS_XAVIER_DE_CASTRO_DESC"
+	picture = "Portrait_POR_Xavier_de_Castro.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

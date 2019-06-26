@@ -84,23 +84,23 @@ set_convoys = 0
 
 set_politics = {
 	
-	ruling_party = libertarian_socialist
+	ruling_party = labourist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 49
-	social_democrat = 30
+	labourist = 49
+	fabianist = 30
 	social_liberal = 10
 	market_liberal = 0
 	social_conservative = 11
 	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 

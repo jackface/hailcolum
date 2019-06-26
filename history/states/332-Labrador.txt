@@ -5,7 +5,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = NEW
+		owner = QUE
 		buildings = {
 			infrastructure = 1
 
@@ -13,7 +13,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = NEW
+		add_core_of = QUE
 
 	}
 

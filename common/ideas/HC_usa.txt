@@ -2,8 +2,9 @@ ideas = {
 
 	country = {
 	
-		USA_vets_support = {
-			#picture = usa_great_depression_3
+		
+		USA_canadian_separatism = {
+			picture = can_defence_of_canada_regulations_democratic
 			
 			allowed = {
 				always = no
@@ -16,14 +17,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_cost = -1
-				consumer_goods_factor = 0.01
-				conscription_factor = 0.01
+				war_support_factor = -0.05
+				stability_factor = -0.15
+				conscription_factor = -0.07
+				partisan_effect = -0.15
 			}
 		}
 		
-		USA_renewed_militarism = {
-			#picture = usa_great_depression_3
+		USA_rigged_economy = {
+			picture = chi_hyper_inflation
 			
 			allowed = {
 				always = no
@@ -36,13 +38,15 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				war_support_factor = 0.05
-				war_support_weekly = 0.001
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				min_export = 0.05
+				stability_factor = -0.05
 			}
 		}
 		
-		USA_beck_housing = {
-			#picture = usa_great_depression_3
+		USA_legacy_of_deneland_mutiny = {
+			picture = chi_forced_conscription
 			
 			allowed = {
 				always = no
@@ -55,38 +59,304 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				non_core_manpower = -0.02
-				partisan_effect = 0.1
-				production_speed_buildings_factor = 0.1
-				research_speed_factor = 0.05
-				MONTHLY_POPULATION = 0.001
+				war_support_factor = -0.05
+				army_morale_factor = -0.15
 			}
 		}
-		
-		USA_beck_healthcare = {
-			#picture = usa_great_depression_3
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.01
-				conscription_factor = 0.01
-				MONTHLY_POPULATION = 0.001
-				stability_factor = 0.05
-			}
-		}
-		
 		
 	
 	}
+	#Edwin Burr Babbitt
+	#USA_Edwin_Burr_Babbitt_sic_con
+	second_in_command = {
+	
+		USA_Edwin_Burr_Babbitt_sic_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Edwin_Burr_Babbitt_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Edwin_Burr_Babbitt_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_George_W_McIver_sic_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = George_W_McIver_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = George_W_McIver_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Oliver_Wendell_Holmes_sic_scl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Oliver_Wendell_Holmes_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Oliver_Wendell_Holmes_dead }
+			}
+			
+			traits = {
+				soclib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_George_Hara_Williams_sic_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = George_Hara_Williams_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = George_Hara_Williams_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	economic_minister = {
+	
+		USA_John_D_Rockefeller_eco_mrl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = John_D_Rockefeller_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = John_D_Rockefeller_dead }
+			}
+			
+			traits = {
+				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Calvin_Coolidge_eco_mrl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Calvin_Coolidge_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Calvin_Coolidge_dead }
+			}
+			
+			traits = {
+				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Theodore_Roosevelt_III_eco_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Theodore_Roosevelt_III_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Theodore_Roosevelt_III_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		USA_Ray_Lyman_Wilbur_for_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Ray_Lyman_Wilbur_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Ray_Lyman_Wilbur_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Thomas_Alexander_Crerar_for_scl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Thomas_Alexander_Crerar_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Thomas_Alexander_Crerar_dead }
+			}
+			
+			traits = {
+				soclib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Henry_L_Stimson_for_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Henry_L_Stimson_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Henry_L_Stimson_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Harry_Truman_for_mrl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Harry_Truman_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Harry_Truman_dead }
+			}
+			
+			traits = {
+				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	minister_of_defense = {
+	
+		USA_Dwight_F_Davis_mod_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Dwight_F_Davis_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Dwight_F_Davis_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Dwight_D_Eisenhower_mod_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Dwight_D_Eisenhower_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Dwight_D_Eisenhower_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Arthur_Currie_mod_mrl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Arthur_Currie_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Arthur_Currie_dead }
+			}
+			
+			traits = {
+				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	intelligence_minister = {
+	
+		
+	
+	}
+	
+
 	
 	
 }

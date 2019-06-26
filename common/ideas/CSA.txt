@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		CSA_paul_van_zeeland = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = CSA
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		CSA_paul-henri_spaak = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = CSA
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		CSA_gaston_eyskens = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = CSA
-			}
-			
-			traits = { armaments_organizer }
-		}
-	}
+	
 
 	army_chief = {
 

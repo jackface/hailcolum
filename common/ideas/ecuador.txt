@@ -1,44 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		ECU_davide_flores = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = ECU
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		ECU_carlos_arosemena_tola = {
-
-			picture = generic_political_advisor_south_america_2
-				
-			allowed = {
-				original_tag = ECU
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		ECU_carlos_arroyo_del_rio = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = ECU
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
+	
 
 	theorist = {
 

@@ -1,4 +1,4 @@
-﻿capital = 676
+﻿capital = 352
 
 # Starting tech
 set_technology = {
@@ -7,35 +7,34 @@ set_technology = {
 
 set_convoys = 10
 
-set_cosmetic_tag = KRD_french_kurdish_mandate
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = revolutionary_socialist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 30
-	revolutionary_socialist = 29
-	libertarian_socialist = 30
-	social_democrat = 0
+	liberationist = 0
+	revolutionary_socialist = 100
+	labourist = 0
+	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 1
-	corporatist_nationalist = 0
-	national_syndicalist = 10
+	authoritarian_democrat = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Louis Bonvin"
-	desc = "POLITICS_LOUIS_BONVIN_DESC"
-	picture = "Portrait_KRD_Louis_Bonvin.dds"
+	name = "Ishan Nuri"
+	desc = "POLITICS_ISHAN_NURI_DESC"
+	picture = "Portrait_KRD_Ishan_Nuri.dds"
 	expire = "1947.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = revolutionary_socialist_subtype
 	traits = {
 		
 	}

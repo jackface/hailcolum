@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		PUE_pot = {
-
-			picture = generic_political_advisor_south_america_2
-
-			allowed = {
-				original_tag = PUE
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		PUE_coi = {
-
-			picture = generic_political_advisor_south_america_1
-				
-			allowed = {
-				original_tag = PUE
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		PUE_stc = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = PUE
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

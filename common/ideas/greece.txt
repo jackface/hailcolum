@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-	GRE_damaskinos = {
-
-		picture = generic_political_advisor_europe_5
-		
-		allowed = {
-			original_tag = GRE
-		}
-		
-		traits = { compassionate_gentleman }
-	}
-
-	GRE_georgios_papandreou = {
-
-		picture = generic_political_advisor_europe_2
-			
-		allowed = {
-			original_tag = GRE
-		}
-		
-		traits = { silent_workhorse }
-	}
-
-	GRE_evripidis_bakirtris = {
-
-		picture = generic_political_advisor_europe_3
-		
-		allowed = {
-			original_tag = GRE
-		}
-		
-		traits = { war_industrialist }
-	}
-}
+	
 
 theorist = {
 

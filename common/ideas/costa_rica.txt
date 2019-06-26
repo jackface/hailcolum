@@ -2,64 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		COS_julio_acosta_garcia = {
-
-			picture = generic_political_advisor_south_america_1
-
-			allowed = {
-				original_tag = COS
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		COS_otto_cortes_fernandez = {
-
-			picture = generic_political_advisor_south_america_3
-				
-			allowed = {
-				original_tag = COS
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		COS_roberto_brenes_mesen = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = COS
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		COS_chico_orlich_bolmarich = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = COS
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		COS_jose_figueres_ferrer = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = COS
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-	}
-
+	
 	theorist = {
 		
 		COS_luis_fernandez_rodriguez = {

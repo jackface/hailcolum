@@ -1,0 +1,33 @@
+﻿l_english:
+ 
+ #
+ laws:0 "Laws"
+ cabinet:0 "Cabinet"
+ second_in_command:0 "Second In Command"
+ economic_minister:0 "Economic Minister"
+ foreign_minister:0 "Foreign Minister"
+ chief_of_staff:0 "Chief of Staff"
+ minister_of_defense:0 "Minister of Defense"
+ intelligence_minister:0 "Intelligence Minister"
+ 
+ #Traits
+ neojing_tr:0 "Neo-Jingoist"
+ nataut_tr:0 "National Autocrat"
+ authdem_tr:0 "Authoritarian Democrat"
+ soccon_tr:0 "Social Conservative"
+ marklib_tr:0 "Market Liberal"
+ soclib_tr:0 "Social Liberal"
+ fabianist_tr:0 "Fabianist"
+ labourist_tr:0 "Labourist"
+ revolutionary_socialist_tr:0 "Revolutionary Socialist"
+ liberationist_tr:0 "Liberationist"
+ 
+ #Bookmarks
+ HAIL_COLUMBIA_NAME:0 "Hail Columbia"
+ HAIL_COLUMBIA_DESC:0 ""
+ FALL_OF_LIBERTY_DESC:0 "The world has been in a tough position since 1914, first the Great War, and now the slow fall of Liberty. Through out Europe Authoritarianism has risen, from Lisbon to Berlin, from Paris to Rome, democracy has become weak or non-existant. In North America, America stands strong, while Europe faces the fall of Liberty."
+ 
+ 
+ 
+ 
+ 

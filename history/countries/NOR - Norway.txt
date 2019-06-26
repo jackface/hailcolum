@@ -59,7 +59,7 @@ set_country_flag = social_liberal_coalition
 set_country_flag = market_liberal_coalition
 set_country_flag = social_conservative_coalition
 
-set_country_flag = social_democrat_opposition
+set_country_flag = fabianist_opposition
 
 set_politics = {
 	
@@ -70,16 +70,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 15
-	social_democrat = 28
+	labourist = 15
+	fabianist = 28
 	social_liberal = 21
 	market_liberal = 2
 	social_conservative = 29
 	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 5
+	national_autocracy = 0
+	neo_jingoist = 5
 }
 
 create_country_leader = {

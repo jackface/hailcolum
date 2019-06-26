@@ -1,46 +1,6 @@
 ideas = {
 
 
-	political_advisor = {
-
-		CRO_ivan_subasic = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = CRO
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		CRO_alojzije_stepinac = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = CRO
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		CRO_gaspar_njegovan = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = CRO
-			}
-			
-			traits = { captain_of_industry }
-		}
-	}
-
 
 	# MILITARY
 	army_chief = {

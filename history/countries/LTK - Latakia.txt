@@ -18,16 +18,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 3
+	liberationist = 3
 	revolutionary_socialist = 20
-	libertarian_socialist = 20
-	social_democrat = 20
+	labourist = 20
+	fabianist = 20
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 10
 	authoritarian_democrat = 16
-	corporatist_nationalist = 6
-	national_syndicalist = 5
+	national_autocracy = 6
+	neo_jingoist = 5
 }
 
 create_country_leader = {
@@ -36,6 +36,17 @@ create_country_leader = {
 	picture = "Portrait_LTK_Leon_Cayla.dds"
 	expire = "1947.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ali Sulayman al-Assad"
+	desc = "POLITICS_ALI_SYLAYMAN_AL_ASSAD_DESC"
+	picture = "Portrait_LTK_Ali_Sulayman_al_Assad.dds"
+	expire = "1947.1.1"
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}

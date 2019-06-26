@@ -38,7 +38,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				blanquist_drift = 0.05
+				liberationist_drift = 0.05
 			}
 		}
 
@@ -157,7 +157,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 
@@ -175,7 +175,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 
@@ -193,7 +193,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 
@@ -211,7 +211,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 
@@ -229,7 +229,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 
@@ -247,7 +247,7 @@ ideas = {
 			name = PRC_soviet_tribute
 			allowed = { always = no }
 
-			picture =  generic_blanquist_drift_bonus
+			picture =  generic_liberationist_drift_bonus
 
 			removal_cost = -1
 

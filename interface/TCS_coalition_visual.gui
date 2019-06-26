@@ -3,7 +3,7 @@ guiTypes = {
 	### Coalition ###
 
     containerWindowType = {
-		name = "blanquistVisual"
+		name = "liberationistVisual"
 		position = { x = 565 y = 20}
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -25,7 +25,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "libertarian_socialistVisual"
+		name = "labouristVisual"
 		position = { x = 565 y = 52 }
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -36,7 +36,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "social_democratVisual"
+		name = "fabianistVisual"
 		position = { x = 565 y = 68 }
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -91,7 +91,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "corporatist_nationalistVisual"
+		name = "national_autocracyVisual"
 		position = { x = 565 y = 148 }
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -102,7 +102,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "national_syndicalistVisual"
+		name = "neo_jingoistVisual"
 		position = { x = 565 y = 164 }
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -116,7 +116,7 @@ guiTypes = {
 	### Opposition ###
 
 	containerWindowType = {
-		name = "blanquistVisualOpposition"
+		name = "liberationistVisualOpposition"
 		position = { x = 565 y = 20}
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"
@@ -138,7 +138,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "libertarian_socialistVisualOpposition"
+		name = "labouristVisualOpposition"
 		position = { x = 565 y = 52 }
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"
@@ -149,7 +149,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "social_democratVisualOpposition"
+		name = "fabianistVisualOpposition"
 		position = { x = 565 y = 68 }
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"
@@ -204,7 +204,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "corporatist_nationalistVisualOpposition"
+		name = "national_autocracyVisualOpposition"
 		position = { x = 565 y = 148 }
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"
@@ -215,7 +215,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "national_syndicalistVisualOpposition"
+		name = "neo_jingoistVisualOpposition"
 		position = { x = 565 y = 164 }
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"

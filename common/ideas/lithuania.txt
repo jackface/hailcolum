@@ -1,39 +1,5 @@
 ideas = {
-	political_advisor = {
-
-	LIT_vladas_jurgutis = {
-
-		picture = generic_political_advisor_europe_1
-		
-		allowed = {
-			original_tag = LIT
-		}
-		
-		traits = { captain_of_industry }
-	}
-
-	LIT_leonas_bistras = {
-
-		picture = generic_political_advisor_europe_2
-			
-		allowed = {
-			original_tag = LIT
-		}
-		
-		traits = { compassionate_gentleman }
-	}
-
-	LIT_mykolas_slezevicius = {
-
-		picture = generic_political_advisor_europe_3
-		
-		allowed = {
-			original_tag = LIT
-		}
-		
-		traits = { prince_of_terror }
-	}
-}
+	
 
 theorist = {
 

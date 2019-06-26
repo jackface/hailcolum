@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		TUN_pot = {
-
-			picture = generic_political_advisor_arab_2
-
-			allowed = {
-				original_tag = TUN
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		TUN_coi = {
-
-			picture = generic_political_advisor_arab_1
-				
-			allowed = {
-				original_tag = TUN
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		TUN_stc = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = TUN
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

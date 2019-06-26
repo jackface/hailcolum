@@ -1,44 +1,6 @@
 ideas = {
 	
-	political_advisor = {
-
-		BUL_konstantin_muraviev = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = BUL
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		BUL_dobri_bozhilov = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = BUL
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		BUL_georgi_ivanov_kyoseivanov = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = BUL
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
+	
 
 
 	army_chief = {

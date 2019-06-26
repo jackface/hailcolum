@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		MON_dansrabilegyin_dogsam = {
-
-			picture = generic_political_advisor_asia_2
-			
-			allowed = {
-				original_tag = MON
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		MON_yundunwangcug = {
-
-			picture = generic_political_advisor_asia_3
-				
-			allowed = {
-				original_tag = MON
-			}
-			
-			traits = { quartermaster_general }
-		}
-
-		MON_pai_yun_ti = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = MON
-			}
-			
-			traits = { war_industrialist }
-		}
-	}	
+	
 
 	army_chief = {
 		

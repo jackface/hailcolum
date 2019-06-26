@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		BRD_pot = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = BRD
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		BRD_coi = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = BRD
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		BRD_stc = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = BRD
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

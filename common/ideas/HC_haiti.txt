@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+	
+		HAI_american_support = {
+			picture = received_attache
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+		
+		
+	
+	}
+	
+	
+}

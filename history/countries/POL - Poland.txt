@@ -53,31 +53,31 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = social_conservative
+	ruling_party = revolutionary_socialist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 10
-	libertarian_socialist = 20
-	social_democrat = 10
-	social_liberal = 4
+	liberationist = 0
+	revolutionary_socialist = 100
+	labourist = 0
+	fabianist = 0
+	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 26
+	social_conservative = 0
 	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 30
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Roman Dmowski"
-	desc = "POLITICS_ROMAN_DMOWSKI_DESC"
-	picture = "Portrait_POL_Roman_Dmowksi.dds"
+	name = "Felix Dzerzhinsky"
+	desc = "POLITICS_FELIX_DZERZHINSKY_DESC"
+	picture = "Portrait_POL_Felix_Dzerzhinsky.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = revolutionary_socialist_subtype
 	traits = {
 		#
 	}

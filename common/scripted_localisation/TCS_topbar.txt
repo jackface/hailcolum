@@ -2,9 +2,9 @@ defined_text = {
     name = topbarIdeology
     text = {
         trigger = {
-            has_government = blanquist
+            has_government = liberationist
         }
-        localization_key = topbarblanquist
+        localization_key = topbarliberationist
     }
     text = {
         trigger = {
@@ -14,15 +14,15 @@ defined_text = {
     }
     text = {
         trigger = {
-            has_government = libertarian_socialist
+            has_government = labourist
         }
-        localization_key = topbarlibertarian_socialist
+        localization_key = topbarlabourist
     }
     text = {
         trigger = {
-            has_government = social_democrat
+            has_government = fabianist
         }
-        localization_key = topbarsocial_democrat
+        localization_key = topbarfabianist
     }
     text = {
         trigger = {
@@ -50,14 +50,14 @@ defined_text = {
     }
     text = {
         trigger = {
-            has_government = corporatist_nationalist
+            has_government = national_autocracy
         }
-        localization_key = topbarcorporatist_nationalist
+        localization_key = topbarnational_autocracy
     }
     text = {
         trigger = {
-            has_government = national_syndicalist
+            has_government = neo_jingoist
         }
-        localization_key = topbarnational_syndicalist
+        localization_key = topbarneo_jingoist
     }
 }

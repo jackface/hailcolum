@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		WLS_pot = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = WLS
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		WLS_coi = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = WLS
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		WLS_stc = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = WLS
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

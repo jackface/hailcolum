@@ -63,23 +63,23 @@ if = {
 
 set_politics = {
 	
-	ruling_party = social_democrat
+	ruling_party = fabianist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 7
+	liberationist = 7
 	revolutionary_socialist = 7
-	libertarian_socialist = 15
-	social_democrat = 25
+	labourist = 15
+	fabianist = 25
 	social_liberal = 10
 	market_liberal = 0
 	social_conservative = 21
 	authoritarian_democrat = 5
-	corporatist_nationalist = 5
-	national_syndicalist = 5
+	national_autocracy = 5
+	neo_jingoist = 5
 }
 
 set_convoys = 25
@@ -93,7 +93,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "Portrait_SWE_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = fabianist_subtype
 	traits = {
 		#
 	}

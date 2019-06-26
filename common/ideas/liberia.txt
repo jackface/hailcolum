@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		LIB_william_s_tubman = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = LIB
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		LIB_albert_porte = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = LIB
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		LIB_arthur_sweetser = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = LIB
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

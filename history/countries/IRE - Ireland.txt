@@ -12,35 +12,34 @@ set_technology = {
 
 set_convoys = 10
 
-set_cosmetic_tag = IRE_irish_free_state
 
 set_politics = {
 	
-	ruling_party = social_liberal
+	ruling_party = fabianist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 20
-	social_democrat = 22
-	social_liberal = 23
+	labourist = 4
+	fabianist = 48
+	social_liberal = 21
 	market_liberal = 0
-	social_conservative = 20
+	social_conservative = 22
 	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 15
+	national_autocracy = 0
+	neo_jingoist = 5
 }
 
 create_country_leader = {
-	name = "Arthur J. Griffith"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_IRE_Arthur_Joseph_Griffith.dds"
+	name = "Roger Casement"
+	desc = "POLITICS_ROGER_CASEMENT_DESC"
+	picture = "Portrait_IRE_Roger_Casement.dds"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = fabianist_subtype
 	traits = {
 		#
 	}

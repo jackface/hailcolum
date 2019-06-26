@@ -1,45 +1,7 @@
 ideas = {
 	
 
-	political_advisor = {
-
-		DEN_viggo_kampman = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = DEN
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		DEN_ejnar_warum = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = DEN
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		DEN_knud_kristensen = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = DEN
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
+	
 
 
 	army_chief = {

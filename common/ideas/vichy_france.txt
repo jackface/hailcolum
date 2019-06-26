@@ -1,45 +1,5 @@
 ideas = {
-	political_advisor = {
-
-		VIC_pierre_laval = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = FRA
-				has_government = national_syndicalist
-			}
-			
-			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		VIC_marius_viple = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = FRA
-				has_government = national_syndicalist
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		VIC_rene_bousquet = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = FRA
-				has_government = national_syndicalist
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-	}
+	
 
 	theorist = {
 
@@ -48,7 +8,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 			picture = generic_army_europe_4
@@ -65,7 +25,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 			picture = generic_navy_europe_1
@@ -86,7 +46,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 			traits = { army_chief_reform_2 }
@@ -102,7 +62,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 			traits = { army_chief_defensive_3 }
@@ -122,7 +82,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -140,7 +100,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -162,7 +122,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -180,7 +140,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -202,7 +162,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -220,7 +180,7 @@ ideas = {
 
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -238,7 +198,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 
@@ -256,7 +216,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = FRA
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 

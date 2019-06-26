@@ -417,8 +417,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_blanquist_group"
-		texturefile = "gfx/interface/ideologies/blanquist_group.dds"
+		name = "GFX_ideology_liberationist_group"
+		texturefile = "gfx/interface/ideologies/liberationist_group.dds"
 	}
 
 	spriteType = {
@@ -427,12 +427,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_libertarian_socialist_group"
+		name = "GFX_ideology_labourist_group"
 		texturefile = "gfx/interface/ideologies/libsoc_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_social_democrat_group"
+		name = "GFX_ideology_fabianist_group"
 		texturefile = "gfx/interface/ideologies/socdem_group.dds"
 	}
 	
@@ -457,12 +457,12 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_corporatist_nationalist_group"
+		name = "GFX_ideology_national_autocracy_group"
 		texturefile = "gfx/interface/ideologies/corpnat_group.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_national_syndicalist_group"
+		name = "GFX_ideology_neo_jingoist_group"
 		texturefile = "gfx/interface/ideologies/natsynd_group.dds"
 	}
 	

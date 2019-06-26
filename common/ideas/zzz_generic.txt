@@ -105,7 +105,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 
 			
 			modifier = {
-				national_syndicalist_drift = 0.1
+				neo_jingoist_drift = 0.1
 			}
 		}
 		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
@@ -142,7 +142,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 
 			removal_cost = -1
@@ -151,7 +151,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				blanquist_drift = 0.1
+				liberationist_drift = 0.1
 			}
 		}
 
@@ -162,16 +162,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 
 			removal_cost = -1
 
-			picture = generic_national_syndicalist_drift_bonus
+			picture = generic_neo_jingoist_drift_bonus
 			
 			modifier = {
-				national_syndicalist_drift = 0.1
-				national_syndicalist_acceptance = 85
+				neo_jingoist_drift = 0.1
+				neo_jingoist_acceptance = 85
 			}
 		}
 		
@@ -183,16 +183,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 
 			removal_cost = -1
 
-			picture = generic_blanquist_drift_bonus
+			picture = generic_liberationist_drift_bonus
 			
 			modifier = {
-				blanquist_drift = 0.1
-				blanquist_acceptance = 85
+				liberationist_drift = 0.1
+				liberationist_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -203,16 +203,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_democrat
+				has_government = fabianist
 			}
 
 			removal_cost = -1
 
-			picture = generic_social_democrat_drift_bonus
+			picture = generic_fabianist_drift_bonus
 			
 			modifier = {
-				social_democrat_drift = 0.1
-				social_democrat_acceptance = 85
+				fabianist_drift = 0.1
+				fabianist_acceptance = 85
 			}
 		}
 		neutrality_influence = {
@@ -243,16 +243,16 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = national_syndicalist
+						has_government = neo_jingoist
 						SOV = {
-							has_government = blanquist
+							has_government = liberationist
 						}
 					}
 					AND = {
 						tag = SOV
-						has_government = blanquist
+						has_government = liberationist
 						GER = {
-							has_government = national_syndicalist
+							has_government = neo_jingoist
 						}
 					}
 				}
@@ -261,8 +261,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				blanquist_acceptance = 100
-				national_syndicalist_acceptance = 100
+				liberationist_acceptance = 100
+				neo_jingoist_acceptance = 100
 			}
 		}
 		
@@ -274,15 +274,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 
 			removal_cost = -1
 
-			picture = generic_blanquist_drift_bonus
+			picture = generic_liberationist_drift_bonus
 			
 			modifier = {
-				blanquist_drift = 0.1
+				liberationist_drift = 0.1
 			}
 		}
 		# from decision
@@ -294,15 +294,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 
 			removal_cost = -1
 
-			picture = generic_blanquist_drift_bonus
+			picture = generic_liberationist_drift_bonus
 			
 			modifier = {
-				blanquist_drift = 0.1
+				liberationist_drift = 0.1
 				research_speed_factor = 0.025
 			}
 		}
@@ -314,15 +314,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 
 			removal_cost = -1
 
-			picture = generic_national_syndicalist_drift_bonus
+			picture = generic_neo_jingoist_drift_bonus
 			
 			modifier = {
-				national_syndicalist_drift = 0.1
+				neo_jingoist_drift = 0.1
 				experience_gain_army = 0.1
 			}
 		}
@@ -335,15 +335,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_democrat
+				has_government = fabianist
 			}
 
 			removal_cost = -1
 
-			picture = generic_social_democrat_drift_bonus
+			picture = generic_fabianist_drift_bonus
 			
 			modifier = {
-				social_democrat_drift = 0.1
+				fabianist_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -394,7 +394,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 		
 			removal_cost = -1
@@ -402,7 +402,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				social_democrat_drift = -0.02
+				fabianist_drift = -0.02
 			}
 		}
 	
@@ -414,12 +414,12 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_democrat
+				has_government = fabianist
 			}
 			
 			removal_cost = -1
 
-			picture = generic_social_democrat_drift_bonus
+			picture = generic_fabianist_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -434,7 +434,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 			
 			removal_cost = -1
@@ -456,8 +456,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = blanquist
-					has_government = national_syndicalist
+					has_government = liberationist
+					has_government = neo_jingoist
 				}
 			}
 			
@@ -479,8 +479,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = blanquist
-					has_government = national_syndicalist
+					has_government = liberationist
+					has_government = neo_jingoist
 				}
 			}
 			
@@ -502,8 +502,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = blanquist
-					has_government = national_syndicalist
+					has_government = liberationist
+					has_government = neo_jingoist
 				}
 			}
 			
@@ -550,7 +550,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 			
 			removal_cost = -1
@@ -686,7 +686,7 @@ ideas = {
 			}			
 		}
 
-		blanquist_banned = {
+		liberationist_banned = {
 			picture = anti_soviet_pact
 			allowed = {
 				always = no
@@ -694,18 +694,18 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = blanquist
+					has_government = liberationist
 				}
 			}
 
 			modifier = {
-				blanquist_drift = -0.05
+				liberationist_drift = -0.05
 			}
 		}
 
-		national_syndicalist_banned = {
+		neo_jingoist_banned = {
 
-			picture = generic_national_syndicalist_banned
+			picture = generic_neo_jingoist_banned
 
 			allowed = {
 				always = no
@@ -713,12 +713,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = national_syndicalist
+					has_government = neo_jingoist
 				}
 			}
 
 			modifier = {
-				national_syndicalist_drift = -0.05
+				neo_jingoist_drift = -0.05
 			}
 		}
 
@@ -1094,135 +1094,7 @@ ideas = {
 		}
 	}
 	
-	political_advisor = {
-		# POLITICAL	
-		generic_communist_revolutionary = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL } }
-				NOT = {
-					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
-				}
-				
-			}
-
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_the_lee_affair
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
 	
-			on_add = {
-				#country_event = political.1
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = blanquist
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-			
-		generic_democratic_reformer = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL } }
-				NOT = {
-					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
-				}
-				
-			}
-			
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			
-			traits = { democratic_reformer }
-	
-			on_add = {
-				#country_event = political.13
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = social_democrat
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		generic_fascist_demagogue = {
-			
-			allowed = {
-				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE tag = PRC tag = CHI tag = MAN tag = MEX tag = HOL } }
-				NOT = {
-					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
-				}
-
-			}
-			
-			available = {
-				if = {
-					limit = { 
-						original_tag = NZL
-						has_dlc = "Together for Victory"
-					}
-					has_completed_focus = NZL_in_the_darkness
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}				
-			}
-			
-			traits = { fascist_demagogue }
-	
-			on_add = {
-				#country_event = political.7
-			}
-	
-			do_effect = {
-				NOT = {
-					has_government = national_syndicalist
-				}
-			}
-	
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
 		
 	
 
@@ -1635,35 +1507,7 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
-
-		generic_captain_of_industry = {
-
-			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
-			}
-			
-			traits = { captain_of_industry }
-		}
-		
-		generic_fortification_engineer = {
-
-			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
-			}
-			
-			traits = { fortification_engineer }
-		}
-
-		generic_war_industrialist = {
-
-			allowed = {
-				OR = { original_tag = KOR original_tag = SER original_tag = ICE original_tag = SYR original_tag = LEB original_tag = EGY original_tag = JOR original_tag = CRO original_tag = LBA original_tag = INS original_tag = MAL original_tag = AZR original_tag = UKR original_tag = GEO original_tag = ARM original_tag = VIN original_tag = CAM original_tag = MNT original_tag = LIB original_tag = LAO original_tag = PAL }
-			}
-			
-			traits = { war_industrialist }
-		}
-	}
+	
 
 	army_chief = {
 		

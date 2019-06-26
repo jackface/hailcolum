@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		TUR_mumtaz_okmen = {
-
-			picture = generic_political_advisor_europe_5
-
-			allowed = {
-				original_tag = TUR
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		TUR_hassan_saka = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = TUR
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		TUR_kazim_ozalp = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = TUR
-			}
-			
-			traits = { war_industrialist }
-		}
-	}
+	
 
 	theorist = {
 

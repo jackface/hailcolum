@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		SUD_pot = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = SUD
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		SUD_coi = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = SUD
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		SUD_stc = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = SUD
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

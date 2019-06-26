@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		PAN_nicolas_ardito_barletta = {
-
-			picture = generic_political_advisor_south_america_2
-
-			allowed = {
-				original_tag = PAN
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		PAN_victor_pareja = {
-
-			picture = generic_political_advisor_south_america_1
-				
-			allowed = {
-				original_tag = PAN
-			}
-			
-			traits = { armaments_organizer }
-		}
-
-		PAN_jose_pezet = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = PAN
-			}
-			
-			traits = { fortification_engineer }
-		}
-	}
+	
 
 	theorist = {
 		PAN_enrique_jimenez_brin = {

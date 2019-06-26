@@ -29,9 +29,9 @@ defined_text = {
     name = coalitionAnarchism
     text = {
         trigger = {
-            has_country_flag = blanquist_coalition
+            has_country_flag = liberationist_coalition
         }
-        localization_key = COALITION_BLANQUIST
+        localization_key = COALITION_LIBERATIONIST
     }
 }
 defined_text = {
@@ -44,21 +44,21 @@ defined_text = {
     }
 }
 defined_text = {
-    name = coalitionlibertarian_socialist
+    name = coalitionlabourist
     text = {
         trigger = {
-            has_country_flag = libertarian_socialist_coalition
+            has_country_flag = labourist_coalition
         }
-        localization_key = COALITION_libertarian_socialist
+        localization_key = COALITION_labourist
     }
 }
 defined_text = {
-    name = coalitionsocial_democrat
+    name = coalitionfabianist
     text = {
         trigger = {
-            has_country_flag = social_democrat_coalition
+            has_country_flag = fabianist_coalition
         }
-        localization_key = COALITION_social_democrat
+        localization_key = COALITION_fabianist
     }
 }
 defined_text = {
@@ -98,21 +98,21 @@ defined_text = {
     }
 }
 defined_text = {
-    name = coalitioncorporatist_nationalist
+    name = coalitionnational_autocracy
     text = {
         trigger = {
-            has_country_flag = corporatist_nationalist_coalition
+            has_country_flag = national_autocracy_coalition
         }
-        localization_key = COALITION_corporatist_nationalist
+        localization_key = COALITION_national_autocracy
     }
 }
 defined_text = {
-    name = coalitionnational_syndicalist
+    name = coalitionneo_jingoist
     text = {
         trigger = {
-            has_country_flag = national_syndicalist_coalition
+            has_country_flag = neo_jingoist_coalition
         }
-        localization_key = COALITION_national_syndicalist
+        localization_key = COALITION_neo_jingoist
     }
 }
 
@@ -131,10 +131,10 @@ defined_text = {
     }
 }
 defined_text = {
-    name = oppositionBlanquism
+    name = oppositionLibertarianism
     text = {
         trigger = {
-            has_country_flag = blanquist_opposition
+            has_country_flag = liberationist_opposition
         }
         localization_key = OPPOSITION_BLANQUISM
     }
@@ -149,12 +149,12 @@ defined_text = {
     }
 }
 defined_text = {
-    name = oppositionlibertarian_socialist
+    name = oppositionlabourist
     text = {
         trigger = {
-            has_country_flag = libertarian_socialist_opposition
+            has_country_flag = labourist_opposition
         }
-        localization_key = OPPOSITION_libertarian_socialist
+        localization_key = OPPOSITION_labourist
     }
 }
 defined_text = {
@@ -203,20 +203,20 @@ defined_text = {
     }
 }
 defined_text = {
-    name = oppositioncorporatist_nationalist
+    name = oppositionnational_autocracy
     text = {
         trigger = {
-            has_country_flag = corporatist_nationalist_opposition
+            has_country_flag = national_autocracy_opposition
         }
-        localization_key = OPPOSITION_corporatist_nationalist
+        localization_key = OPPOSITION_national_autocracy
     }
 }
 defined_text = {
-    name = oppositionnational_syndicalist
+    name = oppositionneo_jingoist
     text = {
         trigger = {
-            has_country_flag = national_syndicalist_opposition
+            has_country_flag = neo_jingoist_opposition
         }
-        localization_key = OPPOSITION_national_syndicalist
+        localization_key = OPPOSITION_neo_jingoist
     }
 }

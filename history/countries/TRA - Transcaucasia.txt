@@ -35,52 +35,39 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-set_country_flag = blanquist_coalition
-set_country_flag = revolutionary_socialist_coalition
-set_country_flag = libertarian_socialist_opposition
 
 set_politics = {
 	
-	ruling_party = blanquist
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 40
-	revolutionary_socialist = 30
-	libertarian_socialist = 30
-	social_democrat = 0
-	social_liberal = 0
+	liberationist = 0
+	revolutionary_socialist = 0
+	labourist = 5
+	fabianist = 15
+	social_liberal = 5
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	authoritarian_democrat = 69
+	national_autocracy = 6
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Nikolai Bukharin"
+	name = "Hovhannes Kajaznuni"
 	desc = ""
-	picture = "Portrait_TRA_Nikolai_Bukharin.dds"
+	picture = "Portrait_TRA_Hovhannes_Kajaznuni.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_socialist
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
 }
 
-#create_country_leader = {
-#	name = ""
-#	desc = ""
-#	picture = ""
-#	expire = "1953.3.1"
-#	ideology = oligarchism
-#	traits = {
-#		
-#	}
-#}
 
 
 

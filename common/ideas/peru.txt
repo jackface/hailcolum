@@ -1,51 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		PRU_armando_reveredo_iglesias = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		PRU_oscar_miro_quesada = {
-
-			picture = generic_political_advisor_south_america_2
-				
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		PRU_reynaldo_vinatea = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		PRU_jose_bustamante_y_rivero = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = PRU
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-	}
+	
 
 	theorist = {
 

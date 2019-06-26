@@ -1,18 +1,18 @@
 ﻿l_english:
  
  #Country Name
- HAI_blanquist:0 "Republic of Haiti"
- HAI_blanquist_DEF:0 "The Republic of Haiti"
- HAI_blanquist_ADJ:0 "Haitian"
+ HAI_liberationist:0 "Republic of Haiti"
+ HAI_liberationist_DEF:0 "The Republic of Haiti"
+ HAI_liberationist_ADJ:0 "Haitian"
  HAI_revolutionary_socialist:0 "Republic of Haiti"
  HAI_revolutionary_socialist_DEF:0 "The Republic of Haiti"
  HAI_revolutionary_socialist_ADJ:0 "Haitian"
- HAI_libertarian_socialist:0 "Republic of Haiti"
- HAI_libertarian_socialist_DEF:0 "The Republic of Haiti"
- HAI_libertarian_socialist_ADJ:0 "Haitian"
- HAI_social_democrat:0 "Republic of Haiti"
- HAI_social_democrat_DEF:0 "The Republic of Haiti"
- HAI_social_democrat_ADJ:0 "Haitian"
+ HAI_labourist:0 "Republic of Haiti"
+ HAI_labourist_DEF:0 "The Republic of Haiti"
+ HAI_labourist_ADJ:0 "Haitian"
+ HAI_fabianist:0 "Republic of Haiti"
+ HAI_fabianist_DEF:0 "The Republic of Haiti"
+ HAI_fabianist_ADJ:0 "Haitian"
  HAI_social_liberal:0 "Republic of Haiti"
  HAI_social_liberal_DEF:0 "The Republic of Haiti"
  HAI_social_liberal_ADJ:0 "Haitian"
@@ -25,12 +25,16 @@
  HAI_authoritarian_democrat:0 "Republic of Haiti"
  HAI_authoritarian_democrat_DEF:0 "The Republic of Haiti"
  HAI_authoritarian_democrat_ADJ:0 "Haitian"
- HAI_corporatist_nationalist:0 "Republic of Haiti"
- HAI_corporatist_nationalist_DEF:0 "The Republic of Haiti"
- HAI_corporatist_nationalist_ADJ:0 "Haitian"
- HAI_national_syndicalist:0 "Republic of Haiti"
- HAI_national_syndicalist_DEF:0 "The Republic of Haiti"
- HAI_national_syndicalist_ADJ:0 "Haitian"
+ HAI_national_autocracy:0 "Republic of Haiti"
+ HAI_national_autocracy_DEF:0 "The Republic of Haiti"
+ HAI_national_autocracy_ADJ:0 "Haitian"
+ HAI_neo_jingoist:0 "Republic of Haiti"
+ HAI_neo_jingoist_DEF:0 "The Republic of Haiti"
+ HAI_neo_jingoist_ADJ:0 "Haitian"
  
  #Parties
  
+ 
+ #Ideas
+ HAI_american_support:0 "American Support"
+ HAI_american_support_desc:0 "We are receiving support from Americans to keep our regime stable."

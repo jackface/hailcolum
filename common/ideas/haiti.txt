@@ -1,44 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		HAI_luis_dabtes_bellegarde = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = HAI
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		HAI_louis_dejoie = {
-
-			picture = generic_political_advisor_african_2
-				
-			allowed = {
-				original_tag = HAI
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		HAI_demosthenes_calixte = {
-
-			picture = generic_political_advisor_african_1
-			
-			allowed = {
-				original_tag = HAI
-			}
-			
-			traits = { popular_figurehead }
-		}
-	}
+	
 
 	theorist = {
 		HAI_emilie_lescot = {

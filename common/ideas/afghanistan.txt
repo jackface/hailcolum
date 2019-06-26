@@ -1,50 +1,5 @@
 ideas = {
-	political_advisor = {
-
-		AFG_haji_faiz_muhammed_zikeria = {
-
-			picture = generic_political_advisor_arab_1
-			
-			allowed = {
-				original_tag = AFG
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		AFG_mohammad_hashim_khan = {
-
-			picture = generic_political_advisor_arab_2
-				
-			allowed = {
-				original_tag = AFG
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		AFG_muhammed_nowroz = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = AFG
-			}
-			
-			traits = { armaments_organizer }
-		}
-
-		AFG_mahmud_khan = {
-
-			picture = generic_political_advisor_arab_1
-			
-			allowed = {
-				original_tag = AFG
-			}
-			
-			traits = { prince_of_terror }
-		}
-	}
+	
 
 	theorist = {
 

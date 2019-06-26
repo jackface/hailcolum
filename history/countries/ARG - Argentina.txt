@@ -54,31 +54,31 @@ set_country_flag = monroe_doctrine
 set_convoys = 120
 set_politics = {
 	
-	ruling_party = national_syndicalist
+	ruling_party = labourist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 15
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
+	labourist = 32
+	fabianist = 19
+	social_liberal = 3
+	market_liberal = 11
+	social_conservative = 31
 	authoritarian_democrat = 0
-	corporatist_nationalist = 7
-	national_syndicalist = 78
+	national_autocracy = 0
+	neo_jingoist = 4
 }
 
 create_country_leader = {
-	name = "Nimio de Anquín"
+	name = "Mario Bravo"
 	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "Portrait_ARG_Nimio_de_Anquin.dds"
+	picture = "Portrait_ARG_Mario_Bravo.dds"
 	expire = "1965.1.1"
-	ideology = national_syndicalist_subtype
+	ideology = labourist_subtype
 	traits = {
 		#
 	}

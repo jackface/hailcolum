@@ -94,6 +94,8 @@ create_import = {
 		exporter = USA
 }
 
+give_guarantee = KOR
+
 
 
 set_convoys = 400
@@ -107,16 +109,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 4
-	libertarian_socialist = 0
-	social_democrat = 20
-	social_liberal = 30
-	market_liberal = 11
+	labourist = 0
+	fabianist = 15
+	social_liberal = 25
+	market_liberal = 6
 	social_conservative = 21
 	authoritarian_democrat = 8
-	corporatist_nationalist = 19
-	national_syndicalist = 7
+	national_autocracy = 19
+	neo_jingoist = 2
 }
 
 create_country_leader = {
@@ -125,6 +127,14 @@ create_country_leader = {
 	picture = "Portrait_JAP_Osachi_Hamaguchi.dds"
 	expire = "1989.1.1"
 	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Ikki Kita"
+	desc = "POLITICS_IKKI_KITA_DESC"
+	picture = "Portrait_JAP_Ikki_Kita.dds"
+	expire = "1989.1.1"
+	ideology = neo_jingoist_subtype
 }
 
 create_corps_commander = {

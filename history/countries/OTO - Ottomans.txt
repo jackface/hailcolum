@@ -9,23 +9,23 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+####popularities
 set_popularities = {
-	blanquist = 5
-	revolutionary_socialist = 10
-	libertarian_socialist = 5
-	social_democrat = 20
-	social_liberal = 25
-	market_liberal = 3
-	social_conservative = 7
-	authoritarian_democrat = 10
-	corporatist_nationalist = 15
-	national_syndicalist = 20
+	liberationist = 0
+	revolutionary_socialist = 0
+	labourist = 0
+	fabianist = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 24
+	authoritarian_democrat = 76
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
@@ -34,6 +34,17 @@ create_country_leader = {
 	picture = "Portrait_OTO_Kazim_Ozalp.dds"
 	expire = "1947.1.1"
 	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abdulmejid II"
+	desc = "POLITICS_ABDULMEJID_II_DESC"
+	picture = "Portrait_OTO_Abdulmejid_II.dds"
+	expire = "1947.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}

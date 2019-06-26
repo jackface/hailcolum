@@ -1,0 +1,116 @@
+ideas = {
+
+	country = {
+	 
+		RUS_army_in_disarray = {
+			picture = chi_forced_conscription
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = -0.25
+				army_core_defence_factor = -0.25
+				army_morale_factor = -0.15
+				army_org_factor = -0.05
+				attrition = 0.20
+				out_of_supply_factor = 0.25
+			}
+		}
+		
+		RUS_intense_poverty = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.25
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		
+		RUS_international_debt = {
+			picture = chi_hyper_inflation4
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				trade_laws_cost_factor = 0.75
+				#extra_trade_to_target_factor = 0.75
+				min_export = 0.15
+			}
+		}
+		
+		RUS_partial_industrialization = {
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.25
+				local_resources_factor = -0.05
+				research_speed_factor = -0.10
+			}
+		}
+		
+		RUS_powerful_orthodox_church = {
+			picture = idea_YUG_orthodox_church_support
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.35
+			}
+		}
+		
+		
+	
+	}
+	
+	
+}

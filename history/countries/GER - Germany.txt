@@ -35,6 +35,8 @@ set_technology = {
 	fuel_refining = 1
 }
 
+give_guarantee = GIB
+
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
@@ -103,16 +105,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 6
-	revolutionary_socialist = 85
-	libertarian_socialist = 7
-	social_democrat = 2
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	liberationist = 0
+	revolutionary_socialist = 0
+	labourist = 9
+	fabianist = 19
+	social_liberal = 21
+	market_liberal = 26
+	social_conservative = 9
+	authoritarian_democrat = 6
+	national_autocracy = 6
+	neo_jingoist = 4
 }
 
 create_country_leader = {
@@ -120,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_SCHOLZ_DESC"
 	picture = "Portrait_GER_Ernst_Scholz.dds"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
@@ -130,7 +132,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_MARX_DESC"
 	picture = "Portrait_GER_Wilhelm_Marx.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = market_liberal_subtype
 	traits = {
 	}
 }

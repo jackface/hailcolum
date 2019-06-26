@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		POR_augusto_de_vasconcelos = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = POR
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		POR_raul_brandao = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = POR
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		POR_jaime_cortesao = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = POR
-			}
-			
-			traits = { captain_of_industry }
-		}
-	}
+	
 
 	theorist = {
 

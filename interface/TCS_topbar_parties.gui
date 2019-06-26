@@ -22,11 +22,11 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "blanquist"
+		name = "liberationist"
 		position = { x = 175 y = 7}
 		iconType ={
-			name = "blanquist_icon"
-			spriteType = "GFX_ideology_blanquist_group"
+			name = "liberationist_icon"
+			spriteType = "GFX_ideology_liberationist_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35
@@ -44,22 +44,22 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "libertarian_socialist"
+		name = "labourist"
 		position = { x = 175 y = 7 }
 		iconType ={
-			name = "libertarian_socialist_icon"
-			spriteType = "GFX_ideology_libertarian_socialist_group"
+			name = "labourist_icon"
+			spriteType = "GFX_ideology_labourist_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35
 		}
 	}
 	containerWindowType = {
-		name = "social_democrat"
+		name = "fabianist"
 		position = { x = 175 y = 7 }
 		iconType ={
-			name = "social_democrat_icon"
-			spriteType = "GFX_ideology_social_democrat_group"
+			name = "fabianist_icon"
+			spriteType = "GFX_ideology_fabianist_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35
@@ -110,22 +110,22 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "corporatist_nationalist"
+		name = "national_autocracy"
 		position = { x = 175 y = 7 }
 		iconType ={
-			name = "corporatist_nationalist_icon"
-			spriteType = "GFX_ideology_corporatist_nationalist_group"
+			name = "national_autocracy_icon"
+			spriteType = "GFX_ideology_national_autocracy_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35
 		}
 	}
 	containerWindowType = {
-		name = "national_syndicalist"
+		name = "neo_jingoist"
 		position = { x = 175 y = 7 }
 		iconType ={
-			name = "national_syndicalist_icon"
-			spriteType = "GFX_ideology_national_syndicalist_group"
+			name = "neo_jingoist_icon"
+			spriteType = "GFX_ideology_neo_jingoist_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35

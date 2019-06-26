@@ -11,31 +11,33 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = social_conservative
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 0
-	social_liberal = 5
-	market_liberal = 5
-	social_conservative = 80
-	authoritarian_democrat = 5
-	corporatist_nationalist = 0
-	national_syndicalist = 5
+	labourist = 0
+	fabianist = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	national_autocracy = 100
+	neo_jingoist = 0
 }
 
+set_cosmetic_tag = LIB_american_west_africa
+
 create_country_leader = {
-	name = "Daniel E. Howard"
-	desc = "POLITICS_DANIEL_E_HOWARD_DESC"
-	picture = "Portrait_LIB_Daniel_E_Howard.dds"
+	name = "John F. Fitzgerald"
+	desc = "POLITICS_JOHN_F_FITZGERALD_DESC"
+	picture = "Portrait_LIB_John_F_Fitzgerald.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

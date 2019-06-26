@@ -6,11 +6,11 @@ on_actions = {
             set_variable = { coalition_pop_total = 0 } 
             if = {
                 LIMIT = {
-                    has_country_flag = blanquist_coalition
+                    has_country_flag = liberationist_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@blanquist
+                    value = party_popularity@liberationist
                 }
             }
             if = {
@@ -24,20 +24,20 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = libertarian_socialist_coalition
+                    has_country_flag = labourist_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@libertarian_socialist
+                    value = party_popularity@labourist
                 }
             }
             if = {
                 LIMIT = {
-                    has_country_flag = social_democrat_coalition
+                    has_country_flag = fabianist_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@social_democrat
+                    value = party_popularity@fabianist
                 }
             }
             if = {
@@ -78,20 +78,20 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = corporatist_nationalist_coalition
+                    has_country_flag = national_autocracy_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@corporatist_nationalist
+                    value = party_popularity@national_autocracy
                 }
             }
             if = {
                 LIMIT = {
-                    has_country_flag = national_syndicalist_coalition
+                    has_country_flag = neo_jingoist_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@national_syndicalist
+                    value = party_popularity@neo_jingoist
                 }
             }
             multiply_variable = { coalition_pop_total = 100 }
@@ -103,11 +103,11 @@ on_actions = {
             set_variable = { opposition_pop_total = 0 } 
             if = {
                 LIMIT = {
-                    has_country_flag = blanquist_opposition
+                    has_country_flag = liberationist_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@blanquist
+                    value = party_popularity@liberationist
                 }
             }
             if = {
@@ -121,20 +121,20 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = libertarian_socialist_opposition
+                    has_country_flag = labourist_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@libertarian_socialist
+                    value = party_popularity@labourist
                 }
             }
             if = {
                 LIMIT = {
-                    has_country_flag = social_democrat_opposition
+                    has_country_flag = fabianist_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@social_democrat
+                    value = party_popularity@fabianist
                 }
             }
             if = {
@@ -175,20 +175,20 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = corporatist_nationalist_opposition
+                    has_country_flag = national_autocracy_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@corporatist_nationalist
+                    value = party_popularity@national_autocracy
                 }
             }
             if = {
                 LIMIT = {
-                    has_country_flag = national_syndicalist_opposition
+                    has_country_flag = neo_jingoist_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@national_syndicalist
+                    value = party_popularity@neo_jingoist
                 }
             }
             multiply_variable = { opposition_pop_total = 100 }

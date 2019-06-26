@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		ALB_midhat_frasheri = {
-
-			picture = generic_political_advisor_arab_1
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		ALB_jocelyn_percy = {
-
-			picture = generic_political_advisor_arab_2
-				
-			allowed = {
-				original_tag = ALB
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		ALB_fiqri_dine = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = ALB
-			}
-			
-			traits = { war_industrialist }
-		}
-	}
+	
 
 	theorist = {
 

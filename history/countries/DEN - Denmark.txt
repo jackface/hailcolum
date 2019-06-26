@@ -53,23 +53,23 @@ if = {
 set_politics = {
 	
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 10
-	social_democrat = 18
+	labourist = 10
+	fabianist = 18
 	social_liberal = 10
 	market_liberal = 0
 	social_conservative = 17
 	authoritarian_democrat = 15
-	corporatist_nationalist = 25
-	national_syndicalist = 5
+	national_autocracy = 25
+	neo_jingoist = 5
 }
 
 set_convoys = 40
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_VICTOR_PURSCHEL_DESC"
 	picture = "Portrait_DEN_Victor_Purschel.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

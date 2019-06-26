@@ -36,22 +36,22 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 5
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 15
-	social_democrat = 25
+	labourist = 0
+	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 5
-	authoritarian_democrat = 15
-	corporatist_nationalist = 5
-	national_syndicalist = 30
+	social_conservative = 0
+	authoritarian_democrat = 100
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Prince Arthur"
-	desc = "POLITICS_PRINCE_ARTHUR_DESC"
-	picture = "Portrait_RAJ_Prince_Arthur.dds"
+	name = "Bernard Montgomery"
+	desc = "POLITICS_BERNARD_MONTGOMERY_DESC"
+	picture = "Portrait_RAJ_Bernard_Montgomery.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

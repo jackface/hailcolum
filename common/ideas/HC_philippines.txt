@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+	 
+		PHI_americans_battalions = {
+			picture = received_attache
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.95
+			}
+		}
+		
+		
+	
+	}
+	
+	
+}

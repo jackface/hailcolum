@@ -1,41 +1,7 @@
 ideas = {
 
 
-	political_advisor = {
-
-		CUB_carlos_prio = {
-
-			picture = generic_political_advisor_south_america_1
-
-			allowed = {
-				original_tag = CUB
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		CUB_gerardo_machado = {
-
-			picture = generic_political_advisor_south_america_3
-				
-			allowed = {
-				original_tag = CUB
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		CUB_eugenio_molinet_castro = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = CUB
-			}
-			
-			traits = { captain_of_industry }
-		}
-	}
+	
 
 	army_chief = {
 

@@ -61,16 +61,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 25
+	labourist = 0
+	fabianist = 25
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 25
 	authoritarian_democrat = 50
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

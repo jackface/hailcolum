@@ -16,41 +16,41 @@ set_technology = {
 	fuel_silos = 1
 }
 
-set_country_flag = social_democrat_coalition
+set_country_flag = fabianist_coalition
 set_country_flag = social_liberal_coalition
 set_country_flag = market_liberal_coalition
 
 set_country_flag = social_conservative_opposition
 set_country_flag = authoritarian_democrat_opposition
-set_country_flag = corporatist_nationalist_opposition
+set_country_flag = national_autocracy_opposition
 
 set_convoys = 5
 
 set_politics = {
 	
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 4
-	libertarian_socialist = 0
-	social_democrat = 19
+	labourist = 0
+	fabianist = 19
 	social_liberal = 28
 	market_liberal = 10
 	social_conservative = 13
 	authoritarian_democrat = 16
-	corporatist_nationalist = 6
-	national_syndicalist = 4
+	national_autocracy = 6
+	neo_jingoist = 4
 }
 
 create_country_leader = {
-	name = "Boris III"
-	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Bulgaria_Boris_III.dds"
+	name = "Prince Georgi I"
+	desc = "POLITICS_PRINCE_GEORGI_I_DESC"
+	picture = "Portrait_BUL_Prince_Georgi_I.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_NIKOLA_PETKOV_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = fabianist_subtype
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	picture = "GFX_Portrait_bulgaria_hristo_lukov"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

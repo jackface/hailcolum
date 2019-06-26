@@ -14,23 +14,23 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 10
-	libertarian_socialist = 0
-	social_democrat = 0
+	labourist = 0
+	fabianist = 0
 	social_liberal = 15
 	market_liberal = 0
 	social_conservative = 15
 	authoritarian_democrat = 10
-	corporatist_nationalist = 30
-	national_syndicalist = 20
+	national_autocracy = 30
+	neo_jingoist = 20
 }
 
 create_country_leader = {
@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_LUCIAN_DE_LA_CRUZ_DESC"
 	picture = "Portrait_PAN_Lucian_de_la_Cruz.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		GXC_li_jishen = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		GXC_li_zongren = {
-
-			picture = generic_political_advisor_asia_2
-				
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		GXC_lei_zhong = {
-
-			picture = generic_political_advisor_asia_3
-			
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = { popular_figurehead }
-		}
-	}
+	
 
 	theorist = {
 		GXC_yu_hanmou = {

@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		SEN_pot = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = SEN
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		SEN_coi = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = SEN
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		SEN_stc = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = SEN
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

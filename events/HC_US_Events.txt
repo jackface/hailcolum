@@ -1,655 +1,652 @@
-add_namespace = usa
+﻿add_namespace = usa
 
-#Republican National Convention
+
+#1932 American Parliamentary Election
 country_event = {
 	id = usa.1
 	title = usa.1.t
 	desc = usa.1.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { # Charles Evans Hughes
+	#Federalists Continue Minority Government
+	option = { 
 		name = usa.1.o1
-		set_country_flag = charles_evans_hughes_1932_republican
+		ai_chance = {
+			base = 40
+		}
+		
+		set_country_flag = USA_federalists_1932_victory
+		custom_effect_tooltip = USA_new_parliament_elected
+		hidden_effect = {
+			set_popularities = {
+				liberationist = 0
+				revolutionary_socialist = 0
+				labourist = 9
+				fabianist = 27
+				social_liberal = 10
+				market_liberal = 18
+				social_conservative = 36
+				authoritarian_democrat = 0
+				national_autocracy = 0
+				neo_jingoist = 0
+			}
+		}
+		
+		
 	}
-	option = { # Franklin Delano Roosevelt
+	
+	#Republican Majority
+	option = { 
 		name = usa.1.o2
-		set_country_flag = franklin_delano_roosevelt_1932_republican
+		
+		ai_chance = {
+			base = 50
+		}
+		
+		set_politics = {
+			ruling_party = fabianist
+		}
+		
+		set_country_flag = USA_republican_1932_victory
+		
+		custom_effect_tooltip = USA_new_parliament_elected
+		hidden_effect = {
+			set_popularities = {
+				liberationist = 0
+				revolutionary_socialist = 0
+				labourist = 7
+				fabianist = 53
+				social_liberal = 7
+				market_liberal = 10
+				social_conservative = 23
+				authoritarian_democrat = 0
+				national_autocracy = 0
+				neo_jingoist = 0
+			}
+		}
+		
+		add_ideas = {
+			USA_George_Hara_Williams_sic_fab
+			USA_Theodore_Roosevelt_III_eco_fab
+			USA_Henry_L_Stimson_for_fab
+			USA_Dwight_D_Eisenhower_mod_fab
+		}
+		
+	}
+	
+	#Liberal-Progressive Coalition
+	option = { 
+		name = usa.1.o3
+		
+		ai_chance = {
+			base = 10
+		}
+		
+		set_politics = {
+			ruling_party = market_liberal
+		}
+		
+		set_country_flag = USA_liberal_progressive_1932_victory
+		
+		custom_effect_tooltip = USA_new_parliament_elected
+		
+		set_country_flag = market_liberal_coalition
+		set_country_flag = social_liberal_coalition
+		
+		
+		hidden_effect = {
+			set_popularities = {
+				liberationist = 0
+				revolutionary_socialist = 0
+				labourist = 6
+				fabianist = 20
+				social_liberal = 19
+				market_liberal = 35
+				social_conservative = 20
+				authoritarian_democrat = 0
+				national_autocracy = 0
+				neo_jingoist = 0
+			}
+			
+			
+			
+		}
+		
+		add_ideas = {
+			USA_Oliver_Wendell_Holmes_sic_scl
+			USA_Calvin_Coolidge_eco_mrl
+			USA_Thomas_Alexander_Crerar_for_scl
+			USA_Arthur_Currie_mod_mrl
+		}
+		
 	}
 }
 
-##1932 Election, Charles Evans Hughes v. Beck
+#1932 American Presidential Election
 country_event = {
 	id = usa.2
 	title = usa.2.t
 	desc = usa.2.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			create_country_leader = {
-				name = "Charles E. Hughes"
-				desc = "POLITICS_CHARLES_EVANS_HUGHES_DESC"
-				picture = "Portrait_USA_Charles_Evans_Hughes.dds"
-				expire = "1947.1.1"
-				ideology = social_liberal_subtype
-				traits = {
-		
-				}
-			}
-			
-			create_country_leader = {
-				name = "Franklin D. Roosevelt"
-				desc = "POLITICS_FRANKLIN_D_ROOSEVELT_DESC"
-				picture = "Portrait_USA_Franklin_D_Roosevelt.dds"
-				expire = "1947.1.1"
-				ideology = social_democrat_subtype
-				traits = {
-		
-				}
-			}
-		}
-	}
-	
-	option = { #Beck
+	#Hiram Johnson 4 more (Republicans)
+	option = { 
 		name = usa.2.o1
-		
-		set_country_flag = beck_1932_victory
-		load_focus_tree = "beck_1932_tree"
-		
 	}
 	
-	option = { #Hughes
+	#Robert Frost (Federalists)
+	option = { 
 		name = usa.2.o2
+	}
 	
-		set_politics = {
-			ruling_party = social_liberal
-			elections_allowed = no
-		}
+	#Charles Curtis (Liberals)
+	option = { 
+		name = usa.2.o3
+	}
 	
-		set_country_flag = hughes_1932_victory
-		load_focus_tree = "hughes_1932_tree"
-	
-		
-	
+	#Thurman Arnold (Progressives)
+	option = { 
+		name = usa.2.o4
 	}
 }
 
-#1932 Election, FDR v. Beck
+#Chancellor Pershing Shot
 country_event = {
 	id = usa.3
 	title = usa.3.t
 	desc = usa.3.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { #Beck
+	#Dear Lord
+	option = { 
 		name = usa.3.o1
 		
-		set_country_flag = beck_1932_victory
-		load_focus_tree = "beck_1932_tree"
+		create_country_leader = {
+			name = "Edwin B. Babbitt"
+			desc = "POLITICS_Edwin_B_Babbitt_DESC"
+			picture = "Portrait_USA_Edwin_B_Babbitt.dds"
+			expire = "1947.1.1"
+			ideology = social_conservative_subtype
+			traits = {
 		
-	}
-	
-	option = { #FDR
-		name = usa.3.o2
-	
-		set_politics = {
-			ruling_party = social_democrat
-			elections_allowed = no
+			}
 		}
 		
-		set_country_flag = roosevelt_1932_victory
-	
+		add_ideas = USA_George_W_McIver_sic_con
 		
-	
 	}
 }
 
-##Henry Wallace Advocates For Socialist Unity
-country_event = {
-	id = usa.4
-	title = usa.4.t
-	desc = usa.4.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #Interesting Events
-		name = usa.4.o1
-		add_stability = -0.05
-		add_political_power = -50
-	}
-}
-
-##Christmas Resolution/Socialist United Front Forms
+#Federalist Leadership Convention Pershing Shot
 country_event = {
 	id = usa.5
 	title = usa.5.t
 	desc = usa.5.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { #Interesting Events
+	#John Edward Brownlee, The Red Federalist
+	option = { 
 		name = usa.5.o1
 		
-		#add_popularity = {
-		#	ideology = libertarian_socialist_subtype
-		#	popularity = 0.
-		#}
+		ai_chance = {
+			base = 15
+		}
 		
-		add_political_power = -100
+		create_country_leader = {
+			name = "John Edward Brownlee"
+			desc = "POLITICS_JOHN_EDWARD_BROWNLEE_DESC"
+			picture = "Portrait_USA_John_Edward_Brownless.dds"
+			expire = "1947.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+		
+			}
+		}
+		
+		add_ideas = USA_Edwin_Burr_Babbitt_sic_con
+		
+	}
+	
+	#James E. Ferguson, The Right Federalist
+	option = { 
+		name = usa.5.o2
+		
+		ai_chance = {
+			base = 85
+		}
+		
+		create_country_leader = {
+			name = "James E. Ferguson"
+			desc = "POLITICS_JAMES_E_FERGUSON_DESC"
+			picture = "Portrait_USA_James_E_Ferguson.dds"
+			expire = "1947.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+		
+			}
+		}
+		
+		add_ideas = USA_Edwin_Burr_Babbitt_sic_con
 		
 	}
 }
 
-##Black Sunday March 5th
+#Washington Hall In Davistown Attacked 'Attack In Davistown'
 country_event = {
 	id = usa.6
 	title = usa.6.t
 	desc = usa.6.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { #Dear Lord
+	#Dear Lord
+	option = { 
 		name = usa.6.o1
 		
-		
-		add_political_power = -100
-		add_stability = -0.15
-		
+		hidden_effect = {
+			USA = { country_event = usa.7 }
+		}
 	}
 }
 
-##NID Outting Socialists
+#CLF Banners Rising Throughout Canadian Cities
 country_event = {
 	id = usa.7
 	title = usa.7.t
 	desc = usa.7.d
-	#picture = 
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { #Dear Lord
+	#A Storm is coming
+	option = { 
 		name = usa.7.o1
 		
-		-add_stability = 0.05
-		add_political_power = 50
+		hidden_effect = {
+			USA = { country_event = usa.8 }
+		}
 	}
 }
 
-##Great War Vets. Recieve Gov. Assistance
+#CLF Forces Rise Up In Canada
 country_event = {
 	id = usa.8
 	title = usa.8.t
 	desc = usa.8.d
-	#picture = 
+	#picture =
+
+	immediate = {
+		hidden_effect = {
+			
+			
+			USA = {
+				remove_state_core = 276
+				remove_state_core = 799
+				remove_state_core = 800
+				
+				set_global_flag = Canada_has_risen
+				set_country_flag = USA_canada_risen_up
+				
+			}
+			
+			CAN = {
+				transfer_state = 276
+				transfer_state = 799
+				transfer_state = 800
+				
+				add_state_core = 276
+				add_state_core = 799
+				add_state_core = 800
+				add_state_core = 682
+				add_state_core = 801
+				add_state_core = 802
+				
+				set_country_flag = CAN_risen_up
+				
+				load_oob = CAN_rise_up_canada
+			}
+			
+		}
+	}
 
 	is_triggered_only = yes
 	
-	option = { #Amazing
+	#Crush Them
+	option = { 
 		name = usa.8.o1
 		
-		add_ideas = USA_vets_support
+		
+		declare_war_on = {
+			target = CAN
+			type = annex_everything
+		}
+		hidden_effect = {
+			USA = { 
+				country_event = {
+					days = 14
+					id = usa.9
+				}
+			}
+		}
+	}
+	
+	#Death To The American Parasites
+	option = { 
+		name = usa.8.o2
+		
+		CAN = {
+			change_tag_from = USA
+		}
+		
+		declare_war_on = {
+			target = CAN
+			type = annex_everything
+		}
+		
+		hidden_effect = {
+			USA = { 
+				country_event = {
+					days = 14
+					id = usa.9
+				}
+			}
+		}
+		
 	}
 }
 
-##Militarism On The Rise
+#MidWest Socialist Rebellion
 country_event = {
 	id = usa.9
 	title = usa.9.t
 	desc = usa.9.d
-	#picture = 
+	#picture =
+
+	immediate = {
+		hidden_effect = {
+			
+			
+			USA = {
+				remove_state_core = 395
+				remove_state_core = 392
+				remove_state_core = 373
+				
+				set_global_flag = midwest_socialists_has_risen
+				set_country_flag = USA_midwest_socialists_risen_up
+				
+			}
+			
+			MWE = {
+				transfer_state = 395
+				transfer_state = 392
+				transfer_state = 373
+				
+				add_state_core = 395
+				add_state_core = 392
+				add_state_core = 373
+				
+				set_cosmetic_tag = MWE_socialist_rebels_ACW
+				
+				set_country_flag = MWE_risen_up
+				
+				#load_oob = MWE_rise_up_socialists
+			}
+			
+		}
+	}
 
 	is_triggered_only = yes
 	
-	option = { #Amazing
+	#Crush Them
+	option = { 
 		name = usa.9.o1
 		
-		add_ideas = USA_renewed_militarism
+		
+		declare_war_on = {
+			target = MWE
+			type = annex_everything
+		}
+		
+		#hidden_effect = {
+		#	USA = { country_event = usa.9 }
+		#}
+	}
+	
+	#Death To The Capitalists In DC
+	option = { 
+		name = usa.9.o2
+		
+		MWE = {
+			change_tag_from = USA
+		}
+		
+		declare_war_on = {
+			target = MWE
+			type = annex_everything
+		}
+		
+		#hidden_effect = {
+		#	USA = { country_event = usa.9 }
+		#}
+		
 	}
 }
 
-##Wallace Homosexual Affair
+#Offer Peace To Canada
 country_event = {
 	id = usa.10
 	title = usa.10.t
 	desc = usa.10.d
-	#picture = 
+	#picture =
 
-	is_triggered_only = yes
+
+
+	fire_only_once = yes
 	
-	option = { #...
-		name = usa.10.o1
-		country_event = {
-			id = usa.11
-			days = 12
+	trigger = {
+		TAG = USA
+		country_exists = CAN
+		country_exists = USA
+		USA = {
+			has_war_with = CAN
+			has_country_flag = USA_canada_risen_up
+			NOT = {
+				has_country_flag = USA_lost_canada
+				controls_state = 276
+				controls_state = 799
+				controls_state = 800
+				controls_state = 682
+				controls_state = 801
+				controls_state = 802
+			}
 		}
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	#Yes
+	option = { 
+		name = usa.10.o1
+		
+		ai_chance = {
+			base = 99
+		}
+		
+		CAN = { 
+			country_event = {
+				days = 4
+				id = usa.11
+			}
+		}
+		
+	}
+	
+	#Never
+	option = { 
+		name = usa.10.o2
+		
+		ai_chance = {
+			base = -99
+		}
+		
+		
 		
 	}
 }
 
-##Wallace Found and arrested in Piatt County, IL
+#US Offers Surrender
 country_event = {
 	id = usa.11
 	title = usa.11.t
 	desc = usa.11.d
-	#picture = 
+	#picture =
+
+
 
 	is_triggered_only = yes
 	
-	option = { #...
+	#Yes
+	option = { 
 		name = usa.11.o1
-		country_event = {
-			id = usa.12
-			days = 6
+		
+		ai_chance = {
+			base = 99
 		}
 		
-		country_event = {
-			id = usa.13
-			days = 5
+		white_peace = {
+			tag = USA
+			message = CAN_canadian_independence_achieved
+		}
+		
+		USA = { 
+			country_event = {
+				days = 4
+				id = usa.12
+			}
+			
+			set_country_flag = USA_lost_canada
+			set_global_flag = Canada_takes_independence
+		}
+		
+		set_country_flag = CAN_freedom_and_peace
+		
+		set_state_owner = 682
+		set_state_owner = 801
+		set_state_owner = 802
+		
+	}
+	
+	#Never
+	option = { 
+		name = usa.11.o2
+		
+		ai_chance = {
+			base = -99
+		}
+		
+		USA = { 
+			country_event = {
+				days = 4
+				id = usa.13
+			}
 		}
 		
 	}
 }
 
-##Wallace Trial
+#Canada Accepts Peace
 country_event = {
 	id = usa.12
 	title = usa.12.t
 	desc = usa.12.d
-	#picture = 
+	#picture =
+
+
 
 	is_triggered_only = yes
 	
-	
-	
-	#Guilty, Death Penalty
-	option = { #...
+	#Finally
+	option = { 
 		name = usa.12.o1
-		#country_event = {
-		#	id = usa.12
-		#	days = 1
-		#}
 		
-		set_country_flag = USA_wallace_death_penalty
-		add_stability = -0.05
 		
-		create_country_leader = {
-			name = "Arthur E. Reimer"
-			desc = "POLITICS_ARTHUR_E_REIMER_DESC"
-			picture = "Portrait_USA_Arthur_E_Reimer.dds"
-			expire = "1947.1.1"
-			ideology = libertarian_socialist_subtype
-			traits = {
-				
-			}
-		}
-		
-	}
-	
-	#Guilty, Prison
-	option = { #...
-		name = usa.12.o2
-		#country_event = {
-		#	id = usa.12
-		#	days = 1
-		#}
-		add_stability = 0.05
-		
-		create_country_leader = {
-			name = "Arthur E. Reimer"
-			desc = "POLITICS_ARTHUR_E_REIMER_DESC"
-			picture = "Portrait_USA_Arthur_E_Reimer.dds"
-			expire = "1947.1.1"
-			ideology = libertarian_socialist_subtype
-			traits = {
-				
-			}
-		}
-		
-		set_country_flag = USA_wallace_alive_prison
 	}
 }
 
-##Franklin Roosevelt Speaks Out Against Wallace Arrest
+#Canada Rejects Peace
 country_event = {
 	id = usa.13
 	title = usa.13.t
 	desc = usa.13.d
-	#picture = 
+	#picture =
+
+
 
 	is_triggered_only = yes
 	
-	option = { #...
+	#Darn
+	option = { 
 		name = usa.13.o1
-
+		
 		
 	}
 }
 
-##Beck Enacts Housing Assistance
+
+
+##########ELEctions and Shit
+
+#Federalist Leadership Convention
 country_event = {
-	id = usa.14
-	title = usa.14.t
-	desc = usa.14.d
-	#picture = 
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	#picture =
 
 	is_triggered_only = yes
 	
-	option = { #...
-		name = usa.14.o1
-
-		add_ideas = USA_beck_housing
-	}
-}
-
-##Beck Healthcare Reform
-country_event = {
-	id = usa.15
-	title = usa.15.t
-	desc = usa.15.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #...
-		name = usa.15.o1
-
-		add_ideas = USA_beck_healthcare
-	}
-}
-
-##Beck Creates ACC (American Communications Council)
-country_event = {
-	id = usa.16
-	title = usa.16.t
-	desc = usa.16.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #...
-		name = usa.16.o1
-
-		add_political_power = 50
-		add_war_support = 0.05
-	}
-}
-
-##Socialist Radios Raided and shut down
-country_event = {
-	id = usa.17
-	title = usa.17.t
-	desc = usa.17.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #...
-		name = usa.17.o1
-
-		add_political_power = 50
-		add_war_support = 0.05
-		add_stability = 0.05
-	}
-}
-
-##NLU/National Labour Union Created
-country_event = {
-	id = usa.18
-	title = usa.18.t
-	desc = usa.18.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #...
-		name = usa.18.o1
-
-		add_political_power = 50
-		add_war_support = 0.05
-		add_stability = 0.05
-	}
-}
-
-##Lincoln Tomb Strike
-country_event = {
-	id = usa.19
-	title = usa.19.t
-	desc = usa.19.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #Send In The Army
-		name = usa.19.o1
-		
-		hidden_effect = {
-			country_event = {
-				id = usa.20
-				days = 2
-			}
-		}
-
-		add_stability = -0.10
-	}
-	
-	option = { #Let Them Protest
-		name = usa.19.o2
-		hidden_effect = {
-			country_event = {
-				id = usa.24
-				days = 6
-			}
-		}
-	}
-}
-
-##Springfield Strikers Trample Army
-country_event = {
-	id = usa.20
-	title = usa.20.t
-	desc = usa.20.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #Re enforce our lines
-		name = usa.20.o1
-		
-		#395 = {
-		#	add_manpower = -14
-		#}
-		
-		hidden_effect = {
-			country_event = {
-				id = usa.21
-				days = 5
-			}
-		}
-		
-		add_manpower = -3200
-	}
-}
-
-##Chicago and Peoria Fall
-country_event = {
-	id = usa.21
-	title = usa.21.t
-	desc = usa.21.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #Re enforce our lines
-		name = usa.21.o1
-		
-		hidden_effect = {
-			country_event = {
-				id = usa.22
-				days = 10
-			}
-		}
-		
-		add_manpower = -5102
-	}
-}
-
-##Illinois General Assembly Falls
-country_event = {
-	id = usa.22
-	title = usa.22.t
-	desc = usa.22.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #We Must Prepare For The Worst
-		name = usa.22.o1
-		
-		395 = {
-			set_border_war = yes
-			set_demilitarized_zone = yes
-		}
-		add_manpower = -124
-	}
-}
-
-##Declaration of Illinois Communal State
-country_event = {
-	id = usa.23
-	title = usa.23.t
-	desc = usa.23.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			ILL = {
-				set_cosmetic_tag = ILL_illinois_communal_state
-				transfer_state = 395
-				add_state_core = 395
-				
-				create_country_leader = {
-					name = "Bill Haywood"
-					desc = "POLITICS_BILL_HAYWOOD_DESC"
-					picture = "Portrait_ILL_Bill_Haywood.dds"
-					expire = "1947.1.1"
-					ideology = revolutionary_socialist_subtype
-					traits = {
-						
-					}
-				}
-				
-				set_politics = {
-					ruling_party = revolutionary_socialist
-					elections_allowed = no
-				}
-				
-			}
-			
-			USA = {
-				inherit_technology = ILL
-			}
-		}
-	}
-	
-	option = { #TRAITORS
-		name = usa.23.o1
-		
-		
-	}
-	
-	option = { #FREEDOM (become Illinois)
-		name = usa.23.o2
-		
-		ILL = {
-			change_tag_from = USA
-		}
-	}
-}
-
-####Let Them Protest####
-########################
-
-##Strikers Increase In Numbers
-country_event = {
-	id = usa.24
-	title = usa.24.t
-	desc = usa.24.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #So What
-		name = usa.24.o1
-		
-		add_stability = -0.05
-		add_political_power = -200
-		
-		hidden_effect = {
-			country_event = {
-				id = usa.25
-				days = 2
-			}
-		}
-		
-	}
-}
-
-##New York Strike
-country_event = {
-	id = usa.25
-	title = usa.25.t
-	desc = usa.25.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #So What
-		name = usa.25.o1
-		
-		add_stability = -0.05
-		add_political_power = -150
-	}
-}
-
-##Submitted Demands
-country_event = {
-	id = usa.26
-	title = usa.26.t
-	desc = usa.26.d
-	#picture = 
-
-	is_triggered_only = yes
-	
-	option = { #Accept
-		name = usa.26.o1
-		
-		add_stability = 0.05
-		add_political_power = -400
+	#Frank Knox, The Red Federalist
+	option = { 
+		name = usa.4.o1
 		
 		create_country_leader = {
-			name = "Finis J. Garrett"
-			desc = "POLITICS_FINIS_J_GARRETT_DESC"
-			picture = "Portrait_USA_Finis_Garrett.dds"
+			name = "Frank Knox"
+			desc = "POLITICS_FRANK_KNOX_DESC"
+			picture = "Portrait_USA_Frank_Knox.dds"
 			expire = "1947.1.1"
 			ideology = social_conservative_subtype
 			traits = {
-				
+		
 			}
 		}
 		
-		load_focus_tree = generic_focus
+	}
+	
+	#W. Averell Harriman, The Right Federalist
+	option = { 
+		name = usa.4.o2
+		
+		create_country_leader = {
+			name = "W. Averell Harriman"
+			desc = "POLITICS_W_AVERELL_HARRIMAN_DESC"
+			picture = "Portrait_USA_W_Averell_Harriman.dds"
+			expire = "1947.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+		
+			}
+		}
 		
 	}
 }
-

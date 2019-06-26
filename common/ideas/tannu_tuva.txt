@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		TAN_s_t_perilenko = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = TAN
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		TAN_sodmon_balchor = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = TAN
-			}
-			
-			traits = { fortification_engineer }
-		}
-
-		TAN_vladimir_sokoline = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = TAN
-			}
-			
-			traits = { armaments_organizer }
-		}
-	}
+	
 
 	theorist = {
 

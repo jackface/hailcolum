@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		VEN_manuel_diaz_rodriguez = {
-
-			picture = generic_political_advisor_south_america_1
-
-			allowed = {
-				original_tag = VEN
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		VEN_romulo_gallegos_freire = {
-
-			picture = generic_political_advisor_south_america_3
-				
-			allowed = {
-				original_tag = VEN
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		VEN_isidoro_ruiz_tuerro = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = VEN
-			}
-			
-			traits = { quartermaster_general }
-		}
-	}
+	
 
 	army_chief = {
 

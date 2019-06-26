@@ -7,7 +7,7 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = SYR
+		owner = ARA
 		
 		victory_points = {
 			3942 1
@@ -17,7 +17,7 @@ state={
 			infrastructure = 1
 			
 		}
-		add_core_of = SYR
+		add_core_of = ARA
 	}
 
 	provinces={

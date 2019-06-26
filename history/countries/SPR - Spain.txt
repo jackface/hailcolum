@@ -52,29 +52,67 @@ if = {
 	}
 }
 
+puppet = CUB
+
+CUB = {
+
+	set_politics = {
+	
+		ruling_party = national_autocracy
+		last_election = "1932.11.8"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		liberationist = 0
+		revolutionary_socialist = 0
+		labourist = 0
+		fabianist = 0
+		social_liberal = 0
+		market_liberal = 0
+		social_conservative = 0
+		authoritarian_democrat = 0
+		national_autocracy = 100
+		neo_jingoist = 0
+	}
+	
+}
+
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 0
-	social_liberal = 0
+	labourist = 0
+	fabianist = 24
+	social_liberal = 30
 	market_liberal = 0
-	social_conservative = 28
-	authoritarian_democrat = 40
-	corporatist_nationalist = 32
-	national_syndicalist = 0
+	social_conservative = 23
+	authoritarian_democrat = 12
+	national_autocracy = 11
+	neo_jingoist = 0
 }
 
 set_convoys = 150
 set_stability = 0.5
+
+create_country_leader = {
+	name = "Santiago Quiroga"
+	desc = "POLITICS_Santiago_Quiroga_DESC"
+	picture = "Portrait_SPR_Santiago_Casares_Quiroga.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Miguel Primo de Rivera"

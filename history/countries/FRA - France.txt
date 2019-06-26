@@ -10,7 +10,7 @@ if = {
 }
 
 set_research_slots = 3
-set_stability = 0.5
+set_stability = 0.35
 set_war_support = 0.15
 
 # Starting tech
@@ -81,75 +81,30 @@ if = {
 	add_ideas = MTG_naval_treaty_adherent
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	
-	set_autonomy = {
-		target = ALE
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	
-	set_autonomy = {
-		target = LTK
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	
-	set_autonomy = {
-		target = SYR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	
-	set_autonomy = {
-		target = KRD
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	
-	set_autonomy = {
-		target = ARA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	
-	else = {
-		puppet = ALE
-		puppet = LTK
-		puppet = SYR
-		puppet = KRD
-		puppet = ARA
-	}
-}
+
 
 set_convoys = 300
 
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 10
-	libertarian_socialist = 5
-	social_democrat = 14
-	social_liberal = 0
-	market_liberal = 10
-	social_conservative = 0
-	authoritarian_democrat = 61
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	liberationist = 1
+	revolutionary_socialist = 3
+	labourist = 3
+	fabianist = 11
+	social_liberal = 25
+	market_liberal = 19
+	social_conservative = 32
+	authoritarian_democrat = 2
+	national_autocracy = 2
+	neo_jingoist = 1
 }
 
 add_ideas = {
@@ -159,14 +114,14 @@ add_ideas = {
 	limited_conscription
 }
 
-#give_guarantee = CZE
+give_guarantee = GIB
 
 create_country_leader = {
-	name = "Albert Dalimier"
-	desc = "POLITICS_ALBERT_DALIMIER_DESC"
-	picture = "Portrait_FRA_Albert_Dalimier.dds"
+	name = "Raymond Poincaré"
+	desc = "POLITICS_RAYMOND_POINCARE_DESC"
+	picture = "Portrait_FRA_Raymond_Poincare.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
@@ -176,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_D'HARTOY_DESC"
 	picture = "Portrait_FRA_Maurice_d_Hartoy.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 	}
 }

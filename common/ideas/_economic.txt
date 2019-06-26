@@ -161,8 +161,8 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				OR = {
-					has_government = national_syndicalist
-					has_government = blanquist
+					has_government = neo_jingoist
+					has_government = liberationist
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -391,7 +391,7 @@ ideas = {
 			available = {
 				OR = {
 					AND = {
-						has_government = social_democrat
+						has_government = fabianist
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -401,7 +401,7 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = social_democrat }
+						NOT = { has_government = fabianist }
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
@@ -460,8 +460,8 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = national_syndicalist
-					has_government = blanquist
+					has_government = neo_jingoist
+					has_government = liberationist
 				}
 				OR = {
 					has_idea = war_economy

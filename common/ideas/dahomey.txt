@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		DAH_pot = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = DAH
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		DAH_coi = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = DAH
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		DAH_stc = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = DAH
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

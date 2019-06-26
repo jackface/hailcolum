@@ -5,19 +5,19 @@
 
 ideologies = {
 
-	blanquist = {
+	liberationist = {
 		types = {
-			blanquist_subtype = {} #generic
+			liberationist_subtype = {} #generic
 
 			authoritarian_socialist = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_BLANQUIST_1"
-			"FACTION_NAME_BLANQUIST_2"
-			"FACTION_NAME_BLANQUIST_3"
-			"FACTION_NAME_BLANQUIST_4"
-			"FACTION_NAME_BLANQUIST_5"
-			"FACTION_NAME_BLANQUIST_6"
+			"FACTION_NAME_LIBERATIONIST_1"
+			"FACTION_NAME_LIBERATIONIST_2"
+			"FACTION_NAME_LIBERATIONIST_3"
+			"FACTION_NAME_LIBERATIONIST_4"
+			"FACTION_NAME_LIBERATIONIST_5"
+			"FACTION_NAME_LIBERATIONIST_6"
 		}
 		color = { 127 0 0 }
 		rules = {
@@ -65,21 +65,21 @@ ideologies = {
 
 	}
 
-	libertarian_socialist = {
+	labourist = {
 		types = {
-			libertarian_socialist_subtype = {} #generic
+			labourist_subtype = {} #generic
 
 			agrarian_socialist = {}
 			anarchist = {}
 			religious_socialist = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+			"FACTION_NAME_LABOURIST_1"
+			"FACTION_NAME_LABOURIST_2"
+			"FACTION_NAME_LABOURIST_3"
+			"FACTION_NAME_LABOURIST_4"
+			"FACTION_NAME_LABOURIST_5"
+			"FACTION_NAME_LABOURIST_6"
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -98,17 +98,17 @@ ideologies = {
 
 	}
 
-	social_democrat = {
+	fabianist = {
 		types = {
-			social_democrat_subtype = {}
+			fabianist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+			"FACTION_NAME_FABIANIST_1"
+			"FACTION_NAME_FABIANIST_2"
+			"FACTION_NAME_FABIANIST_3"
+			"FACTION_NAME_FABIANIST_4"
+			"FACTION_NAME_FABIANIST_5"
+			"FACTION_NAME_FABIANIST_6"
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -129,6 +129,7 @@ ideologies = {
 	social_liberal = {
 		types = {
 			social_liberal_subtype = {}
+			fascism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIAL_LIBERAL_1"
@@ -234,17 +235,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	corporatist_nationalist = {
+	national_autocracy = {
 		types = {
-			corporatist_nationalist_subtype = {}
+			national_autocracy_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_CORPORATIST_NATIONALIST_1"
-			"FACTION_NAME_CORPORATIST_NATIONALIST_2"
-			"FACTION_NAME_CORPORATIST_NATIONALIST_3"
-			"FACTION_NAME_CORPORATIST_NATIONALIST_4"
-			"FACTION_NAME_CORPORATIST_NATIONALIST_5"
-			"FACTION_NAME_CORPORATIST_NATIONALIST_6"
+			"FACTION_NAME_national_autocracy_1"
+			"FACTION_NAME_national_autocracy_2"
+			"FACTION_NAME_national_autocracy_3"
+			"FACTION_NAME_national_autocracy_4"
+			"FACTION_NAME_national_autocracy_5"
+			"FACTION_NAME_national_autocracy_6"
 		}
 		color = { 155 76 36 }
 		rules = {
@@ -261,19 +262,19 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	national_syndicalist = {
+	neo_jingoist = {
 		types = {
-			national_syndicalist_subtype = {}
-			fascism = {}
+			neo_jingoist_subtype = {}
+			
 			
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_NATIONAL_SYNDICALIST_1"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_2"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_3"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_4"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_5"
-			"FACTION_NAME_NATIONAL_SYNDICALIST_6"
+			"FACTION_NAME_neo_jingoist_1"
+			"FACTION_NAME_neo_jingoist_2"
+			"FACTION_NAME_neo_jingoist_3"
+			"FACTION_NAME_neo_jingoist_4"
+			"FACTION_NAME_neo_jingoist_5"
+			"FACTION_NAME_neo_jingoist_6"
 		}
 		color = { 155 51 36 }
 		rules = {

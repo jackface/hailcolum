@@ -7,38 +7,41 @@ set_technology = {
 	infantry_weapons = 1
 }
 set_country_flag = monroe_doctrine
+set_stability = 0.5
 set_war_support = 0.1
 set_convoys = 5
 
-
+add_ideas = {
+	HAI_american_support
+}
 
 set_politics = {
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 5
-	revolutionary_socialist = 15
-	libertarian_socialist = 5
-	social_democrat = 15
+	liberationist = 0
+	revolutionary_socialist = 0
+	labourist = 0
+	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 5
+	social_conservative = 0
 	authoritarian_democrat = 0
-	corporatist_nationalist = 25
-	national_syndicalist = 30
+	national_autocracy = 100
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Vilbrun Guillaume Sam"
-	desc = "POLITICS_VILBRUN_GUILLAUME_SAM_DESC"
-	picture = "Potrait_HAI_Vilbrun_Guillaume_Sam.dds"
+	name = "Jacques Thomas"
+	desc = "POLITICS_JACQUES_THOMAS_DESC"
+	picture = "Potrait_HAI_Jacques_Thomas.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

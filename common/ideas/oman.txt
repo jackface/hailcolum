@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		OMA_khalfan_bin_master = {
-
-			picture = generic_political_advisor_arab_1
-			
-			allowed = {
-				original_tag = OMA
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		OMA_marhoon_muhaid = {
-
-			picture = generic_political_advisor_arab_2
-				
-			allowed = {
-				original_tag = OMA
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		OMA_rashid_al_kharusi = {
-
-			picture = generic_political_advisor_arab_1
-			
-			allowed = {
-				original_tag = OMA
-			}
-			
-			traits = { silent_workhorse }
-		}
-	}
+	
 
 	theorist = {
 

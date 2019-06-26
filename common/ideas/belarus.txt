@@ -1,29 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		BLR_boris_berman = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = BLR
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		BLR_jozeph_ryzhykov = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = BLR
-			}
-			
-			traits = { captain_of_industry }
-		}
-	}
+	
 
 	army_chief = {
 

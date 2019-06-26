@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		BHU_sonam_tobgay_dorji = {
-
-			picture = generic_political_advisor_asia_3
-			
-			allowed = {
-				original_tag = BHU
-			}
-			
-			traits = { backroom_backstabber }
-		}
-
-		BHU_jigme_palden_dorji = {
-
-			picture = generic_political_advisor_asia_2
-				
-			allowed = {
-				original_tag = BHU
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		BHU_mang_pos_bhur_bai = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = BHU
-			}
-			
-			traits = { popular_figurehead }
-		}
-	}	
+	
 
 	army_chief = {
 		

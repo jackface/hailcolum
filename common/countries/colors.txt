@@ -1,8 +1,8 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 77 93 83 }
-	color_ui = rgb { 77 93 83 }
+	color = rgb { 135 90 65 }
+	color_ui = rgb { 135 90 65 }
 }
 ENG = {
 	color = rgb { 140 30 35 }
@@ -34,8 +34,8 @@ CZE = {	color = rgb { 101 52 74 }
 		color_ui = rgb { 101 52 74 }
 }
 POL = {
-	color = rgb { 160 107 113 }
-	color_ui = rgb { 160 107 113 }
+	color = rgb { 151 0 0 }
+	color_ui = rgb { 151 0 0 }
 }
 AUS = {
 	color = rgb { 124 0 69 }
@@ -142,8 +142,8 @@ CAN = {
 	color_ui = rgb { 202 38 28 }
 }
 CHI = {
-	color = rgb { 58 147 0 }
-	color_ui = rgb { 58 147 0 }
+	color = rgb { 204 204 53 }
+	color_ui = rgb { 204 204 53 }
 }
 CHL = {
 	color = rgb { 0 136 86 }
@@ -182,8 +182,8 @@ IRQ = {
 	color_ui = rgb { 144 144 255 }
 }
 JAP = {
-	color = rgb { 117 53 53 }
-	color_ui = rgb { 117 53 53 }
+	color = rgb { 148 77 77 }
+	color_ui = rgb { 148 77 77 }
 }
 LIB = {
 	color = rgb { 189 121 0 }
@@ -218,8 +218,8 @@ PHI = {
 	color_ui = rgb { 105 191 148 }
 }
 PRU = {
-	color = rgb { 145 32 89 }
-	color_ui = rgb { 145 32 89 }
+	color = rgb { 142 15 30 }
+	color_ui = rgb { 142 15 30 }
 }
 SAF = {
 	color = rgb { 81 138 136 }
@@ -369,8 +369,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 151 0 0 }
-	color_ui = rgb { 151 0 0 }
+	color = rgb { 0 0 151 }
+	color_ui = rgb { 0 0 151 }
 }
 
 AZR = {
@@ -512,12 +512,24 @@ OTO = {
 	color_ui = rgb { 135 41 47 }
 }
 TRA = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
+	color = rgb { 202 114 64 }
+	color_ui = rgb { 202 114 64 }
 }
 ILL = {
 	color = rgb { 139 92 92 }
 	color_ui = rgb { 139 92 92 }
+}
+QUE = {
+	color = rgb { 151 92 135 }
+	color_ui = rgb { 151 92 135 }
+}
+GIB = {
+	color = rgb { 70 23 23 }
+	color_ui = rgb { 70 23 23 }
+}
+MWE = {
+	color = rgb { 255 178 168 }
+	color_ui = rgb { 255 178 168 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

@@ -23,16 +23,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 10
-	social_democrat = 21
+	labourist = 10
+	fabianist = 21
 	social_liberal = 23
 	market_liberal = 0
 	social_conservative = 34
 	authoritarian_democrat = 0
-	corporatist_nationalist = 6
-	national_syndicalist = 6
+	national_autocracy = 6
+	neo_jingoist = 6
 }
 
 set_stability = 0.50

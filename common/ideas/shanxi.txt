@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		SHX_wang_zuanxu = {
-
-			picture = generic_political_advisor_asia_2
-			
-			allowed = {
-				original_tag = SHX
-			}
-			
-			traits = { fortification_engineer }
-		}
-
-		SHX_fu_zuoyi = {
-
-			picture = generic_political_advisor_asia_3
-				
-			allowed = {
-				original_tag = SHX
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		SHX_qu_yangke = {
-
-			picture = generic_political_advisor_asia_1
-			
-			allowed = {
-				original_tag = SHX
-			}
-			
-			traits = { prince_of_terror }
-		}
-	}	
+		
 
 	army_chief = {
 		

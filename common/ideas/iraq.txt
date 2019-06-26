@@ -2,45 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		IRQ_ali_abn_hussein = {
-
-			picture = generic_political_advisor_arab_2
-
-			allowed = {
-				original_tag = IRQ
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		IRQ_nuri_as_said = {
-
-			picture = generic_political_advisor_arab_1
-				
-			allowed = {
-				original_tag = IRQ
-			}
-			
-			traits = { armaments_organizer }
-		}
-
-		IRQ_amir_al_illah = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = IRQ
-			}
-			
-			traits = { prince_of_terror }
-		}
-	}
+	
 
 	army_chief = {
 

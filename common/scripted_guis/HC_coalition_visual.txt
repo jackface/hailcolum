@@ -2,12 +2,12 @@ scripted_gui = {
 
 	### Coalition ###
 
-	HC_topbar_blanquist_icon = {
-		window_name = "blanquistVisual"
+	HC_topbar_liberationist_icon = {
+		window_name = "liberationistVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = blanquist_coalition
+			has_country_flag = liberationist_coalition
 		}
 	}
 	HC_topbar_revolutionary_socialist_icon = {
@@ -18,20 +18,20 @@ scripted_gui = {
 			has_country_flag = revolutionary_socialist_coalition
 		}
 	}
-	HC_topbar_libertarian_socialist_icon = {
-		window_name = "libertarian_socialistVisual"
+	HC_topbar_labourist_icon = {
+		window_name = "labouristVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = libertarian_socialist_coalition
+			has_country_flag = labourist_coalition
 		}
 	}
-	HC_topbar_social_democrat_icon = {
-		window_name = "social_democratVisual"
+	HC_topbar_fabianist_icon = {
+		window_name = "fabianistVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = social_democrat_coalition
+			has_country_flag = fabianist_coalition
 		}
 	}
 	HC_topbar_social_liberal_icon = {
@@ -66,31 +66,31 @@ scripted_gui = {
 			has_country_flag = authoritarian_democrat_coalition
 		}
 	}
-	HC_topbar_corporatist_nationalist_icon = {
-		window_name = "corporatist_nationalistVisual"
+	HC_topbar_national_autocracy_icon = {
+		window_name = "national_autocracyVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = corporatist_nationalist_coalition
+			has_country_flag = national_autocracy_coalition
 		}
 	}
-	HC_topbar_national_syndicalist_icon = {
-		window_name = "national_syndicalistVisual"
+	HC_topbar_neo_jingoist_icon = {
+		window_name = "neo_jingoistVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = national_syndicalist_coalition
+			has_country_flag = neo_jingoist_coalition
 		}
 	}
 
 	### Opposition ###
 
-	HC_topbar_blanquist_icon = {
-		window_name = "blanquistVisualOpposition"
+	HC_topbar_liberationist_icon = {
+		window_name = "liberationistVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = blanquist_opposition
+			has_country_flag = liberationist_opposition
 		}
 	}
 	HC_topbar_revolutionary_socialist_icon = {
@@ -101,20 +101,20 @@ scripted_gui = {
 			has_country_flag = revolutionary_socialist_opposition
 		}
 	}
-	HC_topbar_libertarian_socialist_icon = {
-		window_name = "libertarian_socialistVisualOpposition"
+	HC_topbar_labourist_icon = {
+		window_name = "labouristVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = libertarian_socialist_opposition
+			has_country_flag = labourist_opposition
 		}
 	}
-	HC_topbar_social_democrat_icon = {
-		window_name = "social_democratVisualOpposition"
+	HC_topbar_fabianist_icon = {
+		window_name = "fabianistVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = social_democrat_opposition
+			has_country_flag = fabianist_opposition
 		}
 	}
 	HC_topbar_social_liberal_icon = {
@@ -149,20 +149,20 @@ scripted_gui = {
 			has_country_flag = authoritarian_democrat_opposition
 		}
 	}
-	HC_topbar_corporatist_nationalist_icon = {
-		window_name = "corporatist_nationalistVisualOpposition"
+	HC_topbar_national_autocracy_icon = {
+		window_name = "national_autocracyVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = corporatist_nationalist_opposition
+			has_country_flag = national_autocracy_opposition
 		}
 	}
-	HC_topbar_national_syndicalist_icon = {
-		window_name = "national_syndicalistVisualOpposition"
+	HC_topbar_neo_jingoist_icon = {
+		window_name = "neo_jingoistVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = national_syndicalist_opposition
+			has_country_flag = neo_jingoist_opposition
 		}
 	}
 }

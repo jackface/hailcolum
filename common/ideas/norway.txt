@@ -1,40 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		NOR_halvdan_koht = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = NOR
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		NOR_adolf_indrebo = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = NOR
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		NOR_trygve_halvdan_lie = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = NOR
-			}
-			
-			traits = { popular_figurehead }
-		}
-	}
+	
 
 	army_chief = {
 		

@@ -1,0 +1,22 @@
+
+state={
+	id=801
+	name="STATE_801"
+	manpower = 50201
+	
+	state_category = town
+
+	history={
+		owner = USA
+		add_core_of = USA
+		
+		buildings = {
+			infrastructure = 5
+			
+		}
+	}
+
+	provinces={
+		722 9667 9711 13156
+	}
+}

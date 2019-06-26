@@ -1,0 +1,22 @@
+
+state={
+	id=798
+	name="STATE_798"
+	manpower = 434247
+	
+	state_category = rural
+
+	history={
+		owner = KRD
+		add_core_of = KRD
+		
+		buildings = {
+			infrastructure = 3
+			
+		}
+	}
+
+	provinces={
+		10811 5014 3916 6826 10793 8123
+	}
+}

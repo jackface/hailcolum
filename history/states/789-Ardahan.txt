@@ -7,14 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = ARM
+		owner = TRA
 		
 		
 		buildings = {
 			infrastructure = 3
 			
 		}
-		add_core_of = ARM
+		add_core_of = TRA
 	}
 
 	provinces={

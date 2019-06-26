@@ -1,41 +1,7 @@
 ideas = {
 
 
-	political_advisor = {
-
-		DOM_jacinto_bienvenido_peynado = {
-
-			picture = generic_political_advisor_south_america_1
-
-			allowed = {
-				original_tag = DOM
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		DOM_elias_brache = {
-
-			picture = generic_political_advisor_south_america_3
-				
-			allowed = {
-				original_tag = DOM
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		DOM_manuel_de_jesus_troncoso = {
-
-			picture = generic_political_advisor_south_america_2
-			
-			allowed = {
-				original_tag = DOM
-			}
-			
-			traits = { armaments_organizer }
-		}
-	}
+	
 
 	army_chief = {
 

@@ -31,62 +31,48 @@ set_technology = {
 	fuel_refining = 1
 }
 
+add_ideas = {
+	#RUS_army_in_disarray
+	#RUS_intense_poverty
+	free_trade
+	#RUS_international_debt
+	#RUS_partial_industrialization
+	#RUS_powerful_orthodox_church
+}
+
+set_stability = 0.50
+set_war_support = 0.30
+
 set_convoys = 400
 
-puppet = SIK
-
-SIK = {
-
-	set_politics = {
-	
-		ruling_party = corporatist_nationalist
-		last_election = "1932.11.8"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	
-	set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 0
-	corporatist_nationalist = 100
-	national_syndicalist = 0
-}
-
-}
 
 set_politics = {
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = fabianist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 2
+	liberationist = 2
 	revolutionary_socialist = 8
-	libertarian_socialist = 0
-	social_democrat = 9
+	labourist = 0
+	fabianist = 9
 	social_liberal = 7
 	market_liberal = 0
 	social_conservative = 3
 	authoritarian_democrat = 3
-	corporatist_nationalist = 59
-	national_syndicalist = 9
+	national_autocracy = 59
+	neo_jingoist = 9
 }
 
 create_country_leader = {
-	name = "Nikolai Yudenich"
-	desc = "POLITICS_NIKOLAI_YUDENICH_DESC"
-	picture = "Portrait_RUS_Nikolai_Yudenich.dds"
+	name = "Mikhail Istomin"
+	desc = "POLITICS_MIKHAIL_ISTOMIN_DESC"
+	picture = "Portrait_RUS_Mikhail_Istomin.dds"
 	expire = "1947.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = fabianist_subtype
 	traits = {
 		
 	}

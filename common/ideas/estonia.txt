@@ -1,45 +1,7 @@
 ideas = {
 
 
-	political_advisor = {
-
-		EST_boris_kumm = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = EST
-			}
-			
-			traits = { backroom_backstabber }
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		EST_august_rei = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = EST
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		EST_juri_uluots = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = EST
-			}
-			
-			traits = { captain_of_industry }
-		}
-	}
+	
 
 
 	# MILITARY

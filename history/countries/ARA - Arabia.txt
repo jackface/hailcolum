@@ -1,4 +1,4 @@
-﻿capital = 292
+﻿capital = 765
 
 # Starting tech
 set_technology = {
@@ -7,35 +7,34 @@ set_technology = {
 
 set_convoys = 10
 
-set_cosmetic_tag = ARA_french_arabic_mandate
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 10
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 30
-	social_democrat = 25
+	labourist = 0
+	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 25
-	authoritarian_democrat = 3
-	corporatist_nationalist = 7
-	national_syndicalist = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	national_autocracy = 100
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Auguste Henri Ponsot"
-	desc = "POLITICS_AUGUSTE_HENRI_PONSOT_DESC"
-	picture = "Portrait_ARA_Auguste_Henri_Ponsot.dds"
+	name = "Saʿūd Al Rashid"
+	desc = "POLITICS_SAUD_AL_RASHID_DESC"
+	picture = "Portrait_ARA_Saud_Al_Rashid.dds"
 	expire = "1947.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		
 	}

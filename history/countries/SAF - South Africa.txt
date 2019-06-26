@@ -50,34 +50,34 @@ if = {
 set_convoys = 25
 set_politics = {
 	
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 4
-	social_liberal = 8
-	market_liberal = 22
-	social_conservative = 32
-	authoritarian_democrat = 3
-	corporatist_nationalist = 12
-	national_syndicalist = 19
+	labourist = 0
+	fabianist = 8
+	social_liberal = 11
+	market_liberal = 31
+	social_conservative = 33
+	authoritarian_democrat = 12
+	national_autocracy = 5
+	neo_jingoist = 0
 }
 
-set_cosmetic_tag = SAF_dominion_of_britain
+set_cosmetic_tag = SAF_dutch_cape_colony
 
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
-	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "Portrait_SAF_JBM_Hertzog.dds"
+	name = "Charles Welter"
+	desc = "POLITICS_CHARLES_WELTER_DESC"
+	picture = "Portrait_SAF_Charles_Welter.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

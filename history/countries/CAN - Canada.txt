@@ -53,35 +53,34 @@ if = {
 	}
 }
 
-set_cosmetic_tag = CAN_british_dominion
 
 set_politics = {
 	
-	ruling_party = social_conservative
+	ruling_party = fabianist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 5
-	social_democrat = 5
-	social_liberal = 40
-	market_liberal = 18
-	social_conservative = 28
+	labourist = 0
+	fabianist = 100
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 0
 	authoritarian_democrat = 0
-	corporatist_nationalist = 4
-	national_syndicalist = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "George R. Geary"
-	desc = "POLITICS_GEORGE_R_GEARY_DESC"
-	picture = "Portrait_CAN_George_R_Geary.dds"
+	name = "John Diefenbaker"
+	desc = "POLITICS_JOHN_DIEFENBAKER_DESC"
+	picture = "Portrait_CAN_John_Diefenbaker_Army.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = fabianist_subtype
 	traits = {
 		#
 	}
@@ -90,20 +89,64 @@ create_country_leader = {
 set_convoys = 100
 set_stability = 0.75
 
-create_corps_commander = {
-	name = "Thomas Victor Anderson"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 4
-    attack_skill = 2
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 5
+create_field_marshal = {
+	name = "T. Clement Douglas"
+	picture = "Portrait_CAN_T_Clement_Douglas.dds"
+	traits = { logistics_wizard organizer offensive_doctrine }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 2
+	planning_skill = 6
+	logistics_skill = 6
 }
 
 create_field_marshal = {
+	name = "John Diefenbaker"
+	picture = "Portrait_CAN_John_Diefenbaker_Army.dds"
+	traits = { organizer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Joseph P. Kennedy"
+	picture = "Portrait_CAN_Joseph_P_Kennedy.dds"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "John McCrae"
+	picture = "Portrait_CAN_John_McCrae.dds"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Lester B. Pearson"
+	picture = "Portrait_CAN_Lester_B_Pearson.dds"
+	traits = { }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
 	name = "Charles Foulkes"
-	gfx = "GFX_CAN_charles_foulkes"
+	picture = "Portrait_CAN_Charles_Foulkes.dds"
 	traits = { }
 	skill = 4
     attack_skill = 4
@@ -113,66 +156,14 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "John Montague"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 5
-}
-create_corps_commander = {
 	name = "Bert Hoffmeister"
-	gfx = "GFX_CAN_bert_hoffmeister"
+	picture = "Portrait_CAN_Bert_Hoffmeister.dds"
 	traits = { hill_fighter }
 	skill = 4
     attack_skill = 4
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Leonard W. Murray"
-	gfx = "GFX_CAN_leonard_warren_murray"
-	traits = { }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-
-create_navy_leader = {
-	name = "H.T. Baillie-Grohman"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-	traits = { spotter }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	maneuvering_skill = 3
-	coordination_skill = 4
-}
-create_navy_leader = {
-	name = "James D. Prentice"
-	gfx = "GFX_CAN_james_prentice"
-	traits = { spotter }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-create_navy_leader = {
-	name = "Harry DeWolf"
-	gfx = "GFX_CAN_harry_dewolf"
-	traits = { superior_tactician bold }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 5
 }
 
 ### VARIANTS ###

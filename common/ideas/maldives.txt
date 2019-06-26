@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		MLD_pot = {
-
-			picture = generic_political_advisor_asia_2
-
-			allowed = {
-				original_tag = MLD
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		MLD_coi = {
-
-			picture = generic_political_advisor_asia_1
-				
-			allowed = {
-				original_tag = MLD
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		MLD_stc = {
-
-			picture = generic_political_advisor_asia_3
-			
-			allowed = {
-				original_tag = MLD
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

@@ -101,13 +101,7 @@ if = {
 	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 }
 
-#set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
-}
 	
 
 set_convoys = 800
@@ -154,16 +148,6 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
 		target = SAF
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -180,11 +164,6 @@ if = {
 	}
 	set_autonomy = {
 		target = ICE
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = EGY
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.4
 	}
@@ -206,8 +185,6 @@ if = {
 	else = {
 		puppet = MAL
 		puppet = RAJ
-		puppet = CAN
-		puppet = IRE
 		puppet = SAF
 		puppet = AST
 		puppet = NZL
@@ -220,7 +197,6 @@ if = {
 		puppet = OMA
 		puppet = ICE
 		puppet = JAM
-		puppet = EGY
 	}
 }
 
@@ -232,32 +208,27 @@ if = {
 }
 
 
-set_country_flag = social_conservative_coalition
-set_country_flag = authoritarian_democrat_coalition
-set_country_flag = libertarian_socialist_opposition
-set_country_flag = social_liberal_opposition
-set_country_flag = social_democrat_opposition
-set_country_flag = national_syndicalist_opposition
+
 
 set_politics = {
 	
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 0
-	libertarian_socialist = 10
-	social_democrat = 2
-	social_liberal = 32
+	liberationist = 0
+	revolutionary_socialist = 33
+	labourist = 0
+	fabianist = 12
+	social_liberal = 6
 	market_liberal = 0
-	social_conservative = 26
-	authoritarian_democrat = 25
-	corporatist_nationalist = 0
-	national_syndicalist = 5
+	social_conservative = 3
+	authoritarian_democrat = 13
+	national_autocracy = 0
+	neo_jingoist = 33
 }
 
 
@@ -268,11 +239,11 @@ give_military_access = RAJ
 # Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {
-	name = "Edward Stanley"
-	desc = "POLITICS_EDWARD_STANLEY_DESC"
-	picture = "Portrait_ENG_Edward_Stanley.dds"
+	name = "Julian Byng"
+	desc = "POLITICS_JULIAN_BYNG_DESC"
+	picture = "Portrait_ENG_Julian_Byng.dds"
 	expire = "1949.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}

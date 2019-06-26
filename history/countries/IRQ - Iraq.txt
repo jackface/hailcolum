@@ -18,21 +18,21 @@ set_convoys = 5
 set_cosmetic_tag = IRQ_mandatory_of_britain
 
 set_popularities = {
-	blanquist = 5
+	liberationist = 5
 	revolutionary_socialist = 0
-	libertarian_socialist = 25
-	social_democrat = 20
+	labourist = 25
+	fabianist = 20
 	social_liberal = 4
 	market_liberal = 0
 	social_conservative = 10
 	authoritarian_democrat = 11
-	corporatist_nationalist = 2
-	national_syndicalist = 23
+	national_autocracy = 2
+	neo_jingoist = 23
 }
 
 set_politics = {
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -43,7 +43,7 @@ create_country_leader = {
 	desc = "POLITICS_SIR_HENRY_DOBBS_DESC"
 	picture = "Portrait_IRQ_Sir_Henry_Dobbs.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

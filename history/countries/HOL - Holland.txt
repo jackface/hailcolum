@@ -83,6 +83,8 @@ if = {
 	}
 }
 
+puppet = SAF
+
 add_ideas = {
 	HOL_wilhelmina
 }
@@ -93,7 +95,7 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		blanquist = { 
+		liberationist = { 
 			popularity = 0
 		}
 		
@@ -101,11 +103,11 @@ set_politics = {
 			popularity = 8
 		}
 		
-		libertarian_socialist = { 
+		labourist = { 
 			popularity = 2
 		}
 		
-		social_democrat = { 
+		fabianist = { 
 			popularity = 39
 		}
 		
@@ -125,32 +127,32 @@ set_politics = {
 			popularity = 7
 		}
 
-		corporatist_nationalist = {
+		national_autocracy = {
 			popularity = 12
 		}
 		
-		national_syndicalist = {
+		neo_jingoist = {
 			popularity = 9
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = fabianist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 8
-	libertarian_socialist = 2
-	social_democrat = 39
+	labourist = 2
+	fabianist = 39
 	social_liberal = 3
 	market_liberal = 0
 	social_conservative = 20
 	authoritarian_democrat = 7
-	corporatist_nationalist = 12
-	national_syndicalist = 9
+	national_autocracy = 12
+	neo_jingoist = 9
 }
 
 set_convoys = 150
@@ -162,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLEM_ALBARDA_DESC"
 	picture = "Portrait_HOL_Willem_Albarda.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = fabianist_subtype
 	traits = {
 	}
 }

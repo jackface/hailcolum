@@ -331,7 +331,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = social_democrat }
+				NOT = { has_government = fabianist }
 			}
 
 			removal_cost = -1
@@ -340,49 +340,49 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = 1
-				social_democrat_drift = -0.1
+				fabianist_drift = -0.1
 			}
 		}
 
-		AST_abandon_the_westminster_system_blanquist = {
+		AST_abandon_the_westminster_system_liberationist = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = blanquist
+				has_government = liberationist
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_blanquist
+			picture = ast_abandon_the_westminster_system_liberationist
 
 			modifier = {
 				autonomy_gain = 1
-				social_democrat_drift = -0.1
-				blanquist_drift = 0.2
+				fabianist_drift = -0.1
+				liberationist_drift = 0.2
 			}
 		}
 
-		AST_abandon_the_westminster_system_national_syndicalist = {
+		AST_abandon_the_westminster_system_neo_jingoist = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_syndicalist
+				has_government = neo_jingoist
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_national_syndicalist
+			picture = ast_abandon_the_westminster_system_neo_jingoist
 
 			modifier = {
 				autonomy_gain = 1
-				social_democrat_drift = -0.1
-				national_syndicalist_drift = 0.2
+				fabianist_drift = -0.1
+				neo_jingoist_drift = 0.2
 			}
 		}
 
@@ -398,12 +398,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_national_syndicalist_drift_bonus
+			picture = generic_neo_jingoist_drift_bonus
 
 			modifier = {
 				autonomy_gain = 1
-				social_democrat_drift = -0.1
-				national_syndicalist_drift = 0.2
+				fabianist_drift = -0.1
+				neo_jingoist_drift = 0.2
 			}
 		}
 
@@ -478,193 +478,7 @@ ideas = {
 		}
 	}
 
-	political_advisor = {
-
-		AST_alexander_hore_ruthven = {
-
-			picture = generic_political_advisor_europe_1
-			
-			allowed = {
-				original_tag = AST
-			}
-			
-			traits = { quartermaster_general }
-		}
-
-		AST_robert_g_menzies = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = AST
-			}
-			
-			traits = { backroom_backstabber }
-		}
-
-		AST_ben_chifley = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
-			}
-			
-			cost = 100
-
-			traits = { smooth_talking_charmer }
-
-			available = {
-				has_completed_focus = AST_never_another_gallipoli
-			}
-		}
-
-		AST_herbert_v_evatt = {
-
-			picture = generic_political_advisor_europe_2
-			
-			allowed = {
-				original_tag = AST
-			}
-			
-			cost = 100
-
-			traits = { silent_workhorse }
-
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_support_the_policy_of_appeasement
-				}
-			}
-		}
-
-		AST_jack_beasley = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
-			}
-			
-			traits = { war_industrialist }
-		}
-		
-
-		AST_frank_forde = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
-			}
-			
-			traits = { compassionate_gentleman }
-		}
-
-		AST_generic_fascist_demagogue = {
-			
-			allowed = {
-				original_tag = AST
-				
-			}
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_support_the_centre_party
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			picture = generic_political_advisor_europe_4
-			
-			traits = { fascist_demagogue }
-		
-			do_effect = {
-				NOT = {
-					has_government = national_syndicalist
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-		AST_lance_sharkey = {
-			
-			allowed = {
-				original_tag = AST
-				
-			}
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					has_completed_focus = AST_empower_the_workers
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-
-			picture = generic_communist_revolutionary_western_european_2d
-			
-			traits = { communist_revolutionary }
-		
-			do_effect = {
-				NOT = {
-					has_government = blanquist
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-
-		AST_arthur_calwell = {
-			
-			allowed = {
-				original_tag = AST
-			}
-			available = {
-				if = {
-					limit = { has_dlc = "Together for Victory" }
-					OR = {
-						has_completed_focus = AST_protect_the_homeland
-						has_completed_focus = AST_support_the_policy_of_appeasement
-					}
-				}
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			picture = generic_democratic_reformer_western_european_2d
-			
-			traits = { democratic_reformer }
-		
-			do_effect = {
-				NOT = {
-					has_government = social_democrat
-				}
-			}
-		
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
-	}
+	
 
 theorist = {
 

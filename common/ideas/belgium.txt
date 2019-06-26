@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		BEL_paul_van_zeeland = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = BEL
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		BEL_paul-henri_spaak = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = BEL
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		BEL_gaston_eyskens = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = BEL
-			}
-			
-			traits = { armaments_organizer }
-		}
-	}
+	
 
 	army_chief = {
 

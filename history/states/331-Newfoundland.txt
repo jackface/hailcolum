@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = NEW
+		owner = QUE
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -15,7 +15,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = NEW
+		add_core_of = QUE
 	}
 
 	provinces={

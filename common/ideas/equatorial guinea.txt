@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		EQG_pot = {
-
-			picture = generic_political_advisor_african_2
-
-			allowed = {
-				original_tag = EQG
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		EQG_coi = {
-
-			picture = generic_political_advisor_african_1
-				
-			allowed = {
-				original_tag = EQG
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		EQG_stc = {
-
-			picture = generic_political_advisor_african_3
-			
-			allowed = {
-				original_tag = EQG
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

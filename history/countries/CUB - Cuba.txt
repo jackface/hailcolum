@@ -15,31 +15,33 @@ set_convoys = 20
 
 set_politics = {
 	
-	ruling_party = corporatist_nationalist
+	ruling_party = national_autocracy
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_cosmetic_tag = CUB_captaincy_general
+
 set_popularities = {
-	blanquist = 0
-	revolutionary_socialist = 10
-	libertarian_socialist = 15
-	social_democrat = 7
-	social_liberal = 5
+	liberationist = 0
+	revolutionary_socialist = 0
+	labourist = 0
+	fabianist = 0
+	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 16
+	social_conservative = 0
 	authoritarian_democrat = 0
-	corporatist_nationalist = 35
-	national_syndicalist = 12
+	national_autocracy = 100
+	neo_jingoist = 0
 }
 
 create_country_leader = {
-	name = "Mario García Menocal"
-	desc = "POLITICS_Mario_Garcia_Menocal_DESC"
-	picture = "Portrait_CUB_Mario_Garcia_Menocal.dds"
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "Portrait_CUB_Francisco_Franco.dds"
 	expire = "1965.1.1"
-	ideology = corporatist_nationalist_subtype
+	ideology = national_autocracy_subtype
 	traits = {
 		#
 	}

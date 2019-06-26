@@ -1,65 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		SPR_augusto_barcia_trelles = {
-
-			picture = generic_army_europe_1
-			
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		SPR_francisco_largo_caballero = {
-
-			picture = generic_air_europe_1
-				
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		SPR_dolores_ibarruri = {
-
-			picture = dolores_ibarruri
-				
-			allowed = {
-				original_tag = SPR				
-				NOT = { has_government = national_syndicalist }
-			}
-			
-			available = {
-				if = {
-					limit = { has_dlc = "Man the Guns" }	
-					NOT = { has_autonomy_state = autonomy_supervised_state }
-				}
-			}
-			
-			traits = { communist_revolutionary }
-		}
-
-		SPR_diego_martinez_barrio = {
-
-			picture = generic_navy_europe_1
-
-			allowed = {
-				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
-			}
-			
-			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
+	
 
 	theorist = {
 
@@ -68,7 +9,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 			picture = generic_army_europe_3
@@ -85,7 +26,7 @@ ideas = {
 					
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 			picture = generic_navy_europe_1
@@ -106,7 +47,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -125,7 +66,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -149,16 +90,16 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = spr_franco_unavailable_tooltip
 					OR = {
-						has_government = national_syndicalist
+						has_government = neo_jingoist
 						AND = {
-							NOT = { has_government = blanquist }
+							NOT = { has_government = liberationist }
 							NOT = {
 								any_other_country = {
 									NOT = {
 										tag = ROOT
 									}
 									original_tag = SPR
-									has_government = national_syndicalist
+									has_government = neo_jingoist
 								}
 							}
 						}
@@ -183,7 +124,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -201,7 +142,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -222,7 +163,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -240,7 +181,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 			
@@ -261,7 +202,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -279,7 +220,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -297,7 +238,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 
@@ -315,7 +256,7 @@ ideas = {
 
 			allowed = {
 				original_tag = SPR
-				NOT = { has_government = national_syndicalist }
+				NOT = { has_government = neo_jingoist }
 			}
 			
 

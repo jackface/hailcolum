@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		KUW_pot = {
-
-			picture = generic_political_advisor_arab_2
-
-			allowed = {
-				original_tag = KUW
-			}
-			
-			traits = { prince_of_terror }
-		}
-
-		KUW_coi = {
-
-			picture = generic_political_advisor_arab_1
-				
-			allowed = {
-				original_tag = KUW
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		KUW_stc = {
-
-			picture = generic_political_advisor_arab_3
-			
-			allowed = {
-				original_tag = KUW
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-	}
+	
 
 	army_chief = {
 

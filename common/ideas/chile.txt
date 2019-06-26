@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		CHL_gustavo_ross_santa_maria = {
-
-			picture = generic_political_advisor_south_america_1
-
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { armaments_organizer }
-		}
-
-		CHL_miguel_cruchaga_tacomal = {
-
-			picture = generic_political_advisor_south_america_2
-				
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		CHL_luis_alamos_barros = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { ideological_crusader }
-		}
-	}
+	
 
 	army_chief = {
 

@@ -1,54 +1,6 @@
 ideas = {
 
-	political_advisor = {
-
-		URG_alfredo_baldomir = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = URG
-			}
-			
-			traits = { war_industrialist }
-		}
-
-		URG_emilio_frugoni = {
-
-			picture = generic_political_advisor_south_america_2
-				
-			allowed = {
-				original_tag = URG
-			}
-			
-			traits = { smooth_talking_charmer }
-		}
-
-		URG_horacio_arredondo = {
-
-			picture = generic_political_advisor_south_america_1
-			
-			allowed = {
-				original_tag = URG
-			}
-			
-			traits = { popular_figurehead }
-		}
-
-		URG_paulo_ortega_frusci = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = URG
-			}
-			
-			traits = { backroom_backstabber }
-			ai_will_do = {
-				factor = 0
-			}
-		}
-	}
+	
 
 	theorist = {
 

@@ -1,65 +1,6 @@
 ideas = {
 
-	country = {
-		sisu = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				NOT = {
-					has_government = blanquist
-				}
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				army_morale_factor = 0.25
-				attrition = -0.1
-				army_core_attack_factor = 0.2
-				army_core_defence_factor = 0.2
-			}
-		}
-	}
-
-	political_advisor = {
-
-		
-		FIN_ralf_torngren = {
-
-			picture = generic_political_advisor_europe_1
-
-			allowed = {
-				original_tag = FIN
-			}
-			
-			traits = { ideological_crusader }
-		}
-
-		FIN_ake_henrik_gartz = {
-
-			picture = generic_political_advisor_europe_2
-				
-			allowed = {
-				original_tag = FIN
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		FIN_antti_hackzell = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = FIN
-			}
-			
-			traits = { silent_workhorse }
-		}
-	}
+	
 	theorist = {
 
 		FIN_akseli_anttila = {

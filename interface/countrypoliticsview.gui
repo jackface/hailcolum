@@ -428,6 +428,7 @@ guiTypes = {
 			}			
 			
 		}
+		
 		iconType = {
 			name = "leader"
 			position = { x = 18 y = 58 }
@@ -906,8 +907,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "manage_subjects_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -356 y = 300 }	
+		show_position = { x = 537 y = 300 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1089,8 +1090,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "exiles_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -356 y = 300 }	
+		show_position = { x = 537 y = 300 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
@@ -1345,8 +1346,8 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "manage_occupied_window"
-		position = { x = -356 y = 80 }	
-		show_position = { x = 537 y = 80 }
+		position = { x = -356 y = 300 }	
+		show_position = { x = 537 y = 300 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300

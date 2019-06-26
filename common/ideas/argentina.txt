@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		ARG_ramon_castillo = {
-
-			picture = generic_political_advisor_south_america_2
-
-			allowed = {
-				original_tag = ARG
-			}
-			
-			traits = { quartermaster_general }
-		}
-
-		ARG_luis_podesta_costa = {
-
-			picture = generic_political_advisor_south_america_1
-				
-			allowed = {
-				original_tag = ARG
-			}
-			
-			traits = { backroom_backstabber }
-		}
-
-		ARG_manuel_maria_de_iriondo = {
-
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = ARG
-			}
-			
-			traits = { prince_of_terror }
-		}
-	}
+	
 
 	army_chief = {
 

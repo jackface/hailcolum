@@ -17,16 +17,16 @@ set_politics = {
 }
 
 set_popularities = {
-	blanquist = 0
+	liberationist = 0
 	revolutionary_socialist = 0
-	libertarian_socialist = 0
-	social_democrat = 0
+	labourist = 0
+	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 100
 	authoritarian_democrat = 0
-	corporatist_nationalist = 0
-	national_syndicalist = 0
+	national_autocracy = 0
+	neo_jingoist = 0
 }
 
 create_country_leader = {

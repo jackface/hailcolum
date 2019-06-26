@@ -2,41 +2,7 @@ ideas = {
 	# MILITARY
 
 
-	political_advisor = {
-
-		USB_paul_van_zeeland = {
-
-			picture = generic_political_advisor_europe_2
-
-			allowed = {
-				original_tag = USB
-			}
-			
-			traits = { silent_workhorse }
-		}
-
-		USB_paul-henri_spaak = {
-
-			picture = generic_political_advisor_europe_1
-				
-			allowed = {
-				original_tag = USB
-			}
-			
-			traits = { captain_of_industry }
-		}
-
-		USB_gaston_eyskens = {
-
-			picture = generic_political_advisor_europe_3
-			
-			allowed = {
-				original_tag = USB
-			}
-			
-			traits = { armaments_organizer }
-		}
-	}
+	
 
 	army_chief = {
 
