@@ -93,7 +93,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 2
 	fabianist = 20
 	social_liberal = 19
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = fabianist_subtype
 	traits = {
 		
 	}
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_ita_palmiro_togliatti"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = state_socialist_subtype
 	traits = {
 		
 	}

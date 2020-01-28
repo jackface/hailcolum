@@ -1,132 +1,84 @@
 add_namespace = exact_date_trigger
 
-#July 1st, 1932
+#June 11th, 1932
 country_event = {
-	id = exact_date_trigger.1
+	id = exact_date_trigger.161
 	hidden = yes
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1932.6.30
+		date > 1932.6.10
 	}
 	
 	option = {
-		##US Elections
+		##Lima Barreto
 		if = {
 			limit = { 
-				country_exists = USA
+				country_exists = BRA
 			}
-			USA = { country_event = usa.1 }
-			USA = { country_event = usa.2 }
+			BRA = { country_event = brazil.5 }
 		}
 		
 	}
 }
 
-#July 19th, 1932
+#August 12th, 1932
 country_event = {
-	id = exact_date_trigger.2
+	id = exact_date_trigger.224
 	hidden = yes
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1932.7.18
+		date > 1932.8.11
 	}
 	
 	option = {
-		##Pershing Shot and Killed
+		##Brazilian Elections
 		if = {
 			limit = { 
-				country_exists = USA
-				USA = {
-					has_country_flag = USA_federalists_1932_victory
-				}
+				country_exists = BRA
 			}
-			USA = { country_event = usa.3 }
+			BRA = { country_event = brazil.1 }
 		}
 		
 	}
 }
 
+#August 19th, 1932
 country_event = {
-	id = exact_date_trigger.3
+	id = exact_date_trigger.231
 	hidden = yes
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1932.11.8
+		date > 1932.8.18
 	}
 	
 	option = {
-		#American Election 1932
-		#if = {
-		#	limit = { 
-		#		country_exists = USA
-		#		USA = {
-		#			has_country_flag = charles_evans_hughes_1932_republican
-		#		}
-		#	}
-		#	USA = { country_event = usa.2 }
-		#}
+		##Presidential-Oligarchy Meet Up Vargas
+		if = {
+			limit = { 
+				country_exists = BRA
+				has_country_flag = vargas_1932_victory
+			}
+			BRA = { country_event = brazil.2 }
+		}
 		
-		#if = {
-		#	limit = { 
-		#		country_exists = USA
-		#		USA = {
-		#			has_country_flag = franklin_delano_roosevelt_1932_republican
-		#		}
-		#	}
-		#	USA = { country_event = usa.3 }
-		#}
+		if = {
+			limit = { 
+				country_exists = BRA
+				has_country_flag = prestes_1932_victory
+			}
+			BRA = { country_event = brazil.3 }
+		}
 		
-	}
-}
-
-country_event = {
-	id = exact_date_trigger.4
-	hidden = yes
-	fire_only_once = yes
-	
-	trigger = {
-		date > 1932.12.24
-	}
-	
-	option = {
-		#Socialist United Front Forms/Christmas Resolution
-		#if = {
-			#limit = { 
-			#	country_exists = USA
-			#	NOT = {
-			#		has_completed_focus = USA_socialist_witch_hunts
-			#	}
-			#}
-			#USA = { country_event = usa.5 }
-		#}
-		
-	}
-}
-
-country_event = {
-	id = exact_date_trigger.5
-	hidden = yes
-	fire_only_once = yes
-	
-	trigger = {
-		date > 1933.3.4
-	}
-	
-	option = {
-		#Black Sunday
-		#if = {
-		#	limit = { 
-		#		country_exists = USA
-		#		USA = {
-		#			has_country_flag = beck_1932_victory
-		#			has_completed_focus = USA_faith_in_liberty
-		#		}
-		#	}
-		#	USA = { country_event = usa.6 }
-		#}
+		if = {
+			limit = { 
+				country_exists = BRA
+				has_country_flag = junior_1932_victory
+			}
+			BRA = { country_event = brazil.4 }
+		}
 		
 	}
 }

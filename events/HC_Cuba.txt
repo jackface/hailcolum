@@ -1,0 +1,28 @@
+﻿add_namespace = cuba
+
+#Francisco Franco Assassinated
+country_event = {
+	id = cuba.1
+	title = cuba.1.t
+	desc = cuba.1.d
+	#picture =
+
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 
+		name = cuba.1.o1
+		
+		create_country_leader = {
+			name = "Governing Council"
+			desc = "POLITICS_GOVERNING_COUNCIL_DESC"
+			picture = "Portrait_CUB_Governing_Council.dds"
+			expire = "1947.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = {
+		
+			}
+		}
+		
+	}
+}

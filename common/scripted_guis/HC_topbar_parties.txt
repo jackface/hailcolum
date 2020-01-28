@@ -15,12 +15,12 @@ scripted_gui = {
 			has_government = liberationist
 		}
 	}
-	HC_topbar_revolutionary_socialist_icon = {
-		window_name = "revolutionary_socialist"
+	HC_topbar_state_socialist_icon = {
+		window_name = "state_socialist"
 		context_type = player
 		parent_window_token = top_bar
 		visible = {
-			has_government = revolutionary_socialist
+			has_government = state_socialist
 		}
 	}
 	HC_topbar_labourist_icon = {

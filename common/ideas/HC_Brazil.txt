@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+	 
+		BRA_the_oligarchs = {
+			picture = BRA_the_oligarchs
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = -0.30
+			}
+		}
+		
+		BRA_effects_of_the_munich_crash = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.15
+				local_resources_factor = -0.10
+				industrial_capacity_factory = -0.15
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = -0.25
+			}
+		}
+		
+		BRA_segregation_debate = {
+			#picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = -0.25
+				war_support_factor = -0.25
+			}
+		}
+	
+	}
+	
+	
+	
+	
+}

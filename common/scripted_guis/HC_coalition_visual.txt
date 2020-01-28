@@ -10,12 +10,12 @@ scripted_gui = {
 			has_country_flag = liberationist_coalition
 		}
 	}
-	HC_topbar_revolutionary_socialist_icon = {
-		window_name = "revolutionary_socialistVisual"
+	HC_topbar_state_socialist_icon = {
+		window_name = "state_socialistVisual"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = revolutionary_socialist_coalition
+			has_country_flag = state_socialist_coalition
 		}
 	}
 	HC_topbar_labourist_icon = {
@@ -93,12 +93,12 @@ scripted_gui = {
 			has_country_flag = liberationist_opposition
 		}
 	}
-	HC_topbar_revolutionary_socialist_icon = {
-		window_name = "revolutionary_socialistVisualOpposition"
+	HC_topbar_state_socialist_icon = {
+		window_name = "state_socialistVisualOpposition"
 		context_type = player
 		parent_window_token = politics_tab
 		visible = {
-			has_country_flag = revolutionary_socialist_opposition
+			has_country_flag = state_socialist_opposition
 		}
 	}
 	HC_topbar_labourist_icon = {

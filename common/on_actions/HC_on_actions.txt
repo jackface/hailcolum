@@ -15,11 +15,11 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = revolutionary_socialist_coalition
+                    has_country_flag = state_socialist_coalition
                 }
                 add_to_variable = {
                     var = coalition_pop_total
-                    value = party_popularity@revolutionary_socialist
+                    value = party_popularity@state_socialist
                 }
             }
             if = {
@@ -112,11 +112,11 @@ on_actions = {
             }
             if = {
                 LIMIT = {
-                    has_country_flag = revolutionary_socialist_opposition
+                    has_country_flag = state_socialist_opposition
                 }
                 add_to_variable = {
                     var = opposition_pop_total
-                    value = party_popularity@revolutionary_socialist
+                    value = party_popularity@state_socialist
                 }
             }
             if = {

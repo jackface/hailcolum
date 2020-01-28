@@ -531,6 +531,46 @@ MWE = {
 	color = rgb { 255 178 168 }
 	color_ui = rgb { 255 178 168 }
 }
+WAS = {
+	color = rgb { 124 178 168 }
+	color_ui = rgb { 124 178 168 }
+}
+MSS = {
+	color = rgb { 204 28 46 }
+	color_ui = rgb { 204 28 46 }
+}
+ANA = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+PAT = {
+	color = rgb { 98 74 122 }
+	color_ui = rgb { 98 74 122 }
+}
+ROS = {
+	color = rgb { 116 193 189 }
+	color_ui = rgb { 116 193 189 }
+}
+COR = {
+	color = rgb { 116 193 189 }
+	color_ui = rgb { 116 193 189 }
+}
+BRV = {
+	color = rgb { 193 113 110 }
+	color_ui = rgb { 193 113 110 }
+}
+SPE = {
+	color = rgb { 193 170 67 }
+	color_ui = rgb { 193 170 67 }
+}
+SON = {
+	color = rgb { 255 94 76 }
+	color_ui = rgb { 255 94 76 }
+}
+BAJ = {
+	color = rgb { 255 168 102 }
+	color_ui = rgb { 255 168 102 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

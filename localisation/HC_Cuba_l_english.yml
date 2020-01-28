@@ -4,9 +4,9 @@
  CUB_liberationist:0 "Republic of Cuba"
  CUB_liberationist_DEF:0 "The Republic of Cuba"
  CUB_liberationist_ADJ:0 "Cuban"
- CUB_revolutionary_socialist:0 "Republic of Cuba"
- CUB_revolutionary_socialist_DEF:0 "The Republic of Cuba"
- CUB_revolutionary_socialist_ADJ:0 "Cuban"
+ CUB_state_socialist:0 "Republic of Cuba"
+ CUB_state_socialist_DEF:0 "The Republic of Cuba"
+ CUB_state_socialist_ADJ:0 "Cuban"
  CUB_labourist:0 "Republic of Cuba"
  CUB_labourist_DEF:0 "The Republic of Cuba"
  CUB_labourist_ADJ:0 "Cuban"
@@ -35,9 +35,9 @@
  CUB_captaincy_general_liberationist:0 "Captaincy General of Cuba"
  CUB_captaincy_general_liberationist_DEF:0 "Captaincy General of Cuba"
  CUB_captaincy_general_liberationist_ADJ:0 "Cuban"
- CUB_captaincy_general_revolutionary_socialist:0 "Captaincy General of Cuba"
- CUB_captaincy_general_revolutionary_socialist_DEF:0 "Captaincy General of Cuba"
- CUB_captaincy_general_revolutionary_socialist_ADJ:0 "Cuban"
+ CUB_captaincy_general_state_socialist:0 "Captaincy General of Cuba"
+ CUB_captaincy_general_state_socialist_DEF:0 "Captaincy General of Cuba"
+ CUB_captaincy_general_state_socialist_ADJ:0 "Cuban"
  CUB_captaincy_general_labourist:0 "Captaincy General of Cuba"
  CUB_captaincy_general_labourist_DEF:0 "Captaincy General of Cuba"
  CUB_captaincy_general_labourist_ADJ:0 "Cuban"
@@ -66,5 +66,8 @@
  
  #Parties
  
- 
+ #Events
+ cuba.1.t:0 "Assassination In Havana"
+ cuba.1.d:0 "Captain General Francisco Franco, the official representative of the Spanish government in Cuba, was assassinated today while exiting his car. The assassin, a member of a Cuban independence group, allegedly shouted “Cuba libre!” before being promptly gunned down himself by the late governor’s bodyguards. While the Cuban government still awaits word from Madrid on Franco’s successor, it has wasted no time cracking down on suspected rebels and independence agitators. The police have already dragged several individuals suspected of revolutionary activity from their homes and businesses. Their current whereabouts are unknown although many whisper of secretive “re-concentration camps” in the Cuban countryside where dissidents are kept. The steps taken by Spain to consolidate control over an island it has possessed since the Age of Discovery has drawn the ire of the international community and earned Cuba the unfriendly title of the ‘Sick Man of the Caribbean’. Whether the new governor will be able to salvage the island from total collapse remains to be seen."
+ cuba.1.o1:0 "Dear Lord"
  

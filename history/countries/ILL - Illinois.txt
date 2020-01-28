@@ -92,7 +92,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 49
 	fabianist = 30
 	social_liberal = 10

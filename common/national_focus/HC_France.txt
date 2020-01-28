@@ -1,0 +1,18 @@
+﻿focus_tree = {
+	id = france_focus
+	
+	country = {
+		factor = 0
+		
+		#modifier = {
+		#	add = 10
+		#	tag = FRA
+		#}
+	}
+	
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	
+	
+}

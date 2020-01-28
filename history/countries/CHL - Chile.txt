@@ -62,7 +62,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 25
 	social_liberal = 0
@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
 	traits = {
 		#
 	}

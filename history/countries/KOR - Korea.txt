@@ -18,7 +18,7 @@ set_politics = {
 }
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
@@ -45,7 +45,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
 	traits = {
 		#
 	}

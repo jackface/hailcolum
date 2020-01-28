@@ -1,0 +1,237 @@
+ideas = {
+
+	country = {
+	
+		
+		
+		
+	
+	}
+	
+	second_in_command = {
+	
+		FRA_Philippe_Henriot_sic_con = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Philippe_Henriot_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Philippe_Henriot_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Leon_Blum_sic_fab = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Leon_Blum_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Leon_Blum_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Philippe_Petain_sic_aut = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Philippe_Petain_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Philippe_Petain_dead }
+			}
+			
+			traits = {
+				authdem_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	economic_minister = {
+		
+		FRA_Charles_Nollet_eco_aut = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Charles_Nollet_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Charles_Nollet_dead }
+			}
+			
+			traits = {
+				authdem_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Auguste_Isaac_eco_con = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Auguste_Isaac_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Auguste_Isaac_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Marcel_Deat_eco_lab = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Marcel_Deat_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Marcel_Deat_dead }
+			}
+			
+			traits = {
+				labourist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+	}
+	
+	foreign_minister = { 
+		
+		FRA_Louis_Marin_for_con = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Louis_Marin_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Louis_Marin_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Vincent_Auriol_for_fab = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Vincent_Auriol_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Vincent_Auriol_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+	}
+	
+	minister_of_defense = {
+	
+		FRA_Philippe_Petain_mod_aut = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Philippe_Petain_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Philippe_Petain_dead }
+			}
+			
+			traits = {
+				authdem_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Pierre_Cot_mod_lab = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Pierre_Cot_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Pierre_Cot_dead }
+			}
+			
+			traits = {
+				labourist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		FRA_Charles_Nollet_mod_scl = {
+			allowed = { original_tag = FRA }
+			available = {
+				
+				NOT = { has_country_flag = Charles_Nollet_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Charles_Nollet_dead }
+			}
+			
+			traits = {
+				soclib_tr
+			}
+			cancel_if_invalid = yes
+		}
+	
+	}
+	
+	
+}

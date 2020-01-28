@@ -37,7 +37,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
@@ -49,56 +49,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Bernard Montgomery"
-	desc = "POLITICS_BERNARD_MONTGOMERY_DESC"
-	picture = "Portrait_RAJ_Bernard_Montgomery.dds"
+	name = "Douglas Gracey"
+	desc = "POLITICS_DOUGLAS_GRACEY_DESC"
+	picture = "Portrait_RAJ_Douglas_Gracey.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
-}
-
-create_corps_commander = {
-	name = "Noel Beresford-Peirse"
-	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Frank Messervy"
-	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Douglas Gracey"
-	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_navy_leader = {
-	name = "Herbert Fitzherbert"
-	gfx = "GFX_RAJ_herbert_fitzherbert"
-	traits = { old_guard_navy }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
 }

@@ -4,9 +4,9 @@
  USA_liberationist:0 "Commonwealth of American Workers"
  USA_liberationist_DEF:0 "The Commonwealth of American Workers"
  USA_liberationist_ADJ:0 "American"
- USA_revolutionary_socialist:0 "Commonwealth of American Workers"
- USA_revolutionary_socialist_DEF:0 "The Commonwealth of American Workers"
- USA_revolutionary_socialist_ADJ:0 "American"
+ USA_state_socialist:0 "Commonwealth of American Workers"
+ USA_state_socialist_DEF:0 "The Commonwealth of American Workers"
+ USA_state_socialist_ADJ:0 "American"
  USA_labourist:0 "Commonwealth of American Workers"
  USA_labourist_DEF:0 "The Commonwealth of American Workers"
  USA_labourist_ADJ:0 "American"
@@ -32,51 +32,45 @@
  USA_neo_jingoist_DEF:0 "The United States of America"
  USA_neo_jingoist_ADJ:0 "American"
  
- USA_liberationist_party:0 "FASLM"
- USA_liberationist_party_long:0 "Free American Society of Liberation and Militancy"
- USA_revolutionary_socialist_party:0 "NCL"
- USA_revolutionary_socialist_party_long:0 "National Confederation of Labour"
- USA_labourist_party:0 "Labor"
- USA_labourist_party_long:0 "American Labor Party"
- USA_fabianist_party:0 "Republicans"
- USA_fabianist_party_long:0 "Republican Party of The United States of America"
- USA_social_liberal_party:0 "Progressives"
- USA_social_liberal_party_long:0 "Progressive Party of The United States of America"
- USA_market_liberal_party:0 "Liberals"
- USA_market_liberal_party_long:0 "Liberal Party of The United States of America"
- USA_social_conservative_party:0 "Federalists"
- USA_social_conservative_party_long:0 "Federalist Party of The United States of America"
- USA_authoritarian_democrat_party:0 "Democrats"
- USA_authoritarian_democrat_party_long:0 "Democratic Party of The United States of America"
- USA_national_autocracy_party:0 "Anti-Masonic"
- USA_national_autocracy_party_long:0 "Anti-Masonic Party of America"
- USA_neo_jingoist_party:0 "New Democrats"
- USA_neo_jingoist_party_long:0 "American New Democratic Party"
+ USA_liberationist_party:0 "RadSoc Militia"
+ USA_liberationist_party_long:0 "Radical Socialist Militia"
+ USA_state_socialist_party:0 "SDLPA-RF"
+ USA_state_socialist_party_long:0 "Social Democratic Labor Party of America - Ripleyist Faction"
+ USA_labourist_party:0 "SDLPA-DLF"
+ USA_labourist_party_long:0 "Social Democratic Labor Party of America - De Leonist Faction"
+ USA_fabianist_party:0 "FS-GPA"
+ USA_fabianist_party_long:0 "The Free Soil-Grange Party of America"
+ USA_social_liberal_party:0 "Populists"
+ USA_social_liberal_party_long:0 "Populist Party of America"
+ USA_market_liberal_party:0 "GSPA"
+ USA_market_liberal_party_long:0 "Gold Standard Party of America"
+ USA_social_conservative_party:0 "CSPA"
+ USA_social_conservative_party_long:0 "Christian Social Party of America"
+ USA_authoritarian_democrat_party:0 "D-R"
+ USA_authoritarian_democrat_party_long:0 "Democratic-Republican Party"
+ USA_national_autocracy_party:0 "AMRP"
+ USA_national_autocracy_party_long:0 "American Military Revival Party"
+ USA_neo_jingoist_party:0 "MDP"
+ USA_neo_jingoist_party_long:0 "Manifest Destiny Party"
  
  #National Spirits
  
- USA_canadian_separatism:0 "Canadian Separatism"
- USA_canadian_separatism_desc:0 "Canadian Separatism is high, especially in the State of Canada. The Canadian Liberation Front, a militia dedicated to Canadian independence is seen as a threat as many believe they may start posing a threat as terrorists."
- USA_rigged_economy:0 "Ridged Economy"
- USA_rigged_economy_desc:0 "Helping prop up the Post-Great War governments of both Britain and Italy since 1912 has been very stressful on the American Economy, many government members mainly from the Liberals, Progressives and Republicans advocate for ending or adjusting the aid we send the two nations. The Federalists in power however support aiding the nations as they believe they should be helped in their time of need.\n\n On top of this, unemployment in the nation is on the rise, and the Federalists have not presented a plan to tackle it as of yet."
- USA_legacy_of_deneland_mutiny:0 "Legacy of Deneland Mutiny"
- USA_legacy_of_deneland_mutiny_desc:0 "The Deneland Mutiny happened in 1929, it was an organized army strike in the state of Deneland as soldiers within the army located there felt they were not being paid enough or accommodated enough for living in the northern state. When the government of Pershing refused to give any concessions to the strikers and threatened to have them charged with deserting, this lead to the soldiers staging a mutiny which echoed through the military."
- 
  #Events
  
- usa.1.t:0 "US 1932 Parliamentary Election"
- usa.1.d:0 "Today American voters head to the polls to vote for the new American Government as they do every 4 years. The electoral process will determine how the house of representatives will be made up until the next election, and which ever party can form the largest government will choose the Chancellor who will hold the position until the next election unless something unfortunate happens.\n\nThis election like most sees the 4 largest American political parties running against each other, the Republican Party, the Federalist Party, the Liberal Party and the Progressive Party. The Republican Party is lead by John Haynes Holmes and runs on a fabianist platform, Haynes has suggested to repeal the aid given to the governments in Britain and Italy to focus the governments money on the welfare of American citizens. The Federalist Party, the current party in power is lead by Chancellor John J. Pershing, Pershing and the Federalists advocate for a conservative line for the country to follow while also keeping the flow of money to the regimes in Europe active, Pershing in the last four years has shown to neglect the economy of the US to support those European regimes and it isn't likely an American economic crash will even stop this. Finally the Progressive Party, aligned with the Liberal Party in a planned coalition lead by Liberal Party leader, Stirling Fessenden, the coalition had been formed in mid-1931 to increase the chances of pushing both parties policies along. The Progressive-Liberal Coalition has advocated to decrease the funding to Italy and Britain while but has also mentioned they wish to reform the position of the President, they have talked about the possibility of a Semi-Presidential system under their government, something that certainly would be revolutionary to see as the American Government has been parliamentary since 1878."
- usa.1.o1:0 "Federalists"
- usa.1.o2:0 "Republicans"
- usa.1.o3:0 "Liberal-Progressives"
+ usa.1.t:0 "The Great American Flag Debate"
+ usa.1.d:0 "The debate over the national flag has gone on long enough, the founders of Modern America chose the flag due to the connections of the old flag to the military dictatorship that had been in power for nearly 60 years. This however was not seen as great by many Americans, while many supported the turn to a Parliamentary System, away from the presidential system that once stood in its place; the support for ridding of the stars and stripes wasn't as near-universally accepted. It has seen minor debate in both houses of government but had died out by the Great War and hadn't been talked about much at all again; however, that had all changed in September of 1931 when a protester against Pershing's austerity measures in response to the Munich Stock Exchange crash had been beaten and arrested for burning the Tri-Color in which Pershing had previously shown proud support of only months earlier in his Unity Day speech, it was later found that the protester was pronounced dead due to the beatings. The brutality towards/death of this protester had re-sparked the debate when protests had shown seas of the Stars and Stripes flag from the days of old as protesters flew it in solidarity for this man.\n\nWith the debate returning to national prominence many people have put forward suggestions for a new flag for America, the 3 largest contenders being The Stars and Stripes, an adapted Washington Coat of Arms as a flag, and the Marschall-Davis Proposal from during the very first flag debate of the modern era. The Stars and Stripes flag would be a return to the original flag which included thirteen stars representing the original thirteen states and thirteen stripes representing them as well. The Washington Flag as it has come to be known as is based on the Washington Family Coat of Arms which dates back to 12th century England, it has been chosen because of the obvious reason of George Washington, the first president of the United States. Finally is the Marschall-Davis Proposal, proposed by Jefferson Davis after the end of the Second Civil War during the first flag debate of many, named Marschall-Davis Proposal due to being designed by Nicola Marschall who supported the Anti-Military Government cause during the Second Civil War. Now we are in a referendum and the people must chose one of four choices given to them."
+ usa.1.o1:0 "The Tri-Colour Forever"
+ usa.1.o2:0 "The Stars and Stripes"
+ usa.1.o3:0 "A Flag For Washington"
+ usa.1.o4:0 "The Marschall-Davis Proposal"
  
  #Tool
- USA_new_parliament_elected:0 "§RNew Parliament Is Elected§!"
  
  #Flags 
- USA_federalists_1932_victory:0 "Federalists Victory 1932"
- USA_republican_1932_victory:0 "Republican Victory 1932"
- USA_liberal_progressive_1932_victory:0 "Liberal-Progressive Victory 1932"
+ 
+ #Decisions
+ american_great_flag_debate:0 "American Great Flag Debate"
+ USA_a_change_to_the_flag:0 "A Change To The Flag"
  
  #IDEAS/Ministers
  
@@ -94,8 +88,16 @@
  USA_Thomas_Alexander_Crerar_for_scl:0 "Thomas A. Crerar"
  USA_Arthur_Currie_mod_mrl:0 "Arthur Currie"
  USA_Harry_Truman_for_mrl:0 "Harry Truman"
+ USA_Frank_Barrett_sic_fab:0 "Frank A. Barrett"
+ USA_Elihu_Root_mod_fab:0 "Elihu Root"
+ USA_Dwight_F_Davis_sic_con:0 "Dwight F. Davis"
+ USA_William_J_Driver_eco_con:0 "William J. Driver"
+ USA_John_N_Garner_for_con:0 "John N. Garner"
+ USA_Rodmond_Roblin_mod_con:0 "Rodmond Roblin"
+ USA_Andrew_Mellon_sic_mrl:0 "Andrew Mellon"
+ USA_Wiley_B_Rutledge_sic_scl:0 "Wiley B. Rutledge"
  
  #PEACE
- CAN_canadian_independence_achieved:0 "Canadian Independence Achieved"
-
+ 
+ #Focuses
  

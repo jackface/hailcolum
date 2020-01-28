@@ -1,14 +1,5 @@
 ﻿capital = 47
 
-oob = "GRE_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "GRE_1936_naval_mtg"
-	else = {
-		set_naval_oob = "GRE_1936_naval_legacy"
-	}
-}
-
 set_research_slots = 3
 
 add_ideas = {
@@ -68,7 +59,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 2
+	state_socialist = 2
 	labourist = 1
 	fabianist = 10
 	social_liberal = 21

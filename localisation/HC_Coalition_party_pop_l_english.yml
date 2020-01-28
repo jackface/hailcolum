@@ -3,7 +3,7 @@
  
  HC_TOPBAR_LOC:0 "§YParty Popularity§!\nOur ruling party is §Y[topbarIdeology]§! and they have a popularity of §Y[?party_popularity@ruling_party|0]%§!.[coalitionActive][oppositionActive]"
  topbarliberationist:0 "Blanquist"
- topbarrevolutionary_socialist:0 "Revolutionary Socialist"
+ topbarstate_socialist:0 "State Socialist"
  topbarlabourist:0 "Labourist"
  topbarfabianist:0 "Fabianistic"
  topbarsocial_liberal:0 "Social Liberal"
@@ -14,11 +14,11 @@
  topbarneo_jingoist:0 "Neo-Jingoist"
  
  
- HC_TOPBAR_COALITION:0 "\n\n§YCoalition§!\nOur ruling coalition has a total popularity of §Y[?coalition_pop_total]%§!.\nOur coalition consists of:[coalitionliberationist][coalitionrevolutionary_socialist][coalitionlabourist][coalitionfabianist][coalitionSocLiberal][coalitionLibConservatism][coalitionSocConservatism][coalitionAuthDemocrat][coalitionPatAutocrat][coalitionFascism]"
+ HC_TOPBAR_COALITION:0 "\n\n§YCoalition§!\nOur ruling coalition has a total popularity of §Y[?coalition_pop_total]%§!.\nOur coalition consists of:[coalitionliberationist][coalitionstate_socialist][coalitionlabourist][coalitionfabianist][coalitionSocLiberal][coalitionLibConservatism][coalitionSocConservatism][coalitionAuthDemocrat][coalitionPatAutocrat][coalitionFascism]"
  HC_TOPBAR_NO_COALITION:0 ""
  
  COALITION_liberationist:0 "\n§Y- Blanquists§!"
- COALITION_revolutionary_socialist:0 "\n§Y- Revolutionary Socialists§!"
+ COALITION_state_socialist:0 "\n§Y- State Socialist§!"
  COALITION_labourist:0 "\n§Y- Labourists§!"
  COALITION_fabianist:0 "\n§Y- Fabianists§!"
  COALITION_social_liberal:0 "\n§Y- Social Liberals§!"
@@ -35,11 +35,11 @@
  
  
  
- HC_TOPBAR_OPPOSITION:0 "\n\n§YOpposition§!\nThe opposition has a total popularity of §Y[?opposition_pop_total]%§!.\nThe opposition consists of:[oppositionliberationist][oppositionrevolutionary_socialist][oppositionlabourist][oppositionfabianist][oppositionSocLiberal][oppositionLibConservatism][oppositionSocConservatism][oppositionAuthDemocrat][oppositionPatAutocrat][oppositionFascism]"
+ HC_TOPBAR_OPPOSITION:0 "\n\n§YOpposition§!\nThe opposition has a total popularity of §Y[?opposition_pop_total]%§!.\nThe opposition consists of:[oppositionliberationist][oppositionstate_socialist][oppositionlabourist][oppositionfabianist][oppositionSocLiberal][oppositionLibConservatism][oppositionSocConservatism][oppositionAuthDemocrat][oppositionPatAutocrat][oppositionFascism]"
  HC_TOPBAR_NO_OPPOSITION:0 ""
  
  OPPOSITION_liberationist:0 "\n§Y- Blanquists§!"
- OPPOSITION_revolutionary_socialist:0 "\n§Y- Revolutionary Socialists§!"
+ OPPOSITION_state_socialist:0 "\n§Y- State Socialist§!"
  OPPOSITION_labourist:0 "\n§Y- Labourists§!"
  OPPOSITION_fabianist:0 "\n§Y- Fabianists§!"
  OPPOSITION_social_liberal:0 "\n§Y- Social Liberals§!"

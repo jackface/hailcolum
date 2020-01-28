@@ -12,7 +12,7 @@ set_convoys = 5
 
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = neo_jingoist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,13 +20,23 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 50
-	national_autocracy = 50
-	neo_jingoist = 0
+	authoritarian_democrat = 0
+	national_autocracy = 0
+	neo_jingoist = 100
+}
+
+create_country_leader = {
+	name = "Ba Maw"
+	desc = "POLITICS_BA_MAW_DESC"
+	picture = "Portrait_BRM_Ba_Maw.dds"
+	expire = "1965.1.1"
+	ideology = neo_jingoist_subtype
+	traits = {
+	}
 }

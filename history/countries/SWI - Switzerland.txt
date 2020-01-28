@@ -26,7 +26,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 10
+	state_socialist = 10
 	labourist = 2
 	fabianist = 0
 	social_liberal = 32
@@ -38,7 +38,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	neutrality_idea	
 	limited_conscription
 }
 

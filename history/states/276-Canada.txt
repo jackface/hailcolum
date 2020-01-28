@@ -2,30 +2,28 @@
 state={
 	id=276
 	name="STATE_276" # Southern Ontario
-	manpower = 1021537
+	manpower = 2021537
 	
-	state_category = large_city
+	state_category = city
 	
 	history={
-		owner = USA
+		owner = CAN
 		buildings = {
 			infrastructure = 7
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 5
 		}
-		add_core_of = USA
+		add_core_of = CAN
+		
 		victory_points = {
-			3778 20 
-		}
-		victory_points = {
-			3775 10
+			3775 20
 		}
 
 	}
 
 	provinces={
-		605 774 779 3605 3608 3635 3640 3661 3775 3778 4270 6607 6610 6625 6630 6662 6676 6797 9580 9583 9585 9634 9743 11567 11569 11585 11602 11725 11728 
+		605 774 779 3608 3635 3640 3661 3775 6607 6610 6662 6676 6797 9580 9583 9585 9634 9743 11567 11569 11585 11602 11725 11728 
 	}
 	
 }

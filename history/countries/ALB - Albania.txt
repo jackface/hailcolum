@@ -12,7 +12,7 @@ set_cosmetic_tag = ALB_illyrian_federation
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
@@ -34,11 +34,110 @@ set_politics = {
 set_convoys = 5
 
 create_country_leader = {
+	name = "Myslim Peza"
+	desc = "POLITICS_MYSLIM_PEZA_DESC"
+	picture = "Portrait_ALB_Myslim_Peza.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "Portrait_ALB_Enver_Hoxha.dds"
+	expire = "1965.1.1"
+	ideology = state_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Koçi Xoxe"
+	desc = "POLITICS_KOCI_XOXE_DESC"
+	picture = "Portrait_ALB_Koci_Xoxe.dds"
+	expire = "1965.1.1"
+	ideology = labourist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Murad Toptani"
+	desc = "POLITICS_MURAD_TOPTANI_DESC"
+	picture = "Portrait_ALB_Murad_Toptani.dds"
+	expire = "1965.1.1"
+	ideology = fabianist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Çerçiz Topulli"
+	desc = "POLITICS_CERCIZ_TOPULLI_DESC"
+	picture = "Portrait_ALB_Cerciz_Topulli.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdi Toptani"
+	desc = "POLITICS_ABDI_TOPTANI_DESC"
+	picture = "Portrait_ALB_Abdi_Toptani.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Avni Rustemi"
 	desc = "POLITICS_AVNI_RUSTEMI_DESC"
 	picture = "Portrait_ALB_Avni_Rustemi.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shefqet Vërlaci"
+	desc = "POLITICS_SHEFQET_VERLACI_DESC"
+	picture = "Portrait_ALB_Shefqet_Verlaci.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ahmet Zogolli"
+	desc = "POLITICS_AHMET_ZOGOLLI_DESC"
+	picture = "Portrait_ALB_Ahmet_Zogolli.dds"
+	expire = "1965.1.1"
+	ideology = national_autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Mustafa Merlika-Kruja"
+	desc = "POLITICS_MUSTAFA_MERLIKA_KRUJA_DESC"
+	picture = "Portrait_ALB_Mustafa_Merlika_Kruja.dds"
+	expire = "1965.1.1"
+	ideology = neo_jingoist_subtype
 	traits = {
 		#
 	}

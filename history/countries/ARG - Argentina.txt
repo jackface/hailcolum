@@ -54,7 +54,7 @@ set_country_flag = monroe_doctrine
 set_convoys = 120
 set_politics = {
 	
-	ruling_party = labourist
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -62,7 +62,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 32
 	fabianist = 19
 	social_liberal = 3
@@ -74,9 +74,31 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Manuel Ugarte"
+	desc = "POLITICS_MANUEL_UGARTE_DESC"
+	picture = "Portrait_ARG_Manuel_Ugarte.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Mario Bravo"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+	desc = "POLITICS_MARIO_BRAVO_DESC"
 	picture = "Portrait_ARG_Mario_Bravo.dds"
+	expire = "1965.1.1"
+	ideology = bravosism_revsoc
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leopoldo Melo"
+	desc = "POLITICS_LEOPOLDO_MELO_DESC"
+	picture = "Portrait_ARG_Leopoldo_Melo.dds"
 	expire = "1965.1.1"
 	ideology = labourist_subtype
 	traits = {
@@ -84,15 +106,81 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
+create_country_leader = {
+	name = "Hipólito Yrigoyen"
+	desc = "POLITICS_HIPOLITO_Yrigoyen_DESC"
+	picture = "Portrait_ARG_Hipólito_Yrigoyen.dds"
+	expire = "1965.1.1"
+	ideology = fabianist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nimio de Angquin"
+	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+	picture = "Portrait_ARG_Nimio_de_Anquin.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Norberto Piñero"
+	desc = "POLITICS_NORBERTO_PINERO_DESC"
+	picture = "Portrait_ARG_Norberto_Pinero.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Arturo Rawson"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 1
-    logistics_skill = 2
+	desc = "POLITICS_ARTURO_RAWSON_DESC"
+	picture = "Portrait_ARG_Arturo_Rawson.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Luis Franco"
+	desc = "POLITICS_LUIS_FRANCO_DESC"
+	picture = "Portrait_ARG_Luis_Franco.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juan Pistarini"
+	desc = "POLITICS_JUAN_PISTARINI_DESC"
+	picture = "Portrait_ARG_Juan_Pistarini.dds"
+	expire = "1965.1.1"
+	ideology = national_autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alberto Teisaire"
+	desc = "POLITICS_ALBERTO_TEISAIRE_DESC"
+	picture = "Portrait_ARG_Alberto_Teisaire.dds"
+	expire = "1965.1.1"
+	ideology = neo_jingoist_subtype
+	traits = {
+		#
+	}
 }
 
 create_corps_commander = {
@@ -106,13 +194,3 @@ create_corps_commander = {
     logistics_skill = 3
 }
 
-create_navy_leader = {
-	name = "Alberto Teisaire"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	traits = { chief_engineer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 3
-}

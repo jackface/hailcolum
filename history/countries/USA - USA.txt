@@ -1,7 +1,13 @@
 ﻿capital = 361
 
 oob = "USA_1936"
-
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "USA_1936_naval_mtg"
+	else = {
+		set_naval_oob = "USA_1936_naval_legacy"
+	}
+}
 set_research_slots = 4
 set_stability = 0.55
 set_war_support = 0.10
@@ -75,14 +81,8 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
-add_ideas = {
-	USA_canadian_separatism
-	USA_rigged_economy
-	USA_legacy_of_deneland_mutiny
-}
 
 #Monroe Doctrine
 give_guarantee = MEX
@@ -116,16 +116,16 @@ set_convoys = 400
 puppet = LIB
 
 set_popularities = {
-	liberationist = 0
-	revolutionary_socialist = 0
-	labourist = 7
-	fabianist = 29
-	social_liberal = 9
-	market_liberal = 19
-	social_conservative = 36
-	authoritarian_democrat = 0
-	national_autocracy = 0
-	neo_jingoist = 0
+	liberationist = 6
+	state_socialist = 4
+	labourist = 9
+	fabianist = 22
+	social_liberal = 16
+	market_liberal = 9
+	social_conservative = 23
+	authoritarian_democrat = 8
+	national_autocracy = 2
+	neo_jingoist = 1
 }
 
 set_politics = {
@@ -146,23 +146,12 @@ add_ideas = {
 	USA_Dwight_F_Davis_mod_con
 }
 
-
-
-#1897-1921 24 Years of Republican Dominance 
-#1908 Taft 
-#1912 Taft 
-#1916 Roosevelt 
-#1920 Leonard Wood
-#1924 Oscar Underwood
-#1928 James M. Beck
-#1932 Beck Vs Charles Evan Hughes or FDR
-
 create_country_leader = {
-	name = "Alma Bridwell White"
-	desc = "POLITICS_ALMA_BRIDWELL_WHITE_DESC"
-	picture = "Portrait_USA_Alma_Bridwell_White.dds"
+	name = "Benedict Shenandoah"
+	desc = "POLITICS_BENEDICT_SHENANDOAH_DESC"
+	picture = "Portrait_USA_Benedict_Shenandoah.dds"
 	expire = "1947.1.1"
-	ideology = authoritarian_socialist
+	ideology = liberationist_subtype
 	traits = {
 		
 	}
@@ -173,16 +162,16 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Earl_Browder.dds"
 	expire = "1947.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Henry Wallace"
-	desc = "POLITICS_HENRY_WALLACE_DESC"
-	picture = "Portrait_USA_Henry_Wallace.dds"
+	name = "William Blizzard"
+	desc = "POLITICS_WILLIAM_SHENANDOAH_DESC"
+	picture = "Portrait_USA_William_Blizzard.dds"
 	expire = "1947.1.1"
 	ideology = labourist_subtype
 	traits = {
@@ -224,11 +213,22 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "John J. Pershing"
-	desc = "POLITICS_JOHN_J_PERSHING_DESC"
-	picture = "Portrait_USA_John_J_Pershing.dds"
+	name = "Cordell Hull"
+	desc = "POLITICS_CORDELL_HULL_DESC"
+	picture = "Portrait_USA_Cordell_Hull.dds"
 	expire = "1947.1.1"
 	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Bobbi Lee"
+	desc = "POLITICS_BOBBI_LEE_DESC"
+	picture = "Portrait_USA_Bobbi_Lee.dds"
+	expire = "1947.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
@@ -245,6 +245,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Robert Frost"
+	desc = "POLITICS_ROBERT_FROST_DESC"
+	picture = "Portrait_USA_Robert_Frost.dds"
+	expire = "1947.1.1"
+	ideology = neo_jingoist_subtype
+	traits = {
+		
+	}
+}
+
 "LIB" = {
 	set_politics = {
 		
@@ -256,7 +267,7 @@ create_country_leader = {
 	
 	set_popularities = {
 		liberationist = 0
-		revolutionary_socialist = 0
+		state_socialist = 0
 		labourist = 0
 		fabianist = 0
 		social_liberal = 0

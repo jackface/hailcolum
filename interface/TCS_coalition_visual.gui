@@ -14,7 +14,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "revolutionary_socialistVisual"
+		name = "state_socialistVisual"
 		position = { x = 565 y = 36 }
 		iconType ={
 			name = "pol_party_colour_bg_coalition_icon"
@@ -127,7 +127,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "revolutionary_socialistVisualOpposition"
+		name = "state_socialistVisualOpposition"
 		position = { x = 565 y = 36 }
 		iconType ={
 			name = "pol_party_colour_bg_opposition_icon"

@@ -25,11 +25,32 @@
  labourist:0 "Labourist"
  labourist_noun:0 "Libertarian Socialism"
  labourist_desc:0 "Labourist Regime"
- revolutionary_socialist:0 "Revolutionary Socialist"
- revolutionary_socialist_noun:0 "Revolutionary Socialism"
- revolutionary_socialist_desc:0 "Revolutionary Socialist Regime"
- liberationist:0 "Blanquist"
+ state_socialist:0 "State Socialist"
+ state_socialist_noun:0 "State Socialism"
+ state_socialist_desc:0 "State Socialist Regime"
+ liberationist:0 "Liberationist"
  liberationist_noun:0 "Libertarianism"
- liberationist_desc:0 "Blanquist Regime"
+ liberationist_desc:0 "Liberationist Regime"
+ 
+ #Liberationist Sub-Ideologies
+ 
+ #RevSoc Sub-Ideologies
+ bravosism_revsoc_desc:0 "§YBravoism§!\nBravoism is the ideology of Argentine Socialist revolutionary, Mario Bravo."
+ 
+ #Labourist Sub-Ideologies
+ 
+ #Fabianist Sub-Ideologies
+ 
+ #SocLib Sub-Ideologies
+ 
+ #MarkLib Sub-Ideologies
+ 
+ #SocCon Sub-Ideologies
+ 
+ #AuthDem Sub-Ideologies
+ 
+ #NatAut Sub-Ideologies
+ 
+ #Neo-Jingoist Sub-Ideologies
  
  

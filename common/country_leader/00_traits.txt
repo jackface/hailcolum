@@ -3392,7 +3392,7 @@ leader_traits = {
 		}
 	}
 	
-	revolutionary_socialist_tr = {
+	state_socialist_tr = {
 		random = no
 		
 		ai_will_do = {

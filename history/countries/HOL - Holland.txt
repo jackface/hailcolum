@@ -85,10 +85,6 @@ if = {
 
 puppet = SAF
 
-add_ideas = {
-	HOL_wilhelmina
-}
-
 
 
 
@@ -99,7 +95,7 @@ set_politics = {
 			popularity = 0
 		}
 		
-		revolutionary_socialist = { 
+		state_socialist = { 
 			popularity = 8
 		}
 		
@@ -144,7 +140,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 8
+	state_socialist = 8
 	labourist = 2
 	fabianist = 39
 	social_liberal = 3

@@ -7,9 +7,22 @@ set_technology = {
 
 set_convoys = 10
 
+
+# DIPLOMACY / WAR 32
+#if = {
+#	limit = {
+#		has_start_date < 1932.01.02
+#	}
+#
+#	declare_war_on = {
+#		target = GRE
+#		type = annex_everything
+#	}
+#}
+
 set_politics = {
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = neo_jingoist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -17,15 +30,15 @@ set_politics = {
 ####popularities
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
-	social_conservative = 24
-	authoritarian_democrat = 76
-	national_autocracy = 0
-	neo_jingoist = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	national_autocracy = 44
+	neo_jingoist = 56
 }
 
 create_country_leader = {
@@ -45,6 +58,17 @@ create_country_leader = {
 	picture = "Portrait_OTO_Abdulmejid_II.dds"
 	expire = "1947.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ismail Enver Pasha"
+	desc = "POLITICS_ISMAIL_ENVER_PASHA_DESC"
+	picture = "Portrait_OTO_Enver_Pasha.dds"
+	expire = "1947.1.1"
+	ideology = neo_jingoist_subtype
 	traits = {
 		
 	}

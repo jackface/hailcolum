@@ -28,17 +28,21 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			#generate_wargoal_tension = 0.25
 		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 
-	revolutionary_socialist = {
+	state_socialist = {
 		types = {
-			revolutionary_socialist_subtype = {} #generic
+			state_socialist_subtype = {} #generic
 
 			syndicalist = {}
+			
+			bravosism_revsoc = {}
+			
+			national_collectivism_statesoc = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REVOLUTIONARY_SOCIALIST_1"
@@ -57,7 +61,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			#generate_wargoal_tension = 0.25
 			ai_get_ally_desire_factor = -500
 		}
 		ai_neutral = yes
@@ -90,7 +94,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 			ai_get_ally_desire_factor = -500
 		}
 		ai_neutral = yes
@@ -101,6 +105,7 @@ ideologies = {
 	fabianist = {
 		types = {
 			fabianist_subtype = {}
+			national_fabianist = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_FABIANIST_1"
@@ -119,7 +124,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -148,7 +153,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -175,7 +180,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -202,7 +207,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -229,7 +234,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.75
+			#generate_wargoal_tension = 0.75
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -256,7 +261,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			#generate_wargoal_tension = 0.25
 		}
 		ai_neutral = yes
 		can_be_boosted = no
@@ -285,7 +290,7 @@ ideologies = {
 		}
 		modifiers = {
 			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.25
+			#generate_wargoal_tension = 0.25
 		}
 		ai_neutral = yes
 		can_be_boosted = no

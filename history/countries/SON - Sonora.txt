@@ -1,0 +1,74 @@
+﻿capital = 483
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+set_country_flag = monroe_doctrine
+
+set_convoys = 45
+set_stability = 0.2
+set_war_support = 0.1
+
+
+set_politics = {
+	
+	ruling_party = market_liberal
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	liberationist = 3
+	state_socialist = 2
+	labourist = 21
+	fabianist = 9
+	social_liberal = 17
+	market_liberal = 23
+	social_conservative = 5
+	authoritarian_democrat = 11
+	national_autocracy = 5
+	neo_jingoist = 4
+}
+
+create_country_leader = {
+	name = "William D. Stephens" #Alejo Bey for BAJA
+	desc = "POLITICS_WILLIAM_DENNISON_STEPHENS_DESC"
+	picture = "Portrait_SON_William_Dennison_Stephens.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}

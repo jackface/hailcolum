@@ -1,0 +1,22 @@
+
+state={
+	id=815
+	name="STATE_815"
+	manpower = 231510
+	
+	state_category = town
+
+	history={
+		owner = BAJ
+		add_core_of = BAJ
+		buildings = {
+			infrastructure = 1
+		}
+		
+		
+	}
+
+	provinces={
+		1904 8119 12736
+	}
+}

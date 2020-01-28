@@ -33,11 +33,11 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "revolutionary_socialist"
+		name = "state_socialist"
 		position = { x = 175 y = 7 }
 		iconType ={
-			name = "revolutionary_socialist_icon"
-			spriteType = "GFX_ideology_revolutionary_socialist_group"
+			name = "state_socialist_icon"
+			spriteType = "GFX_ideology_state_socialist_group"
 			position = { x= 2 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.35

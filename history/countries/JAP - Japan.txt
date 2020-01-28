@@ -102,7 +102,7 @@ set_convoys = 400
 
 set_politics = {
 	
-	ruling_party = social_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -110,7 +110,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 4
+	state_socialist = 4
 	labourist = 0
 	fabianist = 15
 	social_liberal = 25
@@ -122,11 +122,75 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Morihei Ueshiba"
+	desc = "POLITICS_MORIHEI_UESHIBA_DESC"
+	picture = "Portrait_JAP_Morihei_Ueshiba.dds"
+	expire = "1989.1.1"
+	ideology = authoritarian_socialist
+}
+
+create_country_leader = {
+	name = "Yoshio Shiga"
+	desc = "POLITICS_YOSHIO_SHIGA_DESC"
+	picture = "Portrait_JAP_Yoshio_Shiga.dds"
+	expire = "1989.1.1"
+	ideology = state_socialist_subtype
+}
+
+create_country_leader = {
+	name = "Itō Noe"
+	desc = "POLITICS_ITO_NOE_DESC"
+	picture = "Portrait_JAP_Ito_Noe.dds"
+	expire = "1989.1.1"
+	ideology = anarchist
+}
+
+create_country_leader = {
+	name = "Katayama Tetsu"
+	desc = "POLITICS_KATAYAMA_TETSU_DESC"
+	picture = "Portrait_JAP_Katayama_Tetsu.dds"
+	expire = "1989.1.1"
+	ideology = fabianist_subtype
+}
+
+create_country_leader = {
 	name = "Osachi Hamaguchi"
 	desc = "POLITICS_OSACHI_HAMAGUCHI_DESC"
 	picture = "Portrait_JAP_Osachi_Hamaguchi.dds"
 	expire = "1989.1.1"
 	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Ishibashi Tanzan"
+	desc = "POLITICS_ISHIBASHI_TANZAN_DESC"
+	picture = "Portrait_JAP_Ishibashi_Tanzan.dds"
+	expire = "1989.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Hideki Tojo"
+	desc = "POLITICS_HIDEKI_TOJO_DESC"
+	picture = "Portrait_JAP_Hideki_Tojo.dds"
+	expire = "1989.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Emperor Meiji"
+	desc = "POLITICS_EMPEROR_MEIJI_DESC"
+	picture = "Portrait_JAP_Emperor_Meiji.dds"
+	expire = "1989.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Shirō Ishii"
+	desc = "POLITICS_SHIRO_Ishii_DESC"
+	picture = "Portrait_JAP_Shiro_Ishii.dds"
+	expire = "1989.1.1"
+	ideology = national_autocracy_subtype
 }
 
 create_country_leader = {

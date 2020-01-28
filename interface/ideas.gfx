@@ -4031,6 +4031,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_USA_Dwight_F_Davis_sic_con"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Dwight_F_Davis.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_USA_George_Hara_Williams_sic_fab"
 		texturefile = "gfx/interface/ideas/USA/idea_USA_George_Hara_Williams.dds"
 	}
@@ -4078,6 +4083,102 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_USA_Harry_Truman_for_mrl"
 		texturefile = "gfx/interface/ideas/USA/idea_USA_Harry_Truman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_Frank_Barrett_sic_fab"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Frank_Barrett.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_Elihu_Root_mod_fab"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Elihu_Root.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_William_J_Driver_eco_con"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_William_J_Driver.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_John_N_Garner_for_con"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_John_N_Garner.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_Rodmond_Roblin_mod_con"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Rodmond_Roblin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_Andrew_Mellon_sic_mrl"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Andrew_Mellon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_Wiley_B_Rutledge_sic_scl"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Wiley_B_Rutledge.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Philippe_Henriot_sic_con"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Philippe_Henriot.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Auguste_Isaac_eco_con"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Auguste_Isaac.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Louis_Marin_for_con"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Louis_Marin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Philippe_Petain_mod_aut"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Philippe_Petain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Charles_Nollet_mod_scl"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Charles_Nollet.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Leon_Blum_sic_fab"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Leon_Blum.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Marcel_Deat_eco_lab"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Marcel_Deat.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Vincent_Auriol_for_fab"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Vincent_Auriol.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Pierre_Cot_mod_lab"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Pierre_Cot.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Philippe_Petain_sic_aut"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Philippe_Petain.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Charles_Nollet_eco_aut"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_Charles_Nollet.dds"
+	}
+	
+	#BRA
+	spriteType = {
+		name = "GFX_idea_BRA_the_oligarchs"
+		texturefile = "gfx/interface/ideas/BRA/idea_BRA_the_oligarchy.dds"
 	}
 	
 }

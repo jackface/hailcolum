@@ -21,16 +21,16 @@ set_politics = {
 }
 
 set_popularities = {
-	liberationist = 0
-	revolutionary_socialist = 15
-	labourist = 0
+	liberationist = 3
+	state_socialist = 9
+	labourist = 31
 	fabianist = 20
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
+	social_liberal = 7
+	market_liberal = 1
+	social_conservative = 7
 	authoritarian_democrat = 0
-	national_autocracy = 15
-	neo_jingoist = 50
+	national_autocracy = 19
+	neo_jingoist = 3
 }
 
 create_country_leader = {

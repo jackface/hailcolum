@@ -1,0 +1,112 @@
+division_template = {
+	name = "Infantry Division"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Hallist Militia"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Supported Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	engineer = { x = 0 y = 0 }
+       	artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+        cavalry = { x = 0 y = 3 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Tank Brigade"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+
+	##Washington Militia
+	division = {			
+		name = "Washington 1st Militia"
+		location = 4872
+		division_template = "Hallist Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Washington 2nd Militia"
+		location = 3721
+		division_template = "Hallist Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Washington 3rd Militia"
+		location = 5119
+		division_template = "Hallist Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+	division = {			
+		name = "Washington 4th Militia"
+		location = 12688
+		division_template = "Hallist Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.00
+
+	}
+	
+
+}

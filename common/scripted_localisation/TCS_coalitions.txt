@@ -140,12 +140,12 @@ defined_text = {
     }
 }
 defined_text = {
-    name = oppositionrevolutionary_socialist
+    name = oppositionstate_socialist
     text = {
         trigger = {
-            has_country_flag = revolutionary_socialist_opposition
+            has_country_flag = state_socialist_opposition
         }
-        localization_key = OPPOSITION_revolutionary_socialist
+        localization_key = OPPOSITION_state_socialist
     }
 }
 defined_text = {

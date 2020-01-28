@@ -1,4 +1,4 @@
-﻿capital = 285
+﻿capital = 517
 
 oob = "AST_1936"
 set_stability = 0.8
@@ -58,15 +58,7 @@ if = {
 	}
 	set_naval_oob = "AST_1936_naval"
 }
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
 
-	add_to_tech_sharing_group = commonwealth_research
-}
-
-set_cosmetic_tag = AST_british_dominion
 
 set_politics = {
 	
@@ -78,7 +70,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 3
+	state_socialist = 3
 	labourist = 3
 	fabianist = 40
 	social_liberal = 0

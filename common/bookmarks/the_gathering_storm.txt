@@ -38,9 +38,7 @@ bookmarks = {
 			history = "USA_HAIL_COLUMBIA_DESC"
 			ideology = social_conservative
 			ideas = {
-				USA_legacy_of_deneland_mutiny
-				USA_rigged_economy
-				USA_canadian_separatism
+			
 			}
 			focuses = {
 				
@@ -80,7 +78,17 @@ bookmarks = {
 			history = "OTHER_HAIL_COLUMBIA_DESC"
 		}
 
-
+		"BRA"={
+			minor = yes
+			history = "BRA_HAIL_COLUMBIA_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+			focuses = {
+				BRA1_barreto_speaks
+			}
+		}
 		
 		
 		effect = {

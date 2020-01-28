@@ -15,7 +15,7 @@ set_convoys = 5
 
 set_politics = {
 	
-	ruling_party = revolutionary_socialist
+	ruling_party = state_socialist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -23,7 +23,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 16
-	revolutionary_socialist = 31
+	state_socialist = 31
 	labourist = 12
 	fabianist = 21
 	social_liberal = 0
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_FELICIANO_AMA_DESC"
 	picture = "Portrait_ELS_Feliciano_Ama.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
 	traits = {
 		#
 	}

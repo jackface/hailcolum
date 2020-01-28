@@ -108,6 +108,25 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
+		USA_Dwight_F_Davis_sic_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Dwight_F_Davis_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Dwight_F_Davis_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
 		USA_Oliver_Wendell_Holmes_sic_scl = {
 			allowed = { original_tag = USA }
 			available = {
@@ -127,6 +146,25 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
+		USA_Andrew_Mellon_sic_mrl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Andrew_Mellon_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Andrew_Mellon_dead }
+			}
+			
+			traits = {
+				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
 		USA_George_Hara_Williams_sic_fab = {
 			allowed = { original_tag = USA }
 			available = {
@@ -142,6 +180,44 @@ ideas = {
 			
 			traits = {
 				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Frank_Barrett_sic_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Frank_Barrett_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Frank_Barrett_dead }
+			}
+			
+			traits = {
+				fabianist_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Wiley_B_Rutledge_sic_scl = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Wiley_B_Rutledge_dead }
+				#has_country_flag = can_replace_sic
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Wiley_B_Rutledge_dead }
+			}
+			
+			traits = {
+				soclib_tr
 			}
 			cancel_if_invalid = yes
 		}
@@ -165,6 +241,25 @@ ideas = {
 			
 			traits = {
 				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_William_J_Driver_eco_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = William_J_Driver_dead }
+				#has_country_flag = can_replace_eco
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = William_J_Driver_dead }
+			}
+			
+			traits = {
+				soccon_tr
 			}
 			cancel_if_invalid = yes
 		}
@@ -222,6 +317,25 @@ ideas = {
 			visible = {
 				
 				NOT = { has_country_flag = Ray_Lyman_Wilbur_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_John_N_Garner_for_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = John_N_Garner_dead }
+				#has_country_flag = can_replace_for
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = John_N_Garner_dead }
 			}
 			
 			traits = {
@@ -310,6 +424,25 @@ ideas = {
 			cancel_if_invalid = yes
 		}
 		
+		USA_Rodmond_Roblin_mod_con = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Rodmond_Roblin_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Rodmond_Roblin_dead }
+			}
+			
+			traits = {
+				soccon_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
 		USA_Dwight_D_Eisenhower_mod_fab = {
 			allowed = { original_tag = USA }
 			available = {
@@ -344,6 +477,25 @@ ideas = {
 			
 			traits = {
 				marklib_tr
+			}
+			cancel_if_invalid = yes
+		}
+		
+		USA_Elihu_Root_mod_fab = {
+			allowed = { original_tag = USA }
+			available = {
+				
+				NOT = { has_country_flag = Elihu_Root_dead }
+				#has_country_flag = can_replace_mod
+				
+			}
+			visible = {
+				
+				NOT = { has_country_flag = Elihu_Root_dead }
+			}
+			
+			traits = {
+				fabianist_tr
 			}
 			cancel_if_invalid = yes
 		}

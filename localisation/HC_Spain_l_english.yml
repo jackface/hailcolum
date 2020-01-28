@@ -4,9 +4,9 @@
  SPR_liberationist:0 "Republic of Spain"
  SPR_liberationist_DEF:0 "Republic of Spain"
  SPR_liberationist_ADJ:0 "Spanish"
- SPR_revolutionary_socialist:0 "Republic of Spain"
- SPR_revolutionary_socialist_DEF:0 "Republic of Spain"
- SPR_revolutionary_socialist_ADJ:0 "Spanish"
+ SPR_state_socialist:0 "Republic of Spain"
+ SPR_state_socialist_DEF:0 "Republic of Spain"
+ SPR_state_socialist_ADJ:0 "Spanish"
  SPR_labourist:0 "Republic of Spain"
  SPR_labourist_DEF:0 "Republic of Spain"
  SPR_labourist_ADJ:0 "Spanish"
@@ -34,8 +34,8 @@
  
  SPR_liberationist_party:0 "ELE"
  SPR_liberationist_party_long:0 "Ejército de liberación español"
- SPR_revolutionary_socialist_party:0 "PLSE"
- SPR_revolutionary_socialist_party_long:0 "Partido Laborista Social de España."
+ SPR_state_socialist_party:0 "PLSE"
+ SPR_state_socialist_party_long:0 "Partido Laborista Social de España."
  SPR_labourist_party:0 "Socialdemócratas"
  SPR_labourist_party_long:0 "Partido de la socialdemocracia española" #Social Democratic Party of Spain
  SPR_fabianist_party:0 "PDLE"

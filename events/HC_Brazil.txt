@@ -1,0 +1,391 @@
+﻿add_namespace = brazil
+
+
+#Brazil 1932 Election
+country_event = {
+	id = brazil.1
+	title = brazil.1.t
+	desc = brazil.1.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	#Four more years of Luis
+	option = { 	
+		name = brazil.1.o1
+		ai_chance = {
+			factor = 5
+			
+		}
+
+		hidden_effect = {
+			set_country_flag = luis_1932_victory
+		}
+	
+	}
+
+	#Vargas
+	option = { 
+		name = brazil.1.o2
+		ai_chance = {
+			factor = 40
+			
+		}		
+		
+		set_politics = {
+			ruling_party = fabianist
+		}
+		
+		hidden_effect = {
+			set_country_flag = vargas_1932_victory
+		}
+		
+	}
+	
+	#Júlio Prestes
+	option = { 
+		name = brazil.1.o3
+		ai_chance = {
+			factor = 30
+			
+		}		
+		
+		set_politics = {
+			ruling_party = social_conservative
+		}
+		
+		hidden_effect = {
+			set_country_flag = prestes_1932_victory
+		}
+		
+	}
+	
+	#Caio Prado Junior
+	option = { 
+		name = brazil.1.o4
+		ai_chance = {
+			factor = 25
+			
+		}		
+		
+		set_politics = {
+			ruling_party = social_liberal
+		}
+		
+		hidden_effect = {
+			set_country_flag = junior_1932_victory
+		}
+		
+	}
+}
+
+#Vargas Meets With Top Business Men
+country_event = {
+	id = brazil.2
+	title = brazil.2.t
+	desc = brazil.2.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	#Lightly Cooperate... For Now
+	option = { 	
+		name = brazil.2.o1
+		ai_chance = {
+			factor = 5
+			
+		}	
+
+		hidden_effect = {
+			set_country_flag = BRA_vargas_oli_cooperation
+		}
+	
+	}
+
+	#Laugh In Their Faces
+	option = { 
+		name = brazil.2.o2
+		ai_chance = {
+			factor = 95
+			
+		}		
+		
+		hidden_effect = {
+			country_event = {
+				id = brazil.11
+				days = 10
+			}
+		}
+		
+	}
+}
+
+#Prestes Meets With Top Business Men
+country_event = {
+	id = brazil.3
+	title = brazil.3.t
+	desc = brazil.3.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	#An Anti-Corruption Facade
+	option = { 	
+		name = brazil.3.o1
+		ai_chance = {
+			factor = 55
+			
+		}	
+
+		hidden_effect = {
+			set_country_flag = BRA_prestes_oli_cooperation
+		}
+	
+	}
+
+	#Keep With The Promise
+	option = { 
+		name = brazil.3.o2
+		ai_chance = {
+			factor = 45
+			
+		}		
+		
+		hidden_effect = {
+			country_event = {
+				id = brazil.11
+				days = 10
+			}
+		}
+		
+	}
+}
+
+#Junior Meets With Top Business Men
+country_event = {
+	id = brazil.4
+	title = brazil.4.t
+	desc = brazil.4.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	#Pretend To Forget about campaign promises
+	option = { 	
+		name = brazil.4.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+	
+	}
+}
+
+#Lima Barreto Speaks
+country_event = {
+	id = brazil.5
+	title = brazil.5.t
+	desc = brazil.5.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_ideas = BRA_segregation_debate
+			set_country_flag = BRA_barreto_speaks
+		}
+	}
+
+	#Great More Debates
+	option = { 	
+		name = brazil.5.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+	
+	}
+}
+
+#Mass Arrest of Desegregationists (Barreto Gets Away)
+country_event = {
+	id = brazil.6
+	title = brazil.6.t
+	desc = brazil.6.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#Great More Debates
+	option = { 	
+		name = brazil.6.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+	
+	}
+}
+
+#Barreto And The Flag/In this event Barreto appears from hiding in Rio de Janiro in front of the national parliament (whatever its called) and burns the Brazilian flag declaring that if the government will attack them, they will fight back.
+country_event = {
+	id = brazil.7
+	title = brazil.7.t
+	desc = brazil.7.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#He must be caught
+	option = { 	
+		name = brazil.7.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+		
+		hidden_effect = {
+			country_event = {
+				id = brazil.8
+				days = 4
+			}
+		}
+	}
+}
+
+#Nation Wide Protests
+country_event = {
+	id = brazil.8
+	title = brazil.8.t
+	desc = brazil.8.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#Damn Barreto Ruining The Nation
+	option = { 	
+		name = brazil.8.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+		
+		hidden_effect = {
+			country_event = {
+				id = brazil.9
+				days = 10
+			}
+		}
+	
+	}
+}
+
+#The Empty Streets
+country_event = {
+	id = brazil.9
+	title = brazil.9.t
+	desc = brazil.9.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#Quiet, too quiet
+	option = { 	
+		name = brazil.9.o1
+		ai_chance = {
+			factor = 100
+			
+		}		
+		
+		hidden_effect = {
+			country_event = {
+				id = brazil.10
+				days = 3
+			}
+		}
+	
+	}
+}
+
+#The Integration Revolution
+country_event = {
+	id = brazil.10
+	title = brazil.10.t
+	desc = brazil.10.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#Quiet, too quiet
+	option = { 	
+		name = brazil.10.o1
+		ai_chance = {
+			factor = 100
+			
+		}	
+		set_country_flag = BRA_the_integration_revolution
+		remove_ideas = BRA_segregation_debate
+		remove_ideas = BRA_the_oligarchs
+		
+		set_politics = {
+			ruling_party = labourist
+		}
+		
+		#create_country_leader = {
+		#	name = "João Mangabeira"
+		#	desc = "POLITICS_JOAO_MANGABEIRA_DESC"
+		#	picture = "Portrait_BRA_Joao_Mangabeira.dds"
+		#	expire = "1965.1.1"
+		#	ideology = national_fabianist
+		#	traits = {
+		#		#
+		#	}
+		#}
+		
+		load_focus_tree = generic_focus
+	}
+}
+
+#The March on Rio
+country_event = {
+	id = brazil.11
+	title = brazil.11.t
+	desc = brazil.11.d
+	#picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 	
+		name = brazil.11.o1
+		ai_chance = {
+			factor = 100
+			
+		}	
+		set_country_flag = BRA_march_on_rio_1
+		
+		set_politics = {
+			ruling_party = national_autocracy
+		}
+		
+		set_party_name = { 
+			ideology = national_autocracy 
+			long_name = BRA_joao_barreto_clique_long 
+			name = BRA_joao_barreto_clique 
+		}
+		
+		create_country_leader = {
+			name = "João de Deus Mena Barreto"
+			desc = "POLITICS_JOAO_DE_DEUS_MENA_BARRETO_DESC"
+			picture = "Portrait_BRA_Joao_de_Deus_Mena_Barreto.dds"
+			expire = "1965.1.1"
+			ideology = national_autocracy_subtype
+			traits = {
+				#
+			}
+		}
+		
+		load_focus_tree = generic_focus
+	}
+}

@@ -1,17 +1,5 @@
 ﻿capital = 126
 
-set_oob = "ENG_1936"
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "ENG_1936_Naval"
-	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
-	}
-}
-
-load_oob = "ENG_Motorized"
 
 set_research_slots = 4
 
@@ -106,99 +94,7 @@ if = {
 
 set_convoys = 800
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = SRL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = PAL
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = IRQ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = HEJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = JAM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = LBA
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = OMA
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_protectorate
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NEW
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-		puppet = SAF
-		puppet = AST
-		puppet = NZL
-		puppet = PAL
-		puppet = LBA
-		puppet = NEW
-		puppet = SRL
-		puppet = IRQ
-		puppet = HEJ
-		puppet = OMA
-		puppet = ICE
-		puppet = JAM
-	}
-}
+
 
 
 if = {
@@ -220,7 +116,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 33
+	state_socialist = 33
 	labourist = 0
 	fabianist = 12
 	social_liberal = 6
@@ -232,11 +128,86 @@ set_popularities = {
 }
 
 
-give_military_access = RAJ
-
 #give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
+
+create_country_leader = {
+	name = "Sylvia Pankhurst"
+	desc = "POLITICS_SYLVIA_PANKHURST_DESC"
+	picture = "Portrait_ENG_Sylvia_Pankhurst.dds"
+	expire = "1949.1.1"
+	ideology = authoritarian_socialist
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mary Hamilton"
+	desc = "POLITICS_MARY_HAMILTON_DESC"
+	picture = "Portrait_ENG_Mary_Hamilton.dds"
+	expire = "1949.1.1"
+	ideology = state_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Clifford Allen"
+	desc = "POLITICS_CLIFFORD_ALLEN_DESC"
+	picture = "Portrait_ENG_Clifford_Allen.dds"
+	expire = "1949.1.1"
+	ideology = labourist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "J. H. Thomas"
+	desc = "POLITICS_J_H_THOMAS_DESC"
+	picture = "Portrait_ENG_J_H_Thomas.dds"
+	expire = "1949.1.1"
+	ideology = fabianist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Robert Crewe-Milnes"
+	desc = "POLITICS_ROBERT_CREWE_MILNES_DESC"
+	picture = "Portrait_ENG_Robert_Crewe_Milnes.dds"
+	expire = "1949.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hugh Seely"
+	desc = "POLITICS_HUGH_SEELY_DESC"
+	picture = "Portrait_ENG_Hugh_Seely.dds"
+	expire = "1949.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "John Simon"
+	desc = "POLITICS_JOHN_SIMON_DESC"
+	picture = "Portrait_ENG_John_Simon.dds"
+	expire = "1949.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "Julian Byng"
@@ -244,6 +215,28 @@ create_country_leader = {
 	picture = "Portrait_ENG_Julian_Byng.dds"
 	expire = "1949.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "John Hargrave"
+	desc = "POLITICS_JOHN_HARGRAVE_DESC"
+	picture = "Portrait_ENG_John_Hargrave.dds"
+	expire = "1949.1.1"
+	ideology = national_autocracy_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Archibald Church"
+	desc = "POLITICS_ARCHIBALD_CHURCH_DESC"
+	picture = "Portrait_ENG_Archibald_Church.dds"
+	expire = "1949.1.1"
+	ideology = neo_jingoist_subtype
 	traits = {
 		
 	}

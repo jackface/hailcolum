@@ -1,0 +1,131 @@
+add_namespace = generic_political
+
+#Snap Election
+country_event = {
+	id = generic_political.1
+	title = generic_political.1.t
+	desc = generic_political.1.d
+	#picture = GFX_report_event_soviet_purge_politicians 
+
+	is_triggered_only = yes
+	
+	#Liberationists
+	option = {
+		name = generic_political.1.o1
+		trigger = {
+			liberationist > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = liberationist
+		}
+	}
+	
+	#State Socialists
+	option = {
+		name = generic_political.1.o2
+		trigger = {
+			state_socialist > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = state_socialist
+		}
+	}
+	
+	#Labourists
+	option = {
+		name = generic_political.1.o3
+		trigger = {
+			labourist > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = labourist
+		}
+	}
+	
+	#fabianists
+	option = {
+		name = generic_political.1.o4
+		trigger = {
+			fabianist > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = fabianist
+		}
+	}
+	
+	#social_liberal
+	option = {
+		name = generic_political.1.o5
+		trigger = {
+			social_liberal > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = social_liberal
+		}
+	}
+	
+	#market_liberal
+	option = {
+		name = generic_political.1.o6
+		trigger = {
+			market_liberal > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = market_liberal
+		}
+	}
+	
+	#social_conservative
+	option = {
+		name = generic_political.1.o7
+		trigger = {
+			social_conservative > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = social_conservative
+		}
+	}
+	
+	#authoritarian_democrat
+	option = {
+		name = generic_political.1.o8
+		trigger = {
+			authoritarian_democrat > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = authoritarian_democrat
+		}
+	}
+	
+	#national_autocracy
+	option = {
+		name = generic_political.1.o9
+		trigger = {
+			national_autocracy > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = national_autocracy
+		}
+	}
+	
+	#neo_jingoist
+	option = {
+		name = generic_political.1.o10
+		trigger = {
+			neo_jingoist > 0.2
+		}
+		
+		set_politics = {
+			ruling_party = neo_jingoist
+		}
+	}
+}

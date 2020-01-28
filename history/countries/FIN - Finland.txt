@@ -50,21 +50,21 @@ set_convoys = 5
 
 set_politics = {
 	
-	ruling_party = revolutionary_socialist
+	ruling_party = authoritarian_democrat
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	liberationist = 17
-	revolutionary_socialist = 67
-	labourist = 16
+	liberationist = 0
+	state_socialist = 0
+	labourist = 0
 	fabianist = 0
 	social_liberal = 0
 	market_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 0
+	authoritarian_democrat = 100
 	national_autocracy = 0
 	neo_jingoist = 0
 }
@@ -74,7 +74,18 @@ create_country_leader = {
 	desc = "POLITICS_K_ACHILLES_MANNER_DESC"
 	picture = "Portrait_FIN_K_Achilles_Manner.dds"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Matias Viinanen"
+	desc = "POLITICS_MATIAS_VIINANEN_DESC"
+	picture = "Portrait_FIN_Matias_Viinanen.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

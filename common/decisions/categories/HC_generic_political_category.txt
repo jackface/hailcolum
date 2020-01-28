@@ -1,0 +1,7 @@
+electoral_decisions = {
+	#icon = generic_propaganda
+
+	visible = {
+
+	}
+}

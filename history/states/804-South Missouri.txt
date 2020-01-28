@@ -1,0 +1,35 @@
+
+state={
+	id=804
+	name="STATE_804"
+	manpower = 1729365
+	
+	state_category = town
+
+	resources={
+		aluminium=3 # was: 18
+	}
+
+	history={
+		owner = USA
+		add_core_of = USA
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		victory_points = {
+			4569 10 
+		}
+		victory_points = {
+			10717 10 
+		}
+		victory_points = {
+			10370 1 
+		}
+	}
+
+	provinces={
+		10717 1564 1534 10370 1441 12463 12361 1621 12346 4569 4449 4540
+	}
+}

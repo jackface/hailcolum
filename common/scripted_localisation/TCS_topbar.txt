@@ -8,9 +8,9 @@ defined_text = {
     }
     text = {
         trigger = {
-            has_government = revolutionary_socialist
+            has_government = state_socialist
         }
-        localization_key = topbarrevolutionary_socialist
+        localization_key = topbarstate_socialist
     }
     text = {
         trigger = {

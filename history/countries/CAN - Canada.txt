@@ -56,7 +56,7 @@ if = {
 
 set_politics = {
 	
-	ruling_party = fabianist
+	ruling_party = market_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,23 +64,34 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
-	labourist = 0
-	fabianist = 100
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 0
-	national_autocracy = 0
+	state_socialist = 6
+	labourist = 10
+	fabianist = 19
+	social_liberal = 13
+	market_liberal = 21
+	social_conservative = 12
+	authoritarian_democrat = 12
+	national_autocracy = 7
 	neo_jingoist = 0
 }
 
 create_country_leader = {
 	name = "John Diefenbaker"
 	desc = "POLITICS_JOHN_DIEFENBAKER_DESC"
-	picture = "Portrait_CAN_John_Diefenbaker_Army.dds"
+	picture = "Portrait_CAN_John_Diefenbaker.dds"
 	expire = "1965.1.1"
 	ideology = fabianist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph P. Kennedy"
+	desc = "POLITICS_JOSEPH_P_KENNEDY_DESC"
+	picture = "Portrait_CAN_Joseph_P_Kennedy.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
 	traits = {
 		#
 	}
@@ -108,17 +119,6 @@ create_field_marshal = {
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Joseph P. Kennedy"
-	picture = "Portrait_CAN_Joseph_P_Kennedy.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
 	logistics_skill = 4
 }
 

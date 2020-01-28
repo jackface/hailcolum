@@ -1,0 +1,38 @@
+american_great_flag_debate = {
+
+	USA_a_change_to_the_flag = {
+
+		icon = decision_generic_form_nation
+
+		allowed = {
+			always = yes
+			tag = USA
+		}
+		
+
+		cost = 350
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 50
+			modifier = {
+				factor = 50
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+		}
+
+		complete_effect = {
+			country_event = {
+				id = usa.1
+				days = 1
+			}
+		}
+
+	}
+
+}

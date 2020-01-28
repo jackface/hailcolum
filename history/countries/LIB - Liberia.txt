@@ -19,7 +19,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
@@ -33,11 +33,110 @@ set_popularities = {
 set_cosmetic_tag = LIB_american_west_africa
 
 create_country_leader = {
+	name = "Kwame Nkrumah"
+	desc = "POLITICS_KWAME_NKRUMAH_DESC"
+	picture = "Portrait_LIB_Kwame_Nkrumah.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_socialist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles D. B. King"
+	desc = "POLITICS_CHARLES_D_B_KING_DESC"
+	picture = "Portrait_LIB_Charles_D_B_King.dds"
+	expire = "1965.1.1"
+	ideology = syndicalist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Albert Porte"
+	desc = "POLITICS_ALBERT_PORTE_DESC"
+	picture = "Portrait_LIB_Albert_Porte.dds"
+	expire = "1965.1.1"
+	ideology = labourist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Edwin Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "Portrait_LIB_Edwin_Barclay.dds"
+	expire = "1965.1.1"
+	ideology = national_fabianist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Arthur Barclay"
+	desc = "POLITICS_ARTHUR_BARCLAY_DESC"
+	picture = "Portrait_LIB_Arthur_Barclay.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Daniel E. Howard"
+	desc = "POLITICS_DANIEL_E_HOWARD_DESC"
+	picture = "Portrait_LIB_Daniel_E_Howard.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "William Tubman"
+	desc = "POLITICS_WILLIAM_TUBMAN_DESC"
+	picture = "Portrait_LIB_William_Tubman.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hiram Bingham III"
+	desc = "POLITICS_HIRAM_BINGHAM_III_DESC"
+	picture = "Portrait_LIB_Hiram_Bingham_III.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "John F. Fitzgerald"
 	desc = "POLITICS_JOHN_F_FITZGERALD_DESC"
 	picture = "Portrait_LIB_John_F_Fitzgerald.dds"
 	expire = "1965.1.1"
 	ideology = national_autocracy_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Merritte W. Ireland"
+	desc = "POLITICS_MERRITTE_W_IRELAND_DESC"
+	picture = "Portrait_LIB_Merritte_W_Ireland.dds"
+	expire = "1965.1.1"
+	ideology = neo_jingoist_subtype
 	traits = {
 		#
 	}

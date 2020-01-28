@@ -27,7 +27,7 @@ set_country_flag = social_liberal_coalition
 set_country_flag = social_conservative_coalition
 
 set_country_flag = neo_jingoist_opposition
-set_country_flag = revolutionary_socialist_opposition
+set_country_flag = state_socialist_opposition
 set_country_flag = liberationist_opposition
 
 set_politics = {
@@ -40,7 +40,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 3
-	revolutionary_socialist = 6
+	state_socialist = 6
 	labourist = 0
 	fabianist = 12
 	social_liberal = 21

@@ -6,17 +6,8 @@ set_technology = {
 	infantry_weapons = 1
 	
 }
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_government_corruption
-		CHI_ineffective_bureaucracy_warlord
-	}
-}
 
-set_cosmetic_tag = SIK_russian_protectorate
+
 
 set_politics = {
 	
@@ -28,7 +19,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0

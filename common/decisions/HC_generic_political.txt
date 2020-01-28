@@ -1,0 +1,429 @@
+electoral_decisions = {
+
+	call_snap_election = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+		
+
+		cost = 250
+
+		fire_only_once = no
+		
+		days_re_enable = 90
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+		}
+
+		complete_effect = {
+			country_event = {
+				id = generic_political.1
+				days = 5
+			}
+		}
+
+	}
+	
+	raise_liberationist_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			liberationist < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			liberationist < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = liberationist
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_state_socialist_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			state_socialist < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			state_socialist < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = state_socialist
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_labourist_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			labourist < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			labourist < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = labourist
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_fabianist_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			fabianist < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			fabianist < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = fabianist
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_social_liberal_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			social_liberal < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			social_liberal < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_market_liberal_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			market_liberal < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			market_liberal < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = market_liberal
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_social_conservative_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			social_conservative < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			social_conservative < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_authoritarian_democrat_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			authoritarian_democrat < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			authoritarian_democrat < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_national_autocracy_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			national_autocracy < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			national_autocracy < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = national_autocracy
+				popularity = 0.05
+			}
+		}
+
+	}
+	
+	raise_neo_jingoist_popularity = {
+
+		#icon = decision_generic_nationalism
+
+		allowed = {
+			always = yes
+		}
+
+
+		available = {
+			neo_jingoist < 0.45
+		}
+
+		cost = 250
+
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		visible = {
+			has_focus_tree = generic_focus
+			neo_jingoist < 0.45
+		}
+
+		complete_effect = {
+			add_popularity = {
+				ideology = neo_jingoist
+				popularity = 0.05
+			}
+		}
+
+	}
+
+}

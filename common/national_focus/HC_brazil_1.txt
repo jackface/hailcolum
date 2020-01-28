@@ -1,0 +1,531 @@
+focus_tree = {
+	id = brazil_1_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BRA
+		}
+	}
+	
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	
+	focus = {
+		id = BRA1_barreto_speaks
+		icon = GFX_focus_BRA_barreto_speech
+		x = 5
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+		
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_brazilian_segregation_now
+		icon = GFX_focus_BRA_strength
+		relative_position_id = BRA1_barreto_speaks
+		x = -3
+		y = 1
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+			OR = {
+				has_country_flag = luis_1932_victory
+				AND = {
+					has_country_flag = prestes_1932_victory
+					has_country_flag = BRA_prestes_oli_cooperation
+				}
+			}
+			
+		}
+
+		prerequisite = {
+			focus = BRA1_barreto_speaks
+		}
+		
+		mutually_exclusive = {
+			focus = BRA1_integration_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_arrest_desegregationist_speakers
+		icon = GFX_focus_BRA_mass_arrest
+		relative_position_id = BRA1_barreto_speaks
+		x = -4
+		y = 2
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = brazil.7
+					days = 6
+				}
+			}
+			#Mass Arrests
+			BRA = { country_event = brazil.6 }
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_revert_26_military_reorganization_reforms
+		icon = GFX_focus_BRA_military_law
+		relative_position_id = BRA1_barreto_speaks
+		x = -2
+		y = 2
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_brazilian_segregation_tomorrow
+		icon = GFX_focus_BRA_radical_ideas
+		relative_position_id = BRA1_barreto_speaks
+		x = -3
+		y = 3
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_revert_26_military_reorganization_reforms
+		}
+		
+		prerequisite = {
+			focus = BRA1_arrest_desegregationist_speakers
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_segregate_hospitals
+		icon = GFX_focus_BRA_segregate_hospitals
+		relative_position_id = BRA1_barreto_speaks
+		x = -4
+		y = 4
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_tomorrow
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_punish_interracial_couples
+		#icon = 
+		relative_position_id = BRA1_barreto_speaks
+		x = -2
+		y = 4
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_tomorrow
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_brazilian_segregation_forever
+		#icon = 
+		relative_position_id = BRA1_barreto_speaks
+		x = -3
+		y = 5
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_segregate_hospitals
+		}
+		
+		prerequisite = {
+			focus = BRA1_punish_interracial_couples
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_protect_segregation_laws
+		#icon = 
+		relative_position_id = BRA1_barreto_speaks
+		x = -4
+		y = 6
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_forever
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = BRA1_burn_desegregationist_sources
+				}
+				
+				remove_ideas = BRA_segregation_debate
+			}
+		}
+	}
+	
+	focus = {
+		id = BRA1_burn_desegregationist_sources
+		#icon = 
+		relative_position_id = BRA1_barreto_speaks
+		x = -2
+		y = 6
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_brazilian_segregation_forever
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = BRA1_protect_segregation_laws
+				}
+				
+				remove_ideas = BRA_segregation_debate
+			}
+		}
+	}
+	
+	focus = {
+		id = BRA1_integration_now
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 3
+		y = 1
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_barreto_speaks
+		}
+		
+		mutually_exclusive = {
+			focus = BRA1_brazilian_segregation_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_desegregate_the_work_place
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 2
+		y = 2
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_integration_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_desegregate_public_property
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 4
+		y = 2
+		cost = 5
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_integration_now
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_threaten_segregationists
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 3
+		y = 3
+		cost = 3
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_desegregate_the_work_place
+		}
+		
+		prerequisite = {
+			focus = BRA1_desegregate_public_property
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_schoolyard_integration
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 2
+		y = 4
+		cost = 6
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_threaten_segregationists
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_desegregate_the_government
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 4
+		y = 4
+		cost = 7
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_threaten_segregationists
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_a_second_threat_to_sinval_saldanha
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 3
+		y = 5
+		cost = 3
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_schoolyard_integration
+		}
+		
+		prerequisite = {
+			focus = BRA1_desegregate_the_government
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = BRA1_ban_segregationist_propaganda
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 2
+		y = 6
+		cost = 3
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_a_second_threat_to_sinval_saldanha
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = BRA1_equalize_rights
+				}
+				
+				remove_ideas = BRA_segregation_debate
+			}
+		}
+	}
+	
+	focus = {
+		id = BRA1_equalize_rights
+		#icon = GFX_goal_generic_allies_build_infantry
+		relative_position_id = BRA1_barreto_speaks
+		x = 4
+		y = 6
+		cost = 3
+
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		prerequisite = {
+			focus = BRA1_a_second_threat_to_sinval_saldanha
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = BRA1_ban_segregationist_propaganda
+				}
+				
+				remove_ideas = BRA_segregation_debate
+			}
+		}
+	}
+	
+	focus = {
+		id = BRA1_luis_victorious
+		#icon = 
+		x = 15
+		y = 0
+		cost = 5
+
+		available_if_capitulated = yes
+		
+		available = {
+			has_country_flag = BRA_barreto_speaks
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

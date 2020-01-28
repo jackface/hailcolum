@@ -19,7 +19,7 @@ set_cosmetic_tag = IRQ_mandatory_of_britain
 
 set_popularities = {
 	liberationist = 5
-	revolutionary_socialist = 0
+	state_socialist = 0
 	labourist = 25
 	fabianist = 20
 	social_liberal = 4

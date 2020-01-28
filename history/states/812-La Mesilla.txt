@@ -1,0 +1,24 @@
+
+state={
+	id=812
+	name="STATE_812"
+	manpower = 1123342
+	
+	state_category = city
+
+	history={
+		owner = SON
+		add_core_of = SON
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+			industrial_complex = 3
+		}
+		
+		
+	}
+
+	provinces={
+		3834 7920 10783
+	}
+}

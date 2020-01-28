@@ -1,0 +1,61 @@
+﻿l_english:
+ 
+ #Country Name
+ 
+ SON_liberationist:0 "Grand Sonoran Republic"
+ SON_liberationist_DEF:0 "The Grand Sonoran Republic"
+ SON_liberationist_ADJ:0 "Sonoran"
+ SON_state_socialist:0 "Grand Sonoran Republic"
+ SON_state_socialist_DEF:0 "The Grand Sonoran Republic"
+ SON_state_socialist_ADJ:0 "Sonoran"
+ SON_labourist:0 "Grand Sonoran Republic"
+ SON_labourist_DEF:0 "The Grand Sonoran Republic"
+ SON_labourist_ADJ:0 "Sonoran"
+ SON_fabianist:0 "Grand Sonoran Republic"
+ SON_fabianist_DEF:0 "The Grand Sonoran Republic"
+ SON_fabianist_ADJ:0 "Sonoran"
+ SON_social_liberal:0 "Grand Sonoran Republic"
+ SON_social_liberal_DEF:0 "The Grand Sonoran Republic"
+ SON_social_liberal_ADJ:0 "Sonoran"
+ SON_market_liberal:0 "Grand Sonoran Republic"
+ SON_market_liberal_DEF:0 "The Grand Sonoran Republic"
+ SON_market_liberal_ADJ:0 "Sonoran"
+ SON_social_conservative:0 "Grand Sonoran Republic"
+ SON_social_conservative_DEF:0 "The Grand Sonoran Republic"
+ SON_social_conservative_ADJ:0 "Sonoran"
+ SON_authoritarian_democrat:0 "Grand Sonoran Republic"
+ SON_authoritarian_democrat_DEF:0 "The Grand Sonoran Republic"
+ SON_authoritarian_democrat_ADJ:0 "Sonoran"
+ SON_national_autocracy:0 "Grand Sonoran Republic"
+ SON_national_autocracy_DEF:0 "The Grand Sonoran Republic"
+ SON_national_autocracy_ADJ:0 "Sonoran"
+ SON_neo_jingoist:0 "Grand Sonoran Republic"
+ SON_neo_jingoist_DEF:0 "The Grand Sonoran Republic"
+ SON_neo_jingoist_ADJ:0 "Sonoran"
+ 
+ 
+ 
+ #Parties
+ 
+ SON_liberationist_party:0 "Unit"
+ SON_liberationist_party_long:0 "Workers Unit of Sonora"
+ SON_state_socialist_party:0 "SSU"
+ SON_state_socialist_party_long:0 "Sonoran Syndicalist Union"
+ SON_labourist_party:0 "Labor-M"
+ SON_labourist_party_long:0 "Sonoran Labor Party-Radicals"
+ SON_fabianist_party:0 "Labor-R"
+ SON_fabianist_party_long:0 "Sonoran Labor Party-Moderates"
+ SON_social_liberal_party:0 "Sonoran Liberal Party"
+ SON_social_liberal_party_long:0 "Sonoran Liberal Party"
+ SON_market_liberal_party:0 "DRPS"
+ SON_market_liberal_party_long:0 "Democratic-Republican Party of Sonora"
+ SON_social_conservative_party:0 "State Party"
+ SON_social_conservative_party_long:0 "Party of Integration of The Sonoran Nation Into The American Union"
+ SON_authoritarian_democrat_party:0 "NAU"
+ SON_authoritarian_democrat_party_long:0 "National American Union"
+ SON_national_autocracy_party:0 "Identity"
+ SON_national_autocracy_party_long:0 "Sonoran Identity Party"
+ SON_neo_jingoist_party:0 "Imperials"
+ SON_neo_jingoist_party_long:0 "Party of Imperial Ideals In Sonora"
+ 
+ 

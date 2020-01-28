@@ -10,7 +10,7 @@ set_convoys = 10
 
 set_politics = {
 	
-	ruling_party = revolutionary_socialist
+	ruling_party = state_socialist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,7 +18,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 0
-	revolutionary_socialist = 100
+	state_socialist = 100
 	labourist = 0
 	fabianist = 0
 	social_liberal = 0
@@ -34,7 +34,7 @@ create_country_leader = {
 	desc = "POLITICS_ISHAN_NURI_DESC"
 	picture = "Portrait_KRD_Ishan_Nuri.dds"
 	expire = "1947.1.1"
-	ideology = revolutionary_socialist_subtype
+	ideology = state_socialist_subtype
 	traits = {
 		
 	}

@@ -38,7 +38,7 @@ set_convoys = 5
 
 set_politics = {
 	
-	ruling_party = revolutionary_socialist
+	ruling_party = state_socialist
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -46,7 +46,7 @@ set_politics = {
 
 set_popularities = {
 	liberationist = 5
-	revolutionary_socialist = 61
+	state_socialist = 61
 	labourist = 34
 	fabianist = 0
 	social_liberal = 0
